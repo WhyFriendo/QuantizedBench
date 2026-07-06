@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# User Config
+bench/config.yaml
+
+# Data
+results/
+gguf_models/
+
+# External Repositories
+lm-evaluation-harness/

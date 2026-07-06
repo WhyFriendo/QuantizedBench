@@ -1,0 +1,33 @@
+models:
+  - id: example_model
+    display_name: Example Model (Qwen)
+    tasks: []
+    quantizations:
+      - name: gguf_q4_0
+        backend: llama_cpp
+        model_path: ./gguf_models/example_model_q4.gguf
+        n_gpu_layers: 99
+        context_size: 4096
+        tasks:
+          - tinyBenchmarks
+        num_fewshot: 0
+        limit: null
+
+      # Example MLC backend config
+      # - name: mlc_q4f16_1
+      #   backend: mlc
+      #   model_uri: ./mlc-llm/dist/models/Example-Model-q4f16_1-MLC
+      #   device: cuda
+      #   model_lib: ./mlc-llm/dist/libs/Example-Model-q4f16_1-cuda.so
+      #   tasks:
+      #     - gsm8k
+      #   num_fewshot: 0
+      #   limit: null
+
+lm_eval:
+  harness_path: ./lm-evaluation-harness
+  batch_size: 4
+  python: python3
+  # Path to python executable in your MLC environment (if using MLC backend locally)
+  mlc_python: python3
+  num_concurrent: 1
