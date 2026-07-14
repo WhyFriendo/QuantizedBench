@@ -12,7 +12,7 @@ It dynamically spins up local OpenAI-compatible inference servers for the select
 ### Prerequisites
 
 * Python 3.10+
-* [uv](https://github.com/astral-sh/uv) (for lightning-fast dependency management)
+* [uv](https://github.com/astral-sh/uv) for dependencies management
 * CUDA-compatible GPU (recommended)
 
 ### Local Installation
@@ -40,7 +40,7 @@ cp bench/config.example.yaml bench/config.yaml
 
 ### Docker Usage
 
-You can run QuantizedBench entirely within Docker, which guarantees correct environment setup.
+You can run QuantizedBench entirely within Docker for proper environment setup.
 
 ```bash
 # Build the image
@@ -56,7 +56,7 @@ docker run --gpus all -it --rm \
 
 ## Config
 
-The framework is driven entirely by `bench/config.yaml`. Example structure:
+The framework is configured entirely in `bench/config.yaml`. Example structure:
 
 ```yaml
 models:
