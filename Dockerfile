@@ -22,7 +22,7 @@ COPY --from=llama /app/llama-server /usr/local/bin/llama-server
 
 RUN curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin" sh
 
-COPY pyproject.toml uv.lock ./
+COPY pyproject.toml uv.lock .python-version ./
 COPY patches/ ./patches/
 
 ENV PATH="/app/.venv/bin:$PATH"
