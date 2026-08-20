@@ -1,0 +1,11 @@
+.git/
+.venv/
+gguf_models/
+results/
+lm-evaluation-harness/
+patches/*.rej
+**/__pycache__/
+*.py[cod]
+*.log
+build.log
+download.log
