@@ -1,0 +1,2105 @@
+{
+  "llama31_8b": {
+    "family": "Llama 3.1 8B",
+    "rows": [
+      {
+        "quant_name": "q8_0",
+        "display_name": "Llama 3.1 8B Q8_0",
+        "filename": "llama31-8b-q8_0.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf?download=true",
+        "sha256": "9da71c45c90a821809821244d4971e5e5dfad7eb091f0b8ff0546392393b6283",
+        "memory_gb": 8.54
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Llama 3.1 8B Q6_K",
+        "filename": "llama31-8b-q6_k.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q6_K.gguf?download=true",
+        "sha256": "33981adf6bae52c503fb5c24f72539010632f7ed290a56c1315a8cd50adca587",
+        "memory_gb": 6.6
+      },
+      {
+        "quant_name": "q5_0",
+        "display_name": "Llama 3.1 8B Q5_0",
+        "filename": "llama31-8b-q5_0.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q5_0.gguf?download=true",
+        "sha256": "329a0b2d36aa1b40fafbeaf71a181ca4da6cf8d78febec93fd9b87d7f1b8028d",
+        "memory_gb": 5.61
+      },
+      {
+        "quant_name": "q5_1",
+        "display_name": "Llama 3.1 8B Q5_1",
+        "filename": "llama31-8b-q5_1.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q5_1.gguf?download=true",
+        "sha256": "4f3c2891acb4dc3958fc2d103aaaeef59ea023e27504b88fa7f0c9ee2f5e78ce",
+        "memory_gb": 6.07
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Llama 3.1 8B Q5_K_M",
+        "filename": "llama31-8b-q5_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf?download=true",
+        "sha256": "14e10feba0c82a55da198dcd69d137206ad22d116a809926d27fa5f2398c69c7",
+        "memory_gb": 5.73
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Llama 3.1 8B Q5_K_S",
+        "filename": "llama31-8b-q5_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q5_K_S.gguf?download=true",
+        "sha256": "99deaedac85547c2560a415eedd3019fa5a17b43b809ae526788852061d05614",
+        "memory_gb": 5.6
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Llama 3.1 8B Q4_0",
+        "filename": "llama31-8b-q4_0.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_0.gguf?download=true",
+        "sha256": "b6e89b87e02e3056daa2a5c2e2552b3374664e768337e722b8167ce8941d79dc",
+        "memory_gb": 4.68
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Llama 3.1 8B Q4_1",
+        "filename": "llama31-8b-q4_1.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_1.gguf?download=true",
+        "sha256": "98749b43170f9ff741d95bcadae6b651b0c86c8475f6087961f9bca86c9fcc1c",
+        "memory_gb": 5.13
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Llama 3.1 8B Q4_K_M",
+        "filename": "llama31-8b-q4_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf?download=true",
+        "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+        "memory_gb": 4.92
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Llama 3.1 8B Q4_K_S",
+        "filename": "llama31-8b-q4_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_S.gguf?download=true",
+        "sha256": "7b04439ae150b98bb52c219bcbbd6838d0e8d796d5295560d7d9c1f3fa836578",
+        "memory_gb": 4.69
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Llama 3.1 8B IQ4_NL",
+        "filename": "llama31-8b-iq4_nl.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ4_NL.gguf?download=true",
+        "sha256": "45040d3661c30312547cdea52549b25847cea77305a3fc911699ff676c006486",
+        "memory_gb": 4.68
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Llama 3.1 8B IQ4_XS",
+        "filename": "llama31-8b-iq4_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ4_XS.gguf?download=true",
+        "sha256": "ca364e65589a519b537a2b4eff6b4f5f9c2c0ea0b62d6070c73c366087ba00a3",
+        "memory_gb": 4.45
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Llama 3.1 8B Q3_K_L",
+        "filename": "llama31-8b-q3_k_l.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q3_K_L.gguf?download=true",
+        "sha256": "81ec07b5cee309925d9720dddc8376be14df5b82bbec2ff359f2adc017fa0efc",
+        "memory_gb": 4.32
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Llama 3.1 8B Q3_K_M",
+        "filename": "llama31-8b-q3_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q3_K_M.gguf?download=true",
+        "sha256": "6be122b5c8f2a33974953e58e0ffd2be505661acc6f4caf733e4bca130e89fea",
+        "memory_gb": 4.02
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Llama 3.1 8B Q3_K_S",
+        "filename": "llama31-8b-q3_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q3_K_S.gguf?download=true",
+        "sha256": "756c317e12ce5a57ab095df69b1ae8dd2f51d5f8660ba500999912d0638689c6",
+        "memory_gb": 3.66
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Llama 3.1 8B IQ3_M",
+        "filename": "llama31-8b-iq3_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ3_M.gguf?download=true",
+        "sha256": "e15a3e54436cb7de4b201c084ae59755627908341faa15bfc1f2259b8ae63e96",
+        "memory_gb": 3.78
+      },
+      {
+        "quant_name": "iq3_s",
+        "display_name": "Llama 3.1 8B IQ3_S",
+        "filename": "llama31-8b-iq3_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ3_S.gguf?download=true",
+        "sha256": "8b0151741aa80b2f5ea846137bcf05696ac7019967371e41495e372403744c12",
+        "memory_gb": 3.68
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Llama 3.1 8B IQ3_XS",
+        "filename": "llama31-8b-iq3_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ3_XS.gguf?download=true",
+        "sha256": "c57b55244c1bb8e754c7d2d07bfb37cf3c65838d56d602269c33096adb5707b1",
+        "memory_gb": 3.52
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Llama 3.1 8B IQ3_XXS",
+        "filename": "llama31-8b-iq3_xxs.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ3_XXS.gguf?download=true",
+        "sha256": "6d181348a21aa5cea4f155ac2cf6308a60f5774b6e4dba23971cafc3d94fcc9c",
+        "memory_gb": 3.27
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Llama 3.1 8B Q2_K",
+        "filename": "llama31-8b-q2_k.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q2_K.gguf?download=true",
+        "sha256": "3f7f9265554ac91f1fb31c1b63b9cada4362533dfaa3f6e8dfc33c48d36909ce",
+        "memory_gb": 3.18
+      },
+      {
+        "quant_name": "q2_k_s",
+        "display_name": "Llama 3.1 8B Q2_K_S",
+        "filename": "llama31-8b-q2_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q2_K_S.gguf?download=true",
+        "sha256": "927a7bc14db31b3be2e25107ba22682d15c8a613de6c94fdc977c196b6436c66",
+        "memory_gb": 2.99
+      },
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Llama 3.1 8B IQ2_M",
+        "filename": "llama31-8b-iq2_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ2_M.gguf?download=true",
+        "sha256": "849856e1e7eff8ea7425a2a4cee50f3d547165194f50ea3112c9fc07cb08daad",
+        "memory_gb": 2.95
+      },
+      {
+        "quant_name": "iq2_s",
+        "display_name": "Llama 3.1 8B IQ2_S",
+        "filename": "llama31-8b-iq2_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ2_S.gguf?download=true",
+        "sha256": "03ce82cec37af3619f602a946220b8bdd3cbd0fdeba622f8ca5127b11ea85c1d",
+        "memory_gb": 2.76
+      },
+      {
+        "quant_name": "iq2_xs",
+        "display_name": "Llama 3.1 8B IQ2_XS",
+        "filename": "llama31-8b-iq2_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ2_XS.gguf?download=true",
+        "sha256": "399de43ae40cb2e30ca89b99d7f2083f4944d390e679c1a873fd095b94677665",
+        "memory_gb": 2.61
+      },
+      {
+        "quant_name": "iq2_xxs",
+        "display_name": "Llama 3.1 8B IQ2_XXS",
+        "filename": "llama31-8b-iq2_xxs.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ2_XXS.gguf?download=true",
+        "sha256": "d9472323172ee8c9d54d7ce699d59d62b04903f61012caff8a26b447546a80df",
+        "memory_gb": 2.4
+      },
+      {
+        "quant_name": "iq1_m",
+        "display_name": "Llama 3.1 8B IQ1_M",
+        "filename": "llama31-8b-iq1_m.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ1_M.gguf?download=true",
+        "sha256": "5dae0b81d08a2d57b82fe029f7aa31c4c9db10dbc44517386d12aec0f0996ecd",
+        "memory_gb": 2.16
+      },
+      {
+        "quant_name": "iq1_s",
+        "display_name": "Llama 3.1 8B IQ1_S",
+        "filename": "llama31-8b-iq1_s.gguf",
+        "url": "https://huggingface.co/starust/Llama3.1-8B-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-IQ1_S.gguf?download=true",
+        "sha256": "085a6294ba70eca59ad4047989179aca4aeac45a490207ed5980c8d15baf520a",
+        "memory_gb": 2.02
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Llama 3.1 8B BF16",
+        "filename": "Llama-3.1-8B-Instruct-BF16xyz.gguf",
+        "url": "https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF/resolve/main/Llama-3.1-8B-Instruct-BF16.gguf?download=true",
+        "sha256": "14fdfbe35aeaaf5e45d2a2501ac19c35c7e815485d202369dcfd6a64bd631349",
+        "memory_gb": 16.1
+      },
+      {
+        "quant_name": "f16",
+        "display_name": "Llama 3.1 8B F16",
+        "filename": "Llama-3.1-8B-Instruct-F16xyz.gguf",
+        "url": "https://huggingface.co/professorf/Meta-Llama-3-1-8B-Instruct-f16-gguf/resolve/main/llama-3-1-8b-instruct-f16.gguf?download=true",
+        "sha256": "ed2efefd8935203603ac8ff5045c94c618873b8bc7b69b630e2df12c402a252c",
+        "memory_gb": 16.1
+      }
+    ]
+  },
+  "llama32_3b": {
+    "family": "Llama 3.2 3B",
+    "rows": [
+      {
+        "quant_name": "q8_0",
+        "display_name": "Llama 3.2 3B Q8_0",
+        "filename": "llama32-3b-q8_0.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q8_0.gguf?download=true",
+        "sha256": "b5607b5090a8280063fff2d706bb3408ca6542341b06aab39c3eca0a28575921",
+        "memory_gb": 3.42
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Llama 3.2 3B Q6_K",
+        "filename": "llama32-3b-q6_k.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q6_K.gguf?download=true",
+        "sha256": "1771887c15fc3d327cfee6fd593553b2126e88834bf48eae50e709d3f70dd998",
+        "memory_gb": 2.64
+      },
+      {
+        "quant_name": "q5_0",
+        "display_name": "Llama 3.2 3B Q5_0",
+        "filename": "llama32-3b-q5_0.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_0.gguf?download=true",
+        "sha256": "5099c0db31639015d0496ec90117496341cca5acf3075e02d691bd3ed9456964",
+        "memory_gb": 2.27
+      },
+      {
+        "quant_name": "q5_1",
+        "display_name": "Llama 3.2 3B Q5_1",
+        "filename": "llama32-3b-q5_1.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_1.gguf?download=true",
+        "sha256": "933d810a3981e4fc25bc98b916905de61523977a752705df915e8640f210dc42",
+        "memory_gb": 2.45
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Llama 3.2 3B Q5_K_M",
+        "filename": "llama32-3b-q5_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_K_M.gguf?download=true",
+        "sha256": "0b94ccd04d908304cec5246a3d942b64417a423bc5c6d47c73bc557e590b5194",
+        "memory_gb": 2.32
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Llama 3.2 3B Q5_K_S",
+        "filename": "llama32-3b-q5_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q5_K_S.gguf?download=true",
+        "sha256": "fc58b1880ce451d10f9aa11dd1b566a50cd41b1f72981c5f8a35313e397358f7",
+        "memory_gb": 2.27
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Llama 3.2 3B Q4_0",
+        "filename": "llama32-3b-q4_0.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_0.gguf?download=true",
+        "sha256": "4d491003bf6b470e4d04233824c5c939b76d6c81974ba17a3ff207343e1d8e85",
+        "memory_gb": 1.92
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Llama 3.2 3B Q4_1",
+        "filename": "llama32-3b-q4_1.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_1.gguf?download=true",
+        "sha256": "3e71a047be827f77310d64550107ef04fb3626015293040aa1878cae199cce02",
+        "memory_gb": 2.09
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Llama 3.2 3B Q4_K_M",
+        "filename": "llama32-3b-q4_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf?download=true",
+        "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+        "memory_gb": 2.02
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Llama 3.2 3B Q4_K_S",
+        "filename": "llama32-3b-q4_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_S.gguf?download=true",
+        "sha256": "bfb5db97e77e3927e18d971806e36d1886271d6c62e160d5bc78bcdbefb7197c",
+        "memory_gb": 1.93
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Llama 3.2 3B IQ4_NL",
+        "filename": "llama32-3b-iq4_nl.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ4_NL.gguf?download=true",
+        "sha256": "6d6713328648aceb2444be380dc3ba57e7d246aaf22f0d09f5f6ac46c818032a",
+        "memory_gb": 1.92
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Llama 3.2 3B IQ4_XS",
+        "filename": "llama32-3b-iq4_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ4_XS.gguf?download=true",
+        "sha256": "b932f6fd54e64a93f8ad831439adfa2a574315fe4fd98b76c850b24029ec4998",
+        "memory_gb": 1.83
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Llama 3.2 3B Q3_K_L",
+        "filename": "llama32-3b-q3_k_l.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q3_K_L.gguf?download=true",
+        "sha256": "38b11486260d779d1a81876f4c66ea2fd52e52f16d5a2044d992acf6532bfb07",
+        "memory_gb": 1.82
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Llama 3.2 3B Q3_K_M",
+        "filename": "llama32-3b-q3_k_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q3_K_M.gguf?download=true",
+        "sha256": "5c080161ab572b2d146df45de28b9f208abc16fd6a63e7f0dced985cedcb0f8a",
+        "memory_gb": 1.69
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Llama 3.2 3B Q3_K_S",
+        "filename": "llama32-3b-q3_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q3_K_S.gguf?download=true",
+        "sha256": "2d35274864220df541710466f898d92ffc2dbfa1cb3b3825be45bf8f62938053",
+        "memory_gb": 1.54
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Llama 3.2 3B IQ3_M",
+        "filename": "llama32-3b-iq3_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ3_M.gguf?download=true",
+        "sha256": "deac83b571f3982a12377181fdfd7780bf4ce8cbfbdcac179e4bf2ad47b1b228",
+        "memory_gb": 1.6
+      },
+      {
+        "quant_name": "iq3_s",
+        "display_name": "Llama 3.2 3B IQ3_S",
+        "filename": "llama32-3b-iq3_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ3_S.gguf?download=true",
+        "sha256": "    ac38ac873f73ee82cdd3c5e6ee6a95818f8ffb392d4cde4bea70d5a73c0629fa",
+        "memory_gb": 1.54
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Llama 3.2 3B IQ3_XS",
+        "filename": "llama32-3b-iq3_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ3_XS.gguf?download=true",
+        "sha256": "815703eba51511f227050d01730b292ed5ef9a8dce9570fb2ec85a17315fa152",
+        "memory_gb": 1.48
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Llama 3.2 3B IQ3_XXS",
+        "filename": "llama32-3b-iq3_xxs.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ3_XXS.gguf?download=true",
+        "sha256": "974a6e5c0f37857483468139de4061d36c609540ffcb0984b99464711b921e60",
+        "memory_gb": 1.35
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Llama 3.2 3B Q2_K",
+        "filename": "llama32-3b-q2_k.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q2_K.gguf?download=true",
+        "sha256": "59f799986883bcd2fa7e2cca8314431b925abd15efbc12d525bac50bab00b9f4",
+        "memory_gb": 1.36
+      },
+      {
+        "quant_name": "q2_k_s",
+        "display_name": "Llama 3.2 3B Q2_K_S",
+        "filename": "llama32-3b-q2_k_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q2_K_S.gguf?download=true",
+        "sha256": "5f438ea56badadef4964bb28ae742fd390b2fc0be72746d7796af5162a2577de",
+        "memory_gb": 1.27
+      },
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Llama 3.2 3B IQ2_M",
+        "filename": "llama32-3b-iq2_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ2_M.gguf?download=true",
+        "sha256": "636661a0f4441cf044fdca501dfc88df48c6d626702dbaf423087bff7a594fea",
+        "memory_gb": 1.23
+      },
+      {
+        "quant_name": "iq2_s",
+        "display_name": "Llama 3.2 3B IQ2_S",
+        "filename": "llama32-3b-iq2_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ2_S.gguf?download=true",
+        "sha256": "4e0a1a23510323b23ef23656d278e84dc75cd17619126646f87119eae571e01e",
+        "memory_gb": 1.15
+      },
+      {
+        "quant_name": "iq2_xs",
+        "display_name": "Llama 3.2 3B IQ2_XS",
+        "filename": "llama32-3b-iq2_xs.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ2_XS.gguf?download=true",
+        "sha256": "eb33be9d5f2bb21977021a2bcb6561eb90c10ec4d6145464514f248e083569e3",
+        "memory_gb": 1.1
+      },
+      {
+        "quant_name": "iq2_xxs",
+        "display_name": "Llama 3.2 3B IQ2_XXS",
+        "filename": "llama32-3b-iq2_xxs.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ2_XXS.gguf?download=true",
+        "sha256": "e03d908901f6ae914fe39522fad61932cf531ed873878bb939503f47f17ed3ea",
+        "memory_gb": 1.02
+      },
+      {
+        "quant_name": "iq1_m",
+        "display_name": "Llama 3.2 3B IQ1_M",
+        "filename": "llama32-3b-iq1_m.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ1_M.gguf?download=true",
+        "sha256": "3eb7f2d3ebae1d4ad4e7cd81e6f7c0414580280890fb13b8ff1b83797057f6ad",
+        "memory_gb": 0.924
+      },
+      {
+        "quant_name": "iq1_s",
+        "display_name": "Llama 3.2 3B IQ1_S",
+        "filename": "llama32-3b-iq1_s.gguf",
+        "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ1_S.gguf?download=true",
+        "sha256": "d299916f48526de28d3b7dc594a2ba1c08a807ca8e515fbeab21b87862aa5e63",
+        "memory_gb": 0.868
+      },
+      {
+        "quant_name": "f16",
+        "display_name": "Llama 3.2 3B F16",
+        "filename": "Llama-3.2-3B-Instruct-F16xyz.gguf",
+        "url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-F16.gguf?download=true",
+        "sha256": "db0ebda07c65c6cc6d15fb1c28f0f401fe64003aa88cfbf701be58a1c4122d54",
+        "memory_gb": 6.43
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Llama 3.2 3B BF16",
+        "filename": "Llama-3.2-3B-Instruct-BF16xyz.gguf",
+        "url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-BF16.gguf?download=true",
+        "sha256": "9b8dce13b6cbcd8b20037bd6383ee8e747b5034ca32f40b5b8ee2efa9ebf56b8",
+        "memory_gb": 6.43
+      }
+    ]
+  },
+  "phi4_mini": {
+    "family": "Phi-4-mini",
+    "rows": [
+      {
+        "quant_name": "q8_0",
+        "display_name": "Phi-4-mini Instruct Q8_0",
+        "filename": "microsoft_Phi-4-mini-instruct-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q8_0.gguf?download=true",
+        "sha256": "a12f242c4ee379b9da91673e5d78b30bfacfe4fd86a0b2259d2ecad5d93cb6c7",
+        "memory_gb": 4.08
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Phi-4-mini Instruct Q6_K_L",
+        "filename": "microsoft_Phi-4-mini-instruct-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q6_K_L.gguf?download=true",
+        "sha256": "ad6e8f3dbaca28a7d8c269058bd6ba543b7d0932be06927f847f24c9bb0d8408",
+        "memory_gb": 3.3
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Phi-4-mini Instruct Q6_K",
+        "filename": "microsoft_Phi-4-mini-instruct-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q6_K.gguf?download=true",
+        "sha256": "59dba927b98f39c26859aab7fb27d5f577666f8a5db38f0eccf3f207902ba23b",
+        "memory_gb": 3.16
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Phi-4-mini Instruct Q5_K_L",
+        "filename": "microsoft_Phi-4-mini-instruct-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q5_K_L.gguf?download=true",
+        "sha256": "9e2c332c023f50ae7ed5fd51c8ca3ed846e364ad8a98471da99603082509734b",
+        "memory_gb": 3.0
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Phi-4-mini Instruct Q5_K_M",
+        "filename": "microsoft_Phi-4-mini-instruct-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q5_K_M.gguf?download=true",
+        "sha256": "840ad85cff01e41701e2b2a3826016916f8e51242c8f25d62e59fa7eb93acbc5",
+        "memory_gb": 2.85
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Phi-4-mini Instruct Q5_K_S",
+        "filename": "microsoft_Phi-4-mini-instruct-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q5_K_S.gguf?download=true",
+        "sha256": "b027246d847c6d6c5419a14885256061e911cc864001820b16e037868d43d090",
+        "memory_gb": 2.73
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Phi-4-mini Instruct Q4_K_L",
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_K_L.gguf?download=true",
+        "sha256": "ea4e670db872d1cf505e02bf8f85745ce98a564c1429fc3609cc9462089da13e",
+        "memory_gb": 2.64
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Phi-4-mini Instruct Q4_1",
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_1.gguf?download=true",
+        "sha256": "788a028447e152719d2673930fdfb0df5f73cc134b666915565492e32fe93f26",
+        "memory_gb": 2.53
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Phi-4-mini Instruct Q4_K_M",
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf?download=true",
+        "sha256": "01999f17c39cc3074afae5e9c539bc82d45f2dd7faa3917c66cbef76fce8c0c2",
+        "memory_gb": 2.49
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Phi-4-mini Instruct Q4_K_S",
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_K_S.gguf?download=true",
+        "sha256": "d75c4e4a4a4f9c775ca5fec8802e7a65bbbe9241034f5b39e6a8d092f3805880",
+        "memory_gb": 2.34
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Phi-4-mini Instruct Q4_0",
+        "filename": "microsoft_Phi-4-mini-instruct-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_0.gguf?download=true",
+        "sha256": "2124412a2d3410dd05c5d01796457283812210633165a2a86c909f815971518e",
+        "memory_gb": 2.33
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Phi-4-mini Instruct IQ4_NL",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ4_NL.gguf?download=true",
+        "sha256": "c75b97730ea19e533d5a5fcbb695984bfd6278e170bf49e1251ea4f5e85b7763",
+        "memory_gb": 2.33
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Phi-4-mini Instruct IQ4_XS",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ4_XS.gguf?download=true",
+        "sha256": "88f5f428d64ea04332eaf3dc19d05ad4df3e04847ad9d2b0e3c947233f361a56",
+        "memory_gb": 2.22
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Phi-4-mini Instruct Q3_K_XL",
+        "filename": "microsoft_Phi-4-mini-instruct-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q3_K_XL.gguf?download=true",
+        "sha256": "d95f8462d750d574db0c60ed5e83c551a42d94da99b4a5f85d54b5bbbf0c14e0",
+        "memory_gb": 2.4
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Phi-4-mini Instruct Q3_K_L",
+        "filename": "microsoft_Phi-4-mini-instruct-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q3_K_L.gguf?download=true",
+        "sha256": "d04c6c4014f24f56dc3341aa69e198815f2931a8769aeb630ced541f792889b4",
+        "memory_gb": 2.25
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Phi-4-mini Instruct Q3_K_M",
+        "filename": "microsoft_Phi-4-mini-instruct-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q3_K_M.gguf?download=true",
+        "sha256": "514a111e3b847b1698b253bf8e8ada7c1bb81dc10dc4bccab590edaff5aec06c",
+        "memory_gb": 2.12
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Phi-4-mini Instruct IQ3_M",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ3_M.gguf?download=true",
+        "sha256": "0d6a07d53a3ebd474a8ca9abc9415af39e88f041cfbfe388e3bf632b84e7b232",
+        "memory_gb": 2.02
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Phi-4-mini Instruct Q3_K_S",
+        "filename": "microsoft_Phi-4-mini-instruct-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q3_K_S.gguf?download=true",
+        "sha256": "a1dd4dc181bd94e896a947dbf413f04d9cce2b962a22fe363812a28b5ac34826",
+        "memory_gb": 1.9
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Phi-4-mini Instruct IQ3_XS",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ3_XS.gguf?download=true",
+        "sha256": "a94bcca75234c1775025a319a1765e3c61c5b18298d0314633f7f7524356ec2e",
+        "memory_gb": 1.84
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Phi-4-mini Instruct IQ3_XXS",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ3_XXS.gguf?download=true",
+        "sha256": "80c87df8ba98f4e02f5e3bb8b71cab541dafb601ef071a195a4df38c56e213d7",
+        "memory_gb": 1.68
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Phi-4-mini Instruct Q2_K_L",
+        "filename": "microsoft_Phi-4-mini-instruct-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q2_K_L.gguf?download=true",
+        "sha256": "b233015a8c8fbd13f080cbebc9a8dc496c2ce52faed06d17fb0963192e0378b5",
+        "memory_gb": 1.83
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Phi-4-mini Instruct Q2_K",
+        "filename": "microsoft_Phi-4-mini-instruct-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q2_K.gguf?download=true",
+        "sha256": "85134b59572e8726252f02bae6476ed6cf8c3109f5dc05da363965430157608d",
+        "memory_gb": 1.68
+      },
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Phi-4-mini Instruct IQ2_M",
+        "filename": "microsoft_Phi-4-mini-instruct-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-IQ2_M.gguf?download=true",
+        "sha256": "33c12b44229a85d88a3bedfe849e138643bbde5478925d191faeb409bc2ea3ec",
+        "memory_gb": 1.51
+      }
+    ]
+  },
+  "gemma3_4b": {
+    "family": "Gemma 3 4B",
+    "rows": [
+      {
+        "quant_name": "bf16",
+        "display_name": "Gemma 3 4B Instruct BF16",
+        "filename": "google_gemma-3-4b-it-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-bf16.gguf?download=true",
+        "sha256": "a4682f5ecd27ee4c75bbdac05d906ba6bb26e1fa3bba47903fc6ac36931c11a2",
+        "memory_gb": 7.77
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Gemma 3 4B Instruct Q8_0",
+        "filename": "google_gemma-3-4b-it-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q8_0.gguf?download=true",
+        "sha256": "0bce184b82f70ef6f1fb12c8d4984844baaa0bad0f4aae7150e443f803c4f509",
+        "memory_gb": 4.13
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Gemma 3 4B Instruct Q6_K_L",
+        "filename": "google_gemma-3-4b-it-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q6_K_L.gguf?download=true",
+        "sha256": "163619e9cec4f505f1e3923ae7b03b61b34d6b9789de803e1e938542e6faa447",
+        "memory_gb": 3.35
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Gemma 3 4B Instruct Q6_K",
+        "filename": "google_gemma-3-4b-it-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q6_K.gguf?download=true",
+        "sha256": "ee175bbd0c5ab8b3fdc9b707c98df2d0086d5b22e4d79e4dbeec927385b8c659",
+        "memory_gb": 3.19
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Gemma 3 4B Instruct Q5_K_L",
+        "filename": "google_gemma-3-4b-it-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q5_K_L.gguf?download=true",
+        "sha256": "8a204091059d7b172aa5ab972e1b6591ef8cfcc19b9c261f7cd3d7962295b267",
+        "memory_gb": 2.99
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Gemma 3 4B Instruct Q5_K_M",
+        "filename": "google_gemma-3-4b-it-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q5_K_M.gguf?download=true",
+        "sha256": "7b2da98f1f31f3467ca8812122809ff6da3fa3f33bd181b350b9a21996db6cef",
+        "memory_gb": 2.83
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Gemma 3 4B Instruct Q5_K_S",
+        "filename": "google_gemma-3-4b-it-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q5_K_S.gguf?download=true",
+        "sha256": "bfd0ebb01aaa09969582c06df1f1fbbd8a115835c6087031b245a7ed691c76ed",
+        "memory_gb": 2.76
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Gemma 3 4B Instruct Q4_K_L",
+        "filename": "google_gemma-3-4b-it-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_K_L.gguf?download=true",
+        "sha256": "0a319d1ba1e5e6ac1045e71a940815a0c445318fa16dac39ff9d5b86dda999ac",
+        "memory_gb": 2.65
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Gemma 3 4B Instruct Q4_1",
+        "filename": "google_gemma-3-4b-it-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_1.gguf?download=true",
+        "sha256": "81ab6799f8ecb9b695c4ee07c705be839352e92ccba39ea8e2db91e37a2fd497",
+        "memory_gb": 2.56
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Gemma 3 4B Instruct Q4_K_M",
+        "filename": "google_gemma-3-4b-it-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_K_M.gguf?download=true",
+        "sha256": "4996030242583a40aa151ff93f49ed787ac8c25e4120c3ae4588b2e2a7d1ae94",
+        "memory_gb": 2.49
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Gemma 3 4B Instruct Q3_K_XL",
+        "filename": "google_gemma-3-4b-it-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q3_K_XL.gguf?download=true",
+        "sha256": "91a773d85cfc58a934cc2d3a65b5018d4b6e4de3843dc5c5b05478642613c2c3",
+        "memory_gb": 2.4
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Gemma 3 4B Instruct Q4_K_S",
+        "filename": "google_gemma-3-4b-it-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_K_S.gguf?download=true",
+        "sha256": "a63053607c4efab16b72779f168397ba7ba1771bee42b8cfc6967a1a5d54acb2",
+        "memory_gb": 2.38
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Gemma 3 4B Instruct Q4_0",
+        "filename": "google_gemma-3-4b-it-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_0.gguf?download=true",
+        "sha256": "824eac1a66f41074afa1e4dc8834216505c32175878b44a929c50c1baf05720e",
+        "memory_gb": 2.37
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Gemma 3 4B Instruct IQ4_NL",
+        "filename": "google_gemma-3-4b-it-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ4_NL.gguf?download=true",
+        "sha256": "0dd02fc369ec77eea165922e8b2fbcabb0e9d76123db6de6a852c32ecd43e884",
+        "memory_gb": 2.36
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Gemma 3 4B Instruct IQ4_XS",
+        "filename": "google_gemma-3-4b-it-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ4_XS.gguf?download=true",
+        "sha256": "454203445fa713897277e2e4cbfc07db003006198126031e7e622a10058c459f",
+        "memory_gb": 2.26
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Gemma 3 4B Instruct Q3_K_L",
+        "filename": "google_gemma-3-4b-it-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q3_K_L.gguf?download=true",
+        "sha256": "0f77849cca869f0eab10645cd8b74d6f554d8e66dd4ed6a8ecc05f88c41780d3",
+        "memory_gb": 2.24
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Gemma 3 4B Instruct Q3_K_M",
+        "filename": "google_gemma-3-4b-it-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q3_K_M.gguf?download=true",
+        "sha256": "459112810fe05bafcf697d21a8050eb9ce5860688f28e9cb406c19e158637c5f",
+        "memory_gb": 2.1
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Gemma 3 4B Instruct IQ3_M",
+        "filename": "google_gemma-3-4b-it-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ3_M.gguf?download=true",
+        "sha256": "8819efccbe2018cf834003ede14b2fdf31d102229fb02c08618479bd46232289",
+        "memory_gb": 1.99
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Gemma 3 4B Instruct Q3_K_S",
+        "filename": "google_gemma-3-4b-it-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q3_K_S.gguf?download=true",
+        "sha256": "3c3ff3ef0b289a22c30341fa26671073e86823d9b8e45b7550accb6f2a5e9846",
+        "memory_gb": 1.94
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Gemma 3 4B Instruct Q2_K_L",
+        "filename": "google_gemma-3-4b-it-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q2_K_L.gguf?download=true",
+        "sha256": "bfdec8490d4315045a73ee73b82ff5fa982f01cb593422d3199e38bc3cd348e8",
+        "memory_gb": 1.89
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Gemma 3 4B Instruct IQ3_XS",
+        "filename": "google_gemma-3-4b-it-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ3_XS.gguf?download=true",
+        "sha256": "540d902eb3f416a88676e0a5215d0f77b281bd306dc35d1e7ff110a12cfe372d",
+        "memory_gb": 1.86
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Gemma 3 4B Instruct Q2_K",
+        "filename": "google_gemma-3-4b-it-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q2_K.gguf?download=true",
+        "sha256": "f5c000104e5145e9123bbfb6ac937ef0304a78f7487295e2814c9bfd3a579938",
+        "memory_gb": 1.73
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Gemma 3 4B Instruct IQ3_XXS",
+        "filename": "google_gemma-3-4b-it-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ3_XXS.gguf?download=true",
+        "sha256": "9db4d92e23a6bc0a6ea89d8c54ff30b86ea10edb42f4a390f504a3ad0e2336e2",
+        "memory_gb": 1.69
+      },
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Gemma 3 4B Instruct IQ2_M",
+        "filename": "google_gemma-3-4b-it-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-IQ2_M.gguf?download=true",
+        "sha256": "11dc99092c74bac177c9a30b47e5d580c81d1f0939b432327a9e8ac0f0905446",
+        "memory_gb": 1.54
+      }
+    ]
+  },
+  "gemma3_270m": {
+    "family": "Gemma 3 270M",
+    "rows": [
+      {
+        "quant_name": "q8_0_ggml_org",
+        "display_name": "Gemma 3 270M Q8_0 (ggml-org)",
+        "filename": "gemma-3-270m-Q8_0.gguf",
+        "url": "https://huggingface.co/ggml-org/gemma-3-270m-GGUF/resolve/main/gemma-3-270m-Q8_0.gguf?download=true",
+        "sha256": "e00cf79514204dfe2f4d6943f277ffea7fd8a4c8e955b4b7a869cfc157694881",
+        "memory_gb": 0.27
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Gemma 3 270M Instruct BF16",
+        "filename": "google_gemma-3-270m-it-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-bf16.gguf?download=true",
+        "sha256": "12431770d3b3f56ecb6db14c3160a3119f1ded99b129ef656e9f05043ef12b8c",
+        "memory_gb": 0.55
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Gemma 3 270M Instruct Q8_0",
+        "filename": "google_gemma-3-270m-it-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q8_0.gguf?download=true",
+        "sha256": "2fd6d1f8cf6b0b09a24c3b85af5c76cced2de37de8436fab96a6126a8a52a703",
+        "memory_gb": 0.29
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Gemma 3 270M Instruct Q6_K_L",
+        "filename": "google_gemma-3-270m-it-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q6_K_L.gguf?download=true",
+        "sha256": "05beae596eab9cee1bc88eebae8d2a646e20ab7f2eac2dbe62432d5e1bb5e806",
+        "memory_gb": 0.24
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Gemma 3 270M Instruct Q5_K_L",
+        "filename": "google_gemma-3-270m-it-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q5_K_L.gguf?download=true",
+        "sha256": "d9cf1700f4cdba3d27800c73a2828c32c97e69963d3abb909a2357072261fff7",
+        "memory_gb": 0.22
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Gemma 3 270M Instruct Q5_K_S",
+        "filename": "google_gemma-3-270m-it-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q5_K_S.gguf?download=true",
+        "sha256": "4decf4488ac539af961b681a6eaed6144307542ed769a7139898b1042c52151c",
+        "memory_gb": 0.2
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Gemma 3 270M Instruct Q4_K_L",
+        "filename": "google_gemma-3-270m-it-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q4_K_L.gguf?download=true",
+        "sha256": "c866c9f113f2e9aa2225c5997ede437392b8fa844ba5db9e4c77e315ffe20800",
+        "memory_gb": 0.19
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Gemma 3 270M Instruct Q4_1",
+        "filename": "google_gemma-3-270m-it-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q4_1.gguf?download=true",
+        "sha256": "7aaf22d09ffdb38640bcf9aa2e92974fc127fd4ac9ff0b013be967b77cb98bdc",
+        "memory_gb": 0.19
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Gemma 3 270M Instruct Q4_K_S",
+        "filename": "google_gemma-3-270m-it-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q4_K_S.gguf?download=true",
+        "sha256": "51c2976fbe4eef7b9f73c9c1e8b28c067a0e04e640b548d735c8002eebb9ccd9",
+        "memory_gb": 0.17
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Gemma 3 270M Instruct Q4_0",
+        "filename": "google_gemma-3-270m-it-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q4_0.gguf?download=true",
+        "sha256": "54e0b1fa1ea1e7418ff02c581d9f8ed55955a7948effcd119efd2f8181843393",
+        "memory_gb": 0.17
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Gemma 3 270M Instruct IQ4_NL",
+        "filename": "google_gemma-3-270m-it-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-IQ4_NL.gguf?download=true",
+        "sha256": "2933877d6d04b7aed75438e37aa63d5c4c510cd1c7090f966ca0ed17d16d2b90",
+        "memory_gb": 0.17
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Gemma 3 270M Instruct IQ4_XS",
+        "filename": "google_gemma-3-270m-it-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-IQ4_XS.gguf?download=true",
+        "sha256": "15839ef3bc3955fb4c69e6d67305fe72317e3871259e60cc3dd1e89905cc9979",
+        "memory_gb": 0.16
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Gemma 3 270M Instruct Q3_K_XL",
+        "filename": "google_gemma-3-270m-it-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q3_K_XL.gguf?download=true",
+        "sha256": "1c266ad22fb87febc7be997c158b5775e6560207857dae506acb60a35367b4e6",
+        "memory_gb": 0.17
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Gemma 3 270M Instruct Q3_K_M",
+        "filename": "google_gemma-3-270m-it-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q3_K_M.gguf?download=true",
+        "sha256": "7ea83938f262937babbb29826de77f62d1418863d07b8450c8137aafde893ce0",
+        "memory_gb": 0.15
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Gemma 3 270M Instruct IQ3_M",
+        "filename": "google_gemma-3-270m-it-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-IQ3_M.gguf?download=true",
+        "sha256": "3f03f53aac26a8799bc34c9d3c23bf11579714c58ed8472ab247cd5d18af4349",
+        "memory_gb": 0.14
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Gemma 3 270M Instruct Q3_K_S",
+        "filename": "google_gemma-3-270m-it-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-Q3_K_S.gguf?download=true",
+        "sha256": "cd24092cb82016c133be9753f754ee1f350bd117b30ffd838f3392c139cb4bae",
+        "memory_gb": 0.14
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Gemma 3 270M Instruct IQ3_XS",
+        "filename": "google_gemma-3-270m-it-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-IQ3_XS.gguf?download=true",
+        "sha256": "974d14d8cb3aa96de4f1b90223d20a8005accba224f380efadb5dd2ec279942d",
+        "memory_gb": 0.13
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Gemma 3 270M Instruct IQ3_XXS",
+        "filename": "google_gemma-3-270m-it-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-270m-it-GGUF/resolve/main/google_gemma-3-270m-it-IQ3_XXS.gguf?download=true",
+        "sha256": "d8e4ededab1f224b07355fa45007d8714b8f76e72c37013ffb5eb7addfcd742b",
+        "memory_gb": 0.12
+      }
+    ]
+  },
+  "llama32_1b": {
+    "family": "Llama 3.2 1B",
+    "rows": [
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Llama 3.2 1B IQ3 M",
+        "filename": "Llama-3.2-1B-Instruct-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-IQ3_M.gguf?download=true",
+        "sha256": "c80cc062a721c267ec50fee83fe6b55d36fc7abe708392dbe22e16fbd42687e8",
+        "memory_gb": 0.66
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Llama 3.2 1B IQ4 XS",
+        "filename": "Llama-3.2-1B-Instruct-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-IQ4_XS.gguf?download=true",
+        "sha256": "69e85c871a13a99e4008c09916a957d170e4e5623a5b2e06be46408029a7afba",
+        "memory_gb": 0.74
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Llama 3.2 1B Q3 K L",
+        "filename": "Llama-3.2-1B-Instruct-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q3_K_L.gguf?download=true",
+        "sha256": "4cc006968acfee52002f0d117d14cf2ed587e15c93a85c84fe8c053c5c47455d",
+        "memory_gb": 0.73
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Llama 3.2 1B Q3 K XL",
+        "filename": "Llama-3.2-1B-Instruct-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q3_K_XL.gguf?download=true",
+        "sha256": "df6281097d325f74b1b2f08e1913b12ba422c706c890c67c3b07aaa4b711a4fb",
+        "memory_gb": 0.8
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Llama 3.2 1B Q4 0",
+        "filename": "Llama-3.2-1B-Instruct-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0.gguf?download=true",
+        "sha256": "fa0390e7c043f89ae1847bd6682d748041a99d4ef3de0e0b27d33b6af97a8be8",
+        "memory_gb": 0.77
+      },
+      {
+        "quant_name": "q4_0_4_4",
+        "display_name": "Llama 3.2 1B Q4 0 4 4",
+        "filename": "Llama-3.2-1B-Instruct-Q4_0_4_4.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_4_4.gguf?download=true",
+        "sha256": "9e08846ce40981cd5e395dc4da41d7f6c4c0629d281808ef264e290cb6d1566c",
+        "memory_gb": 0.77
+      },
+      {
+        "quant_name": "q4_0_4_8",
+        "display_name": "Llama 3.2 1B Q4 0 4 8",
+        "filename": "Llama-3.2-1B-Instruct-Q4_0_4_8.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_4_8.gguf?download=true",
+        "sha256": "6f1bc31848e8f9aa413910cc10383b71cd53818bf34199b2e1376e8a033a7458",
+        "memory_gb": 0.77
+      },
+      {
+        "quant_name": "q4_0_8_8",
+        "display_name": "Llama 3.2 1B Q4 0 8 8",
+        "filename": "Llama-3.2-1B-Instruct-Q4_0_8_8.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_8_8.gguf?download=true",
+        "sha256": "4ed07158008028f7ad29411a22501aabdfc5c18c969a7cb809487a244e25792b",
+        "memory_gb": 0.77
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Llama 3.2 1B Q4 K L",
+        "filename": "Llama-3.2-1B-Instruct-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_L.gguf?download=true",
+        "sha256": "7704921a92d96e4c6698a69267e4a849ede4b534d86d533a2938150140d0683f",
+        "memory_gb": 0.87
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Llama 3.2 1B Q4 K M",
+        "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf?download=true",
+        "sha256": "6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83",
+        "memory_gb": 0.81
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Llama 3.2 1B Q4 K S",
+        "filename": "Llama-3.2-1B-Instruct-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_S.gguf?download=true",
+        "sha256": "00f6255d497c05015cf8102ed73b93017a91072c21bfc98fef34b4f3c10850eb",
+        "memory_gb": 0.78
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Llama 3.2 1B Q5 K L",
+        "filename": "Llama-3.2-1B-Instruct-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q5_K_L.gguf?download=true",
+        "sha256": "bb8df62a5435cb974a8e2cee1bda9b36cdbe163a97894c452c41807992e7be44",
+        "memory_gb": 0.98
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Llama 3.2 1B Q5 K M",
+        "filename": "Llama-3.2-1B-Instruct-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q5_K_M.gguf?download=true",
+        "sha256": "4f22f95fb1679ef8e2fd6f1659d23f06cd1dbedb79ff291db7413a7ae509e2a9",
+        "memory_gb": 0.91
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Llama 3.2 1B Q5 K S",
+        "filename": "Llama-3.2-1B-Instruct-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q5_K_S.gguf?download=true",
+        "sha256": "89638abe2ac92951103431b554c61811e796ead6c3d789387c875d860eaa0b0e",
+        "memory_gb": 0.89
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Llama 3.2 1B Q6 K",
+        "filename": "Llama-3.2-1B-Instruct-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q6_K.gguf?download=true",
+        "sha256": "0f4c510daf16e0d1b3bc94931fd9296c28936bebdda2593687d4eb70c5b70628",
+        "memory_gb": 1.02
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Llama 3.2 1B Q6 K L",
+        "filename": "Llama-3.2-1B-Instruct-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q6_K_L.gguf?download=true",
+        "sha256": "6ae093da815c09fd551c8a6c2a36df29b2096d8d12c5e6b545089c3f8debe90d",
+        "memory_gb": 1.09
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Llama 3.2 1B Q8 0",
+        "filename": "Llama-3.2-1B-Instruct-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q8_0.gguf?download=true",
+        "sha256": "432f310a77f4650a88d0fd59ecdd7cebed8d684bafea53cbff0473542964f0c3",
+        "memory_gb": 1.32
+      },
+      {
+        "quant_name": "f16",
+        "display_name": "Llama 3.2 1B f16",
+        "filename": "Llama-3.2-1B-Instruct-f16.gguf",
+        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-f16.gguf?download=true",
+        "sha256": "1f33ad43d2b85b908ff06fe7002b69806a57359b9b2617ca27d7bdea428ae146",
+        "memory_gb": 2.48
+      }
+    ]
+  },
+  "qwen3_0_6b": {
+    "family": "Qwen 3 0.6B",
+    "rows": [
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Qwen 3 0.6B IQ2 M",
+        "filename": "Qwen_Qwen3-0.6B-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ2_M.gguf?download=true",
+        "sha256": "d129244d6f5285594084390f05ca5c3f7d194fd82f9d63f76c47e64725cf3b07",
+        "memory_gb": 0.33
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Qwen 3 0.6B IQ3 M",
+        "filename": "Qwen_Qwen3-0.6B-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ3_M.gguf?download=true",
+        "sha256": "b4efdacce21a52b1ca0018d7850f67562c59c27a1507d485cc1142bef1a09f44",
+        "memory_gb": 0.4
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Qwen 3 0.6B IQ3 XS",
+        "filename": "Qwen_Qwen3-0.6B-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ3_XS.gguf?download=true",
+        "sha256": "0906dcf62aa4f005887e855731376f0bf3be8f5ffa61f547df71e6154ea748d9",
+        "memory_gb": 0.38
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Qwen 3 0.6B IQ3 XXS",
+        "filename": "Qwen_Qwen3-0.6B-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ3_XXS.gguf?download=true",
+        "sha256": "4553e20544d2667785db4e48b5556d02e70989234be5853b8bf200d65381d701",
+        "memory_gb": 0.35
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Qwen 3 0.6B IQ4 NL",
+        "filename": "Qwen_Qwen3-0.6B-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ4_NL.gguf?download=true",
+        "sha256": "96c4d65dc596b294d7e74a5c849532836d009bc68ce763b80acb4995b4d30d09",
+        "memory_gb": 0.47
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Qwen 3 0.6B IQ4 XS",
+        "filename": "Qwen_Qwen3-0.6B-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-IQ4_XS.gguf?download=true",
+        "sha256": "87c112e51ae42471c51081e9ea35c7ec57d6b93d72d857affbc84790eda31341",
+        "memory_gb": 0.45
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Qwen 3 0.6B Q2 K",
+        "filename": "Qwen_Qwen3-0.6B-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q2_K.gguf?download=true",
+        "sha256": "a1960f01d2aa0d8c7d4e5cb13026e4c3dc85c899c0851bddb2cabbbde18ac52b",
+        "memory_gb": 0.35
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Qwen 3 0.6B Q2 K L",
+        "filename": "Qwen_Qwen3-0.6B-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q2_K_L.gguf?download=true",
+        "sha256": "6e2c3e043d29a52dad50003fde24f201cf4006b3e5dd7e45dcde270cd180d9d2",
+        "memory_gb": 0.5
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Qwen 3 0.6B Q3 K L",
+        "filename": "Qwen_Qwen3-0.6B-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q3_K_L.gguf?download=true",
+        "sha256": "0793e0df451c226d5229fb9728624c5359d539ffaab3f6a0d28935eb09f8e016",
+        "memory_gb": 0.44
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Qwen 3 0.6B Q3 K M",
+        "filename": "Qwen_Qwen3-0.6B-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q3_K_M.gguf?download=true",
+        "sha256": "81771904092305dcf02980cb7705111c7ec0c8b8cffd497a7d05964d3373a45e",
+        "memory_gb": 0.41
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Qwen 3 0.6B Q3 K S",
+        "filename": "Qwen_Qwen3-0.6B-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q3_K_S.gguf?download=true",
+        "sha256": "c6552632340ff82d8ea6f519c384eede4dd37933b200a05890a65dabae612327",
+        "memory_gb": 0.39
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Qwen 3 0.6B Q3 K XL",
+        "filename": "Qwen_Qwen3-0.6B-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q3_K_XL.gguf?download=true",
+        "sha256": "03f95d27a9d8374b1298d80bef80a5b33f93cd943e7806139239d99d6e2be092",
+        "memory_gb": 0.57
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Qwen 3 0.6B Q4 0",
+        "filename": "Qwen_Qwen3-0.6B-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_0.gguf?download=true",
+        "sha256": "4b78d8e3c61976cebb78ef5affe19d0eca75b1b47ec66f613a5a3245484758d5",
+        "memory_gb": 0.47
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Qwen 3 0.6B Q4 1",
+        "filename": "Qwen_Qwen3-0.6B-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_1.gguf?download=true",
+        "sha256": "459dad8b75080ce0c96ba2ed7514887f942bd9739c40aad0923ba324c34fb25e",
+        "memory_gb": 0.51
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Qwen 3 0.6B Q4 K L",
+        "filename": "Qwen_Qwen3-0.6B-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_L.gguf?download=true",
+        "sha256": "109aa91357a258782343e60edf46b83e1403652af1b91635b4f1c91b4a69ddc6",
+        "memory_gb": 0.6
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Qwen 3 0.6B Q4 K M",
+        "filename": "Qwen_Qwen3-0.6B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_M.gguf?download=true",
+        "sha256": "9acfc1e001311f34b4252001b626f2e466d592a42065f66571bff3790d4e1b14",
+        "memory_gb": 0.48
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Qwen 3 0.6B Q4 K S",
+        "filename": "Qwen_Qwen3-0.6B-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_S.gguf?download=true",
+        "sha256": "64d751138caefeb5a6c8d8839598ce66916b16a47b9be54b12b2ad78a3f6b4ef",
+        "memory_gb": 0.47
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Qwen 3 0.6B Q5 K L",
+        "filename": "Qwen_Qwen3-0.6B-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q5_K_L.gguf?download=true",
+        "sha256": "74e71eae7916b4c007e5c48f8ae477292f067c69060a4202dfc25d85b23baf91",
+        "memory_gb": 0.65
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Qwen 3 0.6B Q5 K M",
+        "filename": "Qwen_Qwen3-0.6B-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q5_K_M.gguf?download=true",
+        "sha256": "2df7894c99ee7716f0ed3c7d454c2386a7ae976c4b0ad0e716d55399c1360648",
+        "memory_gb": 0.55
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Qwen 3 0.6B Q5 K S",
+        "filename": "Qwen_Qwen3-0.6B-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q5_K_S.gguf?download=true",
+        "sha256": "43c5efb14850c6aa2f4c70384fe6e8079d9cf5a9f457e68f9a25c9a1aaa6a04b",
+        "memory_gb": 0.54
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Qwen 3 0.6B Q6 K",
+        "filename": "Qwen_Qwen3-0.6B-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q6_K.gguf?download=true",
+        "sha256": "21e95febea68b223089e2382378e8c3155e587f5a6618ae3595e3d00c6885575",
+        "memory_gb": 0.62
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Qwen 3 0.6B Q6 K L",
+        "filename": "Qwen_Qwen3-0.6B-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q6_K_L.gguf?download=true",
+        "sha256": "f3356ceb1dc0916ceb45022b50351cc7341aeaa3b15ec89e71fc4194f603b538",
+        "memory_gb": 0.7
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Qwen 3 0.6B Q8 0",
+        "filename": "Qwen_Qwen3-0.6B-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q8_0.gguf?download=true",
+        "sha256": "c159d1518f16bc42533d9a09f034eb598b670341adc2b08b9a9751614aea71eb",
+        "memory_gb": 0.8
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Qwen 3 0.6B bf16",
+        "filename": "Qwen_Qwen3-0.6B-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-bf16.gguf?download=true",
+        "sha256": "6bbe7c978ab2dab9f4e70c040ef4ad53928cacf3d24bc5dc7252aff93be92386",
+        "memory_gb": 1.51
+      }
+    ]
+  },
+  "qwen3_1_7b": {
+    "family": "Qwen 3 1.7B",
+    "rows": [
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Qwen 3 1.7B IQ2 M",
+        "filename": "Qwen_Qwen3-1.7B-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ2_M.gguf?download=true",
+        "sha256": "d6f35c090bc6e70437df4080e21a9b0458d568123abfa3ff04e243077edc358c",
+        "memory_gb": 0.83
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Qwen 3 1.7B IQ3 M",
+        "filename": "Qwen_Qwen3-1.7B-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ3_M.gguf?download=true",
+        "sha256": "a0abdf07593f058b056531c9168e6733ed8e64cacc28750fb84f46d1044ccab6",
+        "memory_gb": 1.03
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Qwen 3 1.7B IQ3 XS",
+        "filename": "Qwen_Qwen3-1.7B-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ3_XS.gguf?download=true",
+        "sha256": "1b166b349d5c2dc2f717a688018d1878a283c630b7729df3fdaecf76271803f0",
+        "memory_gb": 0.97
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Qwen 3 1.7B IQ3 XXS",
+        "filename": "Qwen_Qwen3-1.7B-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ3_XXS.gguf?download=true",
+        "sha256": "5c7649660c508f31f522ac7fa9e70fa03f989250ce9884cc3747f0e6c7443fbe",
+        "memory_gb": 0.89
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Qwen 3 1.7B IQ4 NL",
+        "filename": "Qwen_Qwen3-1.7B-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ4_NL.gguf?download=true",
+        "sha256": "66086acac62fe510a0975d60c22b27485f8a7b94bde7b908c8c38edb1891a93a",
+        "memory_gb": 1.23
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Qwen 3 1.7B IQ4 XS",
+        "filename": "Qwen_Qwen3-1.7B-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-IQ4_XS.gguf?download=true",
+        "sha256": "26bb1677b3dbd490e9b0e4e20b2356646f3a43819e795b39f772fdac07ba091d",
+        "memory_gb": 1.18
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Qwen 3 1.7B Q2 K",
+        "filename": "Qwen_Qwen3-1.7B-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q2_K.gguf?download=true",
+        "sha256": "10bfbf421f9c9a631ec1294a6f4005b76d37ea3902d90408a1121315c4b07d21",
+        "memory_gb": 0.88
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Qwen 3 1.7B Q2 K L",
+        "filename": "Qwen_Qwen3-1.7B-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q2_K_L.gguf?download=true",
+        "sha256": "ec641bc2d026bd18a8bd9a4f136c5751aa44eed792908a4b36dca396f44feb17",
+        "memory_gb": 1.18
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Qwen 3 1.7B Q3 K L",
+        "filename": "Qwen_Qwen3-1.7B-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q3_K_L.gguf?download=true",
+        "sha256": "088aa1cedfee641acdf4c51c80d02c7fd145b3bb41e7e29d155759fd19cd7a09",
+        "memory_gb": 1.14
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Qwen 3 1.7B Q3 K M",
+        "filename": "Qwen_Qwen3-1.7B-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q3_K_M.gguf?download=true",
+        "sha256": "d544d30dbb7b2f608775d69c939a9b8d89c45df2be1a5ad1390ddc1bd7f8d6f5",
+        "memory_gb": 1.07
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Qwen 3 1.7B Q3 K S",
+        "filename": "Qwen_Qwen3-1.7B-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q3_K_S.gguf?download=true",
+        "sha256": "6b7ecc78b5941d658c5fb055c7987d4f7fe5289da64bb92e99d8022c99ce81c3",
+        "memory_gb": 1.0
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Qwen 3 1.7B Q3 K XL",
+        "filename": "Qwen_Qwen3-1.7B-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q3_K_XL.gguf?download=true",
+        "sha256": "0d33ed05b725dacd31f0bf9056ca6ef6e75558da735cfb5f95b23d85f531f92b",
+        "memory_gb": 1.41
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Qwen 3 1.7B Q4 0",
+        "filename": "Qwen_Qwen3-1.7B-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_0.gguf?download=true",
+        "sha256": "c470091d31c4ada174ee5c2547daa020e930593cbca5ca8ca385ce8ff59a2fdf",
+        "memory_gb": 1.23
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Qwen 3 1.7B Q4 1",
+        "filename": "Qwen_Qwen3-1.7B-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_1.gguf?download=true",
+        "sha256": "c0285c63df86c805ec1837441ee4fcb44bc7baa7371061bcbe40036a0ce93dfe",
+        "memory_gb": 1.34
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Qwen 3 1.7B Q4 K L",
+        "filename": "Qwen_Qwen3-1.7B-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_K_L.gguf?download=true",
+        "sha256": "82479bad9c6e9d915c7bb6dd7b99db0c550e27d5d94d32d7bd4c7d02309713cc",
+        "memory_gb": 1.51
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Qwen 3 1.7B Q4 K M",
+        "filename": "Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_K_M.gguf?download=true",
+        "sha256": "72c5c3cb38fa32d5256e2fe30d03e7a64c6c79e668ad84057e3bd66e250b24fb",
+        "memory_gb": 1.28
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Qwen 3 1.7B Q4 K S",
+        "filename": "Qwen_Qwen3-1.7B-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_K_S.gguf?download=true",
+        "sha256": "9ad5c47ea747ef747d2941ae588f3770884203efb1ba517c5a5f1418af66296d",
+        "memory_gb": 1.24
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Qwen 3 1.7B Q5 K L",
+        "filename": "Qwen_Qwen3-1.7B-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q5_K_L.gguf?download=true",
+        "sha256": "6842a8923337690e7e90daa7450351906a3a02547638833d5c6303fb768a1422",
+        "memory_gb": 1.66
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Qwen 3 1.7B Q5 K M",
+        "filename": "Qwen_Qwen3-1.7B-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q5_K_M.gguf?download=true",
+        "sha256": "4287aca1b231f27dbd20012c4bf9693c89b6c849dc02b7027096da54564d4037",
+        "memory_gb": 1.47
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Qwen 3 1.7B Q5 K S",
+        "filename": "Qwen_Qwen3-1.7B-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q5_K_S.gguf?download=true",
+        "sha256": "d5375dde435a489958730b8cde82f645506903439c705b845c7fc9e32188dc9c",
+        "memory_gb": 1.44
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Qwen 3 1.7B Q6 K",
+        "filename": "Qwen_Qwen3-1.7B-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q6_K.gguf?download=true",
+        "sha256": "95aec3c8e76caf949b5a7a3b02adbb7e307eb0aa55880f6a6f9fb5f46abe6d4f",
+        "memory_gb": 1.67
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Qwen 3 1.7B Q6 K L",
+        "filename": "Qwen_Qwen3-1.7B-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q6_K_L.gguf?download=true",
+        "sha256": "4d87f3f55563b5e38e000e64cd67b315fe705bc1748ea27f9bbf2a88d72e2aa6",
+        "memory_gb": 1.82
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Qwen 3 1.7B Q8 0",
+        "filename": "Qwen_Qwen3-1.7B-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q8_0.gguf?download=true",
+        "sha256": "74bb7c53538ab2cc81b93f0c64da14a503159de68cff3c6770428d3850479db3",
+        "memory_gb": 2.17
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Qwen 3 1.7B bf16",
+        "filename": "Qwen_Qwen3-1.7B-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-bf16.gguf?download=true",
+        "sha256": "199b4df12194e24ac097d4fcbd279ce62bd4959bed9f0d4719d05a6ab1501861",
+        "memory_gb": 4.07
+      }
+    ]
+  },
+  "qwen3_4b": {
+    "family": "Qwen 3 4B",
+    "rows": [
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Qwen 3 4B IQ2 M",
+        "filename": "Qwen_Qwen3-4B-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ2_M.gguf?download=true",
+        "sha256": "0aa56060b35246fb4f826e9242843b7f2faae20e771c193e0b7216c63f4dff9d",
+        "memory_gb": 1.51
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Qwen 3 4B IQ3 M",
+        "filename": "Qwen_Qwen3-4B-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ3_M.gguf?download=true",
+        "sha256": "2746853ef81b0ca0f7f7f4594c2c3c776fa3fe777e1d0c396985faa1348e9070",
+        "memory_gb": 1.96
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Qwen 3 4B IQ3 XS",
+        "filename": "Qwen_Qwen3-4B-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ3_XS.gguf?download=true",
+        "sha256": "cb202b1f40122747aa3d4dca6cd49e0b12143abb1f67f10021683206eba9064c",
+        "memory_gb": 1.81
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Qwen 3 4B IQ3 XXS",
+        "filename": "Qwen_Qwen3-4B-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ3_XXS.gguf?download=true",
+        "sha256": "d3a62afc93ed01cd4787ec58479b639c956367965eb874abdab42a612dad90c5",
+        "memory_gb": 1.67
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Qwen 3 4B IQ4 NL",
+        "filename": "Qwen_Qwen3-4B-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ4_NL.gguf?download=true",
+        "sha256": "a9a9b81bf610e8fd94e70862b2af153ea9582b1137e5836f4ee818d0db12796d",
+        "memory_gb": 2.38
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Qwen 3 4B IQ4 XS",
+        "filename": "Qwen_Qwen3-4B-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-IQ4_XS.gguf?download=true",
+        "sha256": "fa5c45f0899a41d33eaeeeebdc88a95c56adaf45d199dae2d2a8fcdbcce177fa",
+        "memory_gb": 2.27
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Qwen 3 4B Q2 K",
+        "filename": "Qwen_Qwen3-4B-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q2_K.gguf?download=true",
+        "sha256": "ebdb400de15507a3ac524785929464e7b7d1df9677b0387a3977958a56bd38bb",
+        "memory_gb": 1.67
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Qwen 3 4B Q2 K L",
+        "filename": "Qwen_Qwen3-4B-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q2_K_L.gguf?download=true",
+        "sha256": "dd70ca1631029e39fd34c813dabe76f2217ebc1a8e914eeccae659623b5f352b",
+        "memory_gb": 1.76
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Qwen 3 4B Q3 K L",
+        "filename": "Qwen_Qwen3-4B-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q3_K_L.gguf?download=true",
+        "sha256": "7ff01b989e5a7cf87100f07248d00e8566fb711669f5bfb5d7dd916e170931d6",
+        "memory_gb": 2.24
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Qwen 3 4B Q3 K M",
+        "filename": "Qwen_Qwen3-4B-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q3_K_M.gguf?download=true",
+        "sha256": "29183d72b1b4e9666287d82acb9aea189512c99cb3bf6d9c77c4a43ebcb30414",
+        "memory_gb": 2.08
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Qwen 3 4B Q3 K S",
+        "filename": "Qwen_Qwen3-4B-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q3_K_S.gguf?download=true",
+        "sha256": "9a8cde953fd268fee5fcca36523b303cace78c1a648e974608517d47340e5560",
+        "memory_gb": 1.89
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Qwen 3 4B Q3 K XL",
+        "filename": "Qwen_Qwen3-4B-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q3_K_XL.gguf?download=true",
+        "sha256": "2d5d27bdb7bc50eb8aa57ee360f6f53b29883d14675c69de7e87d312c48f2a04",
+        "memory_gb": 2.33
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Qwen 3 4B Q4 0",
+        "filename": "Qwen_Qwen3-4B-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_0.gguf?download=true",
+        "sha256": "003e104a544c3cdb008db07acb07b8f6feeb62e50c4eca3cfff14fc59e62e5b7",
+        "memory_gb": 2.38
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Qwen 3 4B Q4 1",
+        "filename": "Qwen_Qwen3-4B-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_1.gguf?download=true",
+        "sha256": "18ddb04d07bf0ec89854c1177e5c2f490c7b294c02ad720359d94310c6d426b7",
+        "memory_gb": 2.6
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Qwen 3 4B Q4 K L",
+        "filename": "Qwen_Qwen3-4B-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_L.gguf?download=true",
+        "sha256": "003d53604195c99061836ac7d74350d6714c8587f3a838aca5c7e22b94b7dcee",
+        "memory_gb": 2.59
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Qwen 3 4B Q4 K M",
+        "filename": "Qwen_Qwen3-4B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_M.gguf?download=true",
+        "sha256": "fbe1d5edd4ce802ae3ae7c7e4ab7d09789d697fdac1fc7929f8df4ca3c41bae3",
+        "memory_gb": 2.5
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Qwen 3 4B Q4 K S",
+        "filename": "Qwen_Qwen3-4B-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_S.gguf?download=true",
+        "sha256": "b3c7f6eab31e251a15e7b2d19a7fe3efc8c27d11175e878583867015b5d42177",
+        "memory_gb": 2.38
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Qwen 3 4B Q5 K L",
+        "filename": "Qwen_Qwen3-4B-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q5_K_L.gguf?download=true",
+        "sha256": "ce850bd72c59835cd6e4158fc6462c4f25e0fd64d43b71fc2b53e19f600ff0ba",
+        "memory_gb": 2.98
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Qwen 3 4B Q5 K M",
+        "filename": "Qwen_Qwen3-4B-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q5_K_M.gguf?download=true",
+        "sha256": "3e6002bee4457c8061c04bfb742c3b23aca976606dfe0e0963cbfd434a370eac",
+        "memory_gb": 2.89
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Qwen 3 4B Q5 K S",
+        "filename": "Qwen_Qwen3-4B-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q5_K_S.gguf?download=true",
+        "sha256": "5a2057469d1852626ac5899f971879a68a359ff05a6b5323236a2459274e2f07",
+        "memory_gb": 2.82
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Qwen 3 4B Q6 K",
+        "filename": "Qwen_Qwen3-4B-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q6_K.gguf?download=true",
+        "sha256": "12b0913feed83232737d860e299ca410d3b2bbf8d33e156ba594f3b44ba17ef1",
+        "memory_gb": 3.31
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Qwen 3 4B Q6 K L",
+        "filename": "Qwen_Qwen3-4B-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q6_K_L.gguf?download=true",
+        "sha256": "6df12a327862a55f98165953795d51b94f147bfbe327dcda5a8e02e393f9bc65",
+        "memory_gb": 3.4
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Qwen 3 4B Q8 0",
+        "filename": "Qwen_Qwen3-4B-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q8_0.gguf?download=true",
+        "sha256": "4050871d20fa939e88e83b1a86060061bdeff01e0d9e5d000d374766f0caf7d7",
+        "memory_gb": 4.28
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Qwen 3 4B bf16",
+        "filename": "Qwen_Qwen3-4B-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-bf16.gguf?download=true",
+        "sha256": "52486602bdca589fd1507962537b4fc7fa2f1fc57222fa36a960cf691d4960c8",
+        "memory_gb": 8.05
+      }
+    ]
+  },
+  "qwen3_8b": {
+    "family": "Qwen 3 8B",
+    "rows": [
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Qwen 3 8B IQ2 M",
+        "filename": "Qwen_Qwen3-8B-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ2_M.gguf?download=true",
+        "sha256": "38833d850e00f75bac26c0c848f2fde9100a5a21c18aae89cfd8611efca6194b",
+        "memory_gb": 3.05
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Qwen 3 8B IQ3 M",
+        "filename": "Qwen_Qwen3-8B-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ3_M.gguf?download=true",
+        "sha256": "de1982c971c26a256dc2ac6d04b04f1cd20ea35e0d3ec3263320756dea66bee3",
+        "memory_gb": 3.9
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Qwen 3 8B IQ3 XS",
+        "filename": "Qwen_Qwen3-8B-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ3_XS.gguf?download=true",
+        "sha256": "15d9f1cfa8be0785df44376669a5b45c3ae75eda916fc553c44923cfb5c3eef2",
+        "memory_gb": 3.63
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Qwen 3 8B IQ3 XXS",
+        "filename": "Qwen_Qwen3-8B-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ3_XXS.gguf?download=true",
+        "sha256": "11a2ba2a7970f621c03e05bce111df2cb7c04880ffec2cdd03445d7b5e8b8514",
+        "memory_gb": 3.37
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Qwen 3 8B IQ4 NL",
+        "filename": "Qwen_Qwen3-8B-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ4_NL.gguf?download=true",
+        "sha256": "57d2f29c36469e05cf7801704b92d42dfc24531a9f19e92b2a2b4d0c4d9b7545",
+        "memory_gb": 4.79
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Qwen 3 8B IQ4 XS",
+        "filename": "Qwen_Qwen3-8B-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-IQ4_XS.gguf?download=true",
+        "sha256": "0f69fe02ca9764c93bcc12ac96509bee53488114d6a7fe47764f80990c28751a",
+        "memory_gb": 4.56
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Qwen 3 8B Q2 K",
+        "filename": "Qwen_Qwen3-8B-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q2_K.gguf?download=true",
+        "sha256": "e89189c258704b98b6b0b5bdc1f1b168f523a706b2d9d3e9b5aefbf94ac5de32",
+        "memory_gb": 3.28
+      },
+      {
+        "quant_name": "q2_k_l",
+        "display_name": "Qwen 3 8B Q2 K L",
+        "filename": "Qwen_Qwen3-8B-Q2_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q2_K_L.gguf?download=true",
+        "sha256": "79f2c07dc0d7be0c6db8192beb670cff82d173c38c05f5a9ec4c0104e26736fd",
+        "memory_gb": 3.89
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Qwen 3 8B Q3 K L",
+        "filename": "Qwen_Qwen3-8B-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q3_K_L.gguf?download=true",
+        "sha256": "d34d3a93be237268df8437109a7e461a9c43136106d391fba21d7b3db7794a4d",
+        "memory_gb": 4.43
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Qwen 3 8B Q3 K M",
+        "filename": "Qwen_Qwen3-8B-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q3_K_M.gguf?download=true",
+        "sha256": "c2c61b55d39ec6fc43f84b4cbbed4505fde386d4e03ed005087bfd8c69c502c3",
+        "memory_gb": 4.12
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Qwen 3 8B Q3 K S",
+        "filename": "Qwen_Qwen3-8B-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q3_K_S.gguf?download=true",
+        "sha256": "d03b4542b0b11ac88fceaac135d946c528e3f0469384926f6e94755315174410",
+        "memory_gb": 3.77
+      },
+      {
+        "quant_name": "q3_k_xl",
+        "display_name": "Qwen 3 8B Q3 K XL",
+        "filename": "Qwen_Qwen3-8B-Q3_K_XL.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q3_K_XL.gguf?download=true",
+        "sha256": "3b0454730e97c9567bc9f60d1ca5125a5e99750b05f81978744d76f3416d74bc",
+        "memory_gb": 4.98
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Qwen 3 8B Q4 0",
+        "filename": "Qwen_Qwen3-8B-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q4_0.gguf?download=true",
+        "sha256": "c9bd6e5597ad3a70ef5b9a0acb995f739e545c5f16cbdf52b1c78835172b893c",
+        "memory_gb": 4.79
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Qwen 3 8B Q4 1",
+        "filename": "Qwen_Qwen3-8B-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q4_1.gguf?download=true",
+        "sha256": "ebe71a958467349036e2c27be057473c17bb5fbd08700614ccb3aed8fb77880b",
+        "memory_gb": 5.25
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Qwen 3 8B Q4 K L",
+        "filename": "Qwen_Qwen3-8B-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q4_K_L.gguf?download=true",
+        "sha256": "3e59f21097a8102a681b72ea466b7c2389be92605844e5302ec3a9f20841f4f7",
+        "memory_gb": 5.49
+      },
+      {
+        "quant_name": "q4_k_m",
+        "display_name": "Qwen 3 8B Q4 K M",
+        "filename": "Qwen_Qwen3-8B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q4_K_M.gguf?download=true",
+        "sha256": "54fffa050078e984116639c83dfb64b5aa6d4cd474e018b076777c632bbccccd",
+        "memory_gb": 5.03
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Qwen 3 8B Q4 K S",
+        "filename": "Qwen_Qwen3-8B-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q4_K_S.gguf?download=true",
+        "sha256": "3672483a71bb93e2a18c1c1b8ca39e0b7018ce877ca8aff3df6539184a042fb0",
+        "memory_gb": 4.8
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Qwen 3 8B Q5 K L",
+        "filename": "Qwen_Qwen3-8B-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q5_K_L.gguf?download=true",
+        "sha256": "0dcf4d30b6c92cf66d87cf1abea4e4a8b82aba3fa327e9a05e3c28152a12afee",
+        "memory_gb": 6.24
+      },
+      {
+        "quant_name": "q5_k_m",
+        "display_name": "Qwen 3 8B Q5 K M",
+        "filename": "Qwen_Qwen3-8B-Q5_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q5_K_M.gguf?download=true",
+        "sha256": "fa45032e10b515a10374426bee3a41d5340aa78b67f0bed503469479a9772d9b",
+        "memory_gb": 5.85
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Qwen 3 8B Q5 K S",
+        "filename": "Qwen_Qwen3-8B-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q5_K_S.gguf?download=true",
+        "sha256": "5ce0cb0736182baac640aaced416deb59b0a6a775712de1ec97002788291d00d",
+        "memory_gb": 5.72
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Qwen 3 8B Q6 K",
+        "filename": "Qwen_Qwen3-8B-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q6_K.gguf?download=true",
+        "sha256": "69a45d3c366bab1736b201fdb21eb9d58160999a0f330a79d2c096f50de8985d",
+        "memory_gb": 6.73
+      },
+      {
+        "quant_name": "q6_k_l",
+        "display_name": "Qwen 3 8B Q6 K L",
+        "filename": "Qwen_Qwen3-8B-Q6_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q6_K_L.gguf?download=true",
+        "sha256": "f2fdbe5817a1f7afb0207e2f0a6f336670a62dd5bd5090dc7d890edfda533208",
+        "memory_gb": 7.03
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Qwen 3 8B Q8 0",
+        "filename": "Qwen_Qwen3-8B-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-Q8_0.gguf?download=true",
+        "sha256": "edbd7ae01df991a2d4061e61451ad3d6829d8ca19f7cc846f7177499ac280c33",
+        "memory_gb": 8.71
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Qwen 3 8B bf16",
+        "filename": "Qwen_Qwen3-8B-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/Qwen_Qwen3-8B-GGUF/resolve/main/Qwen_Qwen3-8B-bf16.gguf?download=true",
+        "sha256": "3eaf8da180bdfef9b16b22c4a9460872e8dcaaf315ee7e29413c9f8baa5fe6b8",
+        "memory_gb": 16.39
+      }
+    ]
+  },
+  "gemma3_1b": {
+    "family": "Gemma 3 1B",
+    "rows": [
+      {
+        "quant_name": "iq2_m",
+        "display_name": "Gemma 3 1B IQ2 M",
+        "filename": "google_gemma-3-1b-it-IQ2_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ2_M.gguf?download=true",
+        "sha256": "553ab5fff3b64918f5c805769e7f06b7898ff33ba0dd7eda076df47ad25fca36",
+        "memory_gb": 0.67
+      },
+      {
+        "quant_name": "iq3_m",
+        "display_name": "Gemma 3 1B IQ3 M",
+        "filename": "google_gemma-3-1b-it-IQ3_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ3_M.gguf?download=true",
+        "sha256": "cbc9fa7f08ca2faac3f603e162232824749832f3f33165da8112157f227dce9b",
+        "memory_gb": 0.7
+      },
+      {
+        "quant_name": "iq3_xs",
+        "display_name": "Gemma 3 1B IQ3 XS",
+        "filename": "google_gemma-3-1b-it-IQ3_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ3_XS.gguf?download=true",
+        "sha256": "e2e9a4b8e00e1115477bd60c96da4c030fde4531eaa138405ea6d5096ec91fcd",
+        "memory_gb": 0.69
+      },
+      {
+        "quant_name": "iq3_xxs",
+        "display_name": "Gemma 3 1B IQ3 XXS",
+        "filename": "google_gemma-3-1b-it-IQ3_XXS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ3_XXS.gguf?download=true",
+        "sha256": "8bffd1171ad32883c5ae0ce29143f138541de63fda0fde7c8d4f8a0ff1acdc20",
+        "memory_gb": 0.68
+      },
+      {
+        "quant_name": "iq4_nl",
+        "display_name": "Gemma 3 1B IQ4 NL",
+        "filename": "google_gemma-3-1b-it-IQ4_NL.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ4_NL.gguf?download=true",
+        "sha256": "9c2ec0bfb0819a9173ab025b6929a77a5b2801e5b97f3e637b892ca623761430",
+        "memory_gb": 0.72
+      },
+      {
+        "quant_name": "iq4_xs",
+        "display_name": "Gemma 3 1B IQ4 XS",
+        "filename": "google_gemma-3-1b-it-IQ4_XS.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-IQ4_XS.gguf?download=true",
+        "sha256": "d250245a32db7e3421707cef3356a2a5f9ed7394c7759ec32fcee3d1b9fc427e",
+        "memory_gb": 0.71
+      },
+      {
+        "quant_name": "q2_k",
+        "display_name": "Gemma 3 1B Q2 K",
+        "filename": "google_gemma-3-1b-it-Q2_K.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q2_K.gguf?download=true",
+        "sha256": "573199687e6a940d308e8bf0a1f4855e5987136a39b7cabca4427db74b769f47",
+        "memory_gb": 0.69
+      },
+      {
+        "quant_name": "q3_k_l",
+        "display_name": "Gemma 3 1B Q3 K L",
+        "filename": "google_gemma-3-1b-it-Q3_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q3_K_L.gguf?download=true",
+        "sha256": "811e7e4be0b006237d648fc3738aedda49b6a57a76060aeb544ab4a1f58c8115",
+        "memory_gb": 0.75
+      },
+      {
+        "quant_name": "q3_k_m",
+        "display_name": "Gemma 3 1B Q3 K M",
+        "filename": "google_gemma-3-1b-it-Q3_K_M.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q3_K_M.gguf?download=true",
+        "sha256": "9a65df94387ee1d2e1ad22f83df6f93b523d822294b727dd1b88d76d44dcf4c5",
+        "memory_gb": 0.72
+      },
+      {
+        "quant_name": "q3_k_s",
+        "display_name": "Gemma 3 1B Q3 K S",
+        "filename": "google_gemma-3-1b-it-Q3_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q3_K_S.gguf?download=true",
+        "sha256": "ce35052c3ab9c1a5c64664ab7815cfa4561f5f802f219a9ee1858aa3dba20d20",
+        "memory_gb": 0.69
+      },
+      {
+        "quant_name": "q4_0",
+        "display_name": "Gemma 3 1B Q4 0",
+        "filename": "google_gemma-3-1b-it-Q4_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_0.gguf?download=true",
+        "sha256": "4c62ce8950bc6d5ba5124a70fc13ece971fabd4dc5705477f305a6c3eb6294cd",
+        "memory_gb": 0.72
+      },
+      {
+        "quant_name": "q4_1",
+        "display_name": "Gemma 3 1B Q4 1",
+        "filename": "google_gemma-3-1b-it-Q4_1.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_1.gguf?download=true",
+        "sha256": "5e89d485c68c4af4d2aca8e94e320fad8a9b76fcadd22293f1df775f0f30998f",
+        "memory_gb": 0.76
+      },
+      {
+        "quant_name": "q4_k_l",
+        "display_name": "Gemma 3 1B Q4 K L",
+        "filename": "google_gemma-3-1b-it-Q4_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_K_L.gguf?download=true",
+        "sha256": "12bf0fff8815d5f73a3c9b586bd8fee8e7b248c935de70dec367679873d0f29d",
+        "memory_gb": 0.81
+      },
+      {
+        "quant_name": "q4_k_s",
+        "display_name": "Gemma 3 1B Q4 K S",
+        "filename": "google_gemma-3-1b-it-Q4_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_K_S.gguf?download=true",
+        "sha256": "f625ed640ed403aa7657dbd2d2b783ade13974883c1c26688b4c6c2d345c9b9e",
+        "memory_gb": 0.78
+      },
+      {
+        "quant_name": "q5_k_l",
+        "display_name": "Gemma 3 1B Q5 K L",
+        "filename": "google_gemma-3-1b-it-Q5_K_L.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q5_K_L.gguf?download=true",
+        "sha256": "59a10a3c8dc8a9c0bda2c8882198073b1cfebbb2b443aa2fc4cfca4f92eeb805",
+        "memory_gb": 0.85
+      },
+      {
+        "quant_name": "q5_k_s",
+        "display_name": "Gemma 3 1B Q5 K S",
+        "filename": "google_gemma-3-1b-it-Q5_K_S.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q5_K_S.gguf?download=true",
+        "sha256": "2a30e189be1501d459582125028e51b272119d8dfa11f2c3aaf28c232482289a",
+        "memory_gb": 0.84
+      },
+      {
+        "quant_name": "q6_k",
+        "display_name": "Gemma 3 1B Q6 K",
+        "filename": "google_gemma-3-1b-it-Q6_K.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q6_K.gguf?download=true",
+        "sha256": "ccad0cb14e9008f699f4b820110b899cf81983a987c40a05a8a1128d2fb713fb",
+        "memory_gb": 1.01
+      },
+      {
+        "quant_name": "q8_0",
+        "display_name": "Gemma 3 1B Q8 0",
+        "filename": "google_gemma-3-1b-it-Q8_0.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q8_0.gguf?download=true",
+        "sha256": "375e12a4a18929a641f9744b060d4a7cf4e279530750555828ec0c117870bc96",
+        "memory_gb": 1.07
+      },
+      {
+        "quant_name": "bf16",
+        "display_name": "Gemma 3 1B bf16",
+        "filename": "google_gemma-3-1b-it-bf16.gguf",
+        "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-bf16.gguf?download=true",
+        "sha256": "b144bde489651d3d292d7e47a59c6f811cdd96d184be582e5ad30ab338b9b6bf",
+        "memory_gb": 2.01
+      }
+    ]
+  }
+}

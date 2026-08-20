@@ -3,7 +3,7 @@ FROM ghcr.io/ggerganov/llama.cpp:server-cuda AS llama
 FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
 
 LABEL maintainer="QuantizedBench"
-LABEL description="Benchmarking framework for quantized LLMs (MLC and Llama.cpp)"
+LABEL description="Benchmarking framework for quantized LLMs (llama.cpp)"
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
@@ -23,21 +23,21 @@ COPY --from=llama /app/llama-server /usr/local/bin/llama-server
 RUN curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin" sh
 
 COPY pyproject.toml uv.lock ./
-
+COPY patches/ ./patches/
 
 ENV PATH="/app/.venv/bin:$PATH"
 RUN uv venv && uv sync --frozen
 
-# Install MLC-LLM directly from official wheels matching the CUDA 12.1 base image
-RUN uv pip install --pre --force-reinstall mlc-ai-nightly-cu121 mlc-llm-nightly-cu121 -f https://mlc.ai/wheels
-
 RUN git clone https://github.com/EleutherAI/lm-evaluation-harness.git /app/lm-evaluation-harness && \
     cd /app/lm-evaluation-harness && \
+    git apply /app/patches/lm_eval_gguf_logprobs.patch && \
     uv pip install -e .
+
+RUN uv pip install "tinyBenchmarks @ git+https://github.com/felipemaiapolo/tinyBenchmarks"
 
 COPY . .
 
-RUN chmod +x run_llama_benchmarks.sh run_mlc_benchmarks.sh
+RUN chmod +x run_llama_benchmarks.sh
 
 ENTRYPOINT ["python3", "-m", "bench.runner"]
 CMD ["--help"]

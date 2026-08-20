@@ -56,7 +56,7 @@ def _start_backend(
             model_path=quant.model_path,
             host=endpoint.host,
             port=endpoint.port,
-            n_gpu_layers=quant.n_gpu_layers or 99,
+            n_gpu_layers=quant.n_gpu_layers if quant.n_gpu_layers is not None else 99,
             context_size=quant.context_size or 4096,
             extra_args=quant.extra_args or [],
         )
