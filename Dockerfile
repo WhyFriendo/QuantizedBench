@@ -1,4 +1,4 @@
-FROM ghcr.io/ggerganov/llama.cpp:server-cuda AS llama
+FROM ghcr.io/ggml-org/llama.cpp:server-cuda AS llama
 
 FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
 
