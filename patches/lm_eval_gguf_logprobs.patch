@@ -1,40 +1,45 @@
 diff --git a/lm_eval/models/gguf.py b/lm_eval/models/gguf.py
-index 52aef0de..5ddf9572 100644
+index 52aef0de..02d14c2d 100644
 --- a/lm_eval/models/gguf.py
 +++ b/lm_eval/models/gguf.py
-@@ -13,19 +13,25 @@ logger = logging.getLogger(__name__)
+@@ -12,25 +12,17 @@ from lm_eval.api.registry import register_model
+ logger = logging.getLogger(__name__)
  
  
- def get_result(logprobs, context_length):
-+    # Modern llama-server returns OpenAI chat-completions-style
-+    # logprobs.content[], not the legacy text_offset/token_logprobs
-+    # flat-array format this function historically assumed.
-     is_greedy = True
+-def get_result(logprobs, context_length):
+-    is_greedy = True
 -    offsets = logprobs["text_offset"]
 -    tokens = logprobs["tokens"]
 -    tokens_logprobs = logprobs["token_logprobs"]
-+    content = logprobs["content"]
-+    tokens = [item["token"] for item in content]
-+    tokens_logprobs = [item["logprob"] for item in content]
- 
-     idx = 0
+-
+-    idx = 0
 -    while offsets[idx] < context_length:
-+    cumulative_length = 0
-+    while idx < len(tokens) and cumulative_length < context_length:
-+        cumulative_length += len(tokens[idx])
-         idx += 1
-+
-     continuation_logprobs = sum(tokens_logprobs[idx:-1])
-     for i in range(idx, len(tokens)):
-         token = tokens[i]
+-        idx += 1
+-    continuation_logprobs = sum(tokens_logprobs[idx:-1])
+-    for i in range(idx, len(tokens)):
+-        token = tokens[i]
 -        top_tokens = logprobs["top_logprobs"][i]
 -        top_token = max(top_tokens.keys(), key=lambda x: top_tokens[x])
-+        top_tokens = content[i]["top_logprobs"]
-+        top_token = max(top_tokens, key=lambda t: t["logprob"])["token"]
-         if top_token != token:
-             is_greedy = False
-             break
-@@ -44,7 +50,7 @@ class GGUFLM(LM):
+-        if top_token != token:
+-            is_greedy = False
+-            break
+-
+-    return continuation_logprobs, is_greedy
++# llama-server has no way to return logprobs for prompt/continuation text
++# supplied by the caller -- probs_output is only ever populated from
++# generated tokens (see tools/server/server-context.cpp upstream), and
++# returning prompt-token logprobs via `echo` is an open, unmerged feature
++# request (ggml-org/llama.cpp#15189). So scoring a given continuation has
++# to be done manually: force-generate it one token at a time (feeding the
++# *actual* continuation tokens back in as context, not whatever the model
++# itself would have generated) and read that token's own probability out
++# of top_logprobs at each step.
++NUM_CANDIDATES = 20
++FALLBACK_LOGPROB = -100.0  # continuation token didn't even appear in top-N
+ 
+ 
+ @register_model("gguf", "ggml")
+@@ -44,7 +36,7 @@ class GGUFLM(LM):
          self.max_length = max_length
  
      def gguf_completion(
@@ -43,7 +48,7 @@ index 52aef0de..5ddf9572 100644
      ):
          for _ in range(retries):
              try:
-@@ -57,6 +63,12 @@ class GGUFLM(LM):
+@@ -57,6 +49,12 @@ class GGUFLM(LM):
                  if continuation:
                      prompt += continuation
                      request.update({"prompt": prompt, "max_tokens": 1, "echo": True})
@@ -56,26 +61,93 @@ index 52aef0de..5ddf9572 100644
                  if stop is not None:
                      request["stop"] = stop
                  response = requests.post(
-@@ -83,16 +95,12 @@ class GGUFLM(LM):
-             if response and "choices" in response and response["choices"]:
-                 choice = response["choices"][0]
-                 logprobs = choice.get("logprobs")
+@@ -72,6 +70,57 @@ class GGUFLM(LM):
+                 f"Failed to get a valid response after {retries} retries."
+             )
+ 
++    def _tokenize(self, text, retries=3, delay=5):
++        for _ in range(retries):
++            try:
++                response = requests.post(
++                    f"{self.base_url}/tokenize", json={"content": text}
++                )
++                response.raise_for_status()
++                return response.json()["tokens"]
++            except RequestException as e:
++                logger.error(f"RequestException: {e}")
++                time.sleep(delay)
++        raise RuntimeError(f"Failed to tokenize after {retries} retries.")
++
++    def _next_token_candidates(self, prompt_tokens, retries=3, delay=5):
++        for _ in range(retries):
++            try:
++                response = requests.post(
++                    f"{self.base_url}/completion",
++                    json={
++                        "prompt": prompt_tokens,
++                        "n_predict": 1,
++                        "n_probs": NUM_CANDIDATES,
++                        "temperature": self.temperature,
++                    },
++                )
++                response.raise_for_status()
++                return response.json()["completion_probabilities"][0]["top_logprobs"]
++            except RequestException as e:
++                logger.error(f"RequestException: {e}")
++                time.sleep(delay)
++        raise RuntimeError(f"Failed to score next token after {retries} retries.")
++
++    def _score_continuation(self, context, continuation):
++        context_tokens = self._tokenize(context)
++        continuation_tokens = self._tokenize(continuation)
++        if not continuation_tokens:
++            return 0.0, True
++
++        prompt_tokens = list(context_tokens)
++        continuation_logprob = 0.0
++        is_greedy = True
++        for tok_id in continuation_tokens:
++            candidates = self._next_token_candidates(prompt_tokens)
++            match = next((c for c in candidates if c["id"] == tok_id), None)
++            continuation_logprob += match["logprob"] if match else FALLBACK_LOGPROB
++            if candidates[0]["id"] != tok_id:
++                is_greedy = False
++            prompt_tokens.append(tok_id)
++
++        return continuation_logprob, is_greedy
++
+     def loglikelihood(self, requests, disable_tqdm: bool = False):
+         if not requests:
+             return []
+@@ -79,26 +128,7 @@ class GGUFLM(LM):
+         for context, continuation in tqdm(
+             [req.args for req in requests], disable=disable_tqdm
+         ):
+-            response = self.gguf_completion(context=context, continuation=continuation)
+-            if response and "choices" in response and response["choices"]:
+-                choice = response["choices"][0]
+-                logprobs = choice.get("logprobs")
 -                if (
 -                    logprobs
 -                    and "token_logprobs" in logprobs
 -                    and logprobs["token_logprobs"]
 -                ):
-+                if logprobs and "content" in logprobs and logprobs["content"]:
-                     logprob, is_greedy = get_result(logprobs, len(context))
-                     res.append((logprob, is_greedy))
-                 else:
-                     logger.warning(
+-                    logprob, is_greedy = get_result(logprobs, len(context))
+-                    res.append((logprob, is_greedy))
+-                else:
+-                    logger.warning(
 -                        "Invalid logprobs data. Expected 'logprobs' to contain 'token_logprobs' list."
-+                        "Invalid logprobs data. Expected 'logprobs' to contain 'content' list."
-                     )
-             else:
-                 logger.error(
-@@ -110,7 +118,8 @@ class GGUFLM(LM):
+-                    )
+-            else:
+-                logger.error(
+-                    f"Invalid response for loglikelihood. Response: {response}"
+-                )
+-                assert False
++            res.append(self._score_continuation(context, continuation))
+         return res
+ 
+     def generate_until(self, requests, disable_tqdm: bool = False):
+@@ -110,7 +140,8 @@ class GGUFLM(LM):
              inp = request[0]
              request_args = request[1]
              until = request_args.get("until", ["</s>"])
