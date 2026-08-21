@@ -1,5 +1,5 @@
 diff --git a/lm_eval/models/gguf.py b/lm_eval/models/gguf.py
-index 52aef0de..02d14c2d 100644
+index 52aef0de..da579960 100644
 --- a/lm_eval/models/gguf.py
 +++ b/lm_eval/models/gguf.py
 @@ -12,25 +12,17 @@ from lm_eval.api.registry import register_model
@@ -61,7 +61,7 @@ index 52aef0de..02d14c2d 100644
                  if stop is not None:
                      request["stop"] = stop
                  response = requests.post(
-@@ -72,6 +70,57 @@ class GGUFLM(LM):
+@@ -72,6 +70,65 @@ class GGUFLM(LM):
                  f"Failed to get a valid response after {retries} retries."
              )
  
@@ -91,7 +91,15 @@ index 52aef0de..02d14c2d 100644
 +                    },
 +                )
 +                response.raise_for_status()
-+                return response.json()["completion_probabilities"][0]["top_logprobs"]
++                data = response.json()
++                # llama-server omits this key entirely when it generates zero
++                # tokens for the request (probs_output empty server-side) --
++                # treat that the same as "continuation token wasn't among the
++                # candidates" rather than crashing.
++                completions = data.get("completion_probabilities")
++                if not completions:
++                    return []
++                return completions[0]["top_logprobs"]
 +            except RequestException as e:
 +                logger.error(f"RequestException: {e}")
 +                time.sleep(delay)
@@ -110,7 +118,7 @@ index 52aef0de..02d14c2d 100644
 +            candidates = self._next_token_candidates(prompt_tokens)
 +            match = next((c for c in candidates if c["id"] == tok_id), None)
 +            continuation_logprob += match["logprob"] if match else FALLBACK_LOGPROB
-+            if candidates[0]["id"] != tok_id:
++            if not candidates or candidates[0]["id"] != tok_id:
 +                is_greedy = False
 +            prompt_tokens.append(tok_id)
 +
@@ -119,7 +127,7 @@ index 52aef0de..02d14c2d 100644
      def loglikelihood(self, requests, disable_tqdm: bool = False):
          if not requests:
              return []
-@@ -79,26 +128,7 @@ class GGUFLM(LM):
+@@ -79,26 +136,7 @@ class GGUFLM(LM):
          for context, continuation in tqdm(
              [req.args for req in requests], disable=disable_tqdm
          ):
@@ -147,7 +155,7 @@ index 52aef0de..02d14c2d 100644
          return res
  
      def generate_until(self, requests, disable_tqdm: bool = False):
-@@ -110,7 +140,8 @@ class GGUFLM(LM):
+@@ -110,7 +148,8 @@ class GGUFLM(LM):
              inp = request[0]
              request_args = request[1]
              until = request_args.get("until", ["</s>"])
