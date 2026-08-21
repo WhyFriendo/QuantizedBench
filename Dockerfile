@@ -18,7 +18,9 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-COPY --from=llama /app/llama-server /usr/local/bin/llama-server
+COPY --from=llama /app /opt/llama-cpp
+ENV LD_LIBRARY_PATH="/opt/llama-cpp:${LD_LIBRARY_PATH}"
+ENV PATH="/opt/llama-cpp:${PATH}"
 
 RUN curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin" sh
 
