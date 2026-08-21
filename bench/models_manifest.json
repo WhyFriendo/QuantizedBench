@@ -223,7 +223,7 @@
         "display_name": "Llama 3.1 8B BF16",
         "filename": "Llama-3.1-8B-Instruct-BF16xyz.gguf",
         "url": "https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF/resolve/main/Llama-3.1-8B-Instruct-BF16.gguf?download=true",
-        "sha256": "14fdfbe35aeaaf5e45d2a2501ac19c35c7e815485d202369dcfd6a64bd631349",
+        "sha256": "00bea1d086a0bffd8a37e0730124036739d27ac05c455933beb5714771e34a63",
         "memory_gb": 16.1
       },
       {
