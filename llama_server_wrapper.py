@@ -53,9 +53,8 @@ class LlamaServerWrapper:
 		cmd = self.build_command()
 		self._process = subprocess.Popen(
 			cmd,
-			stdout=subprocess.PIPE,
-			stderr=subprocess.STDOUT,
-			text=True,
+			stdout=subprocess.DEVNULL,
+			stderr=subprocess.DEVNULL,
 		)
 
 		if wait:
