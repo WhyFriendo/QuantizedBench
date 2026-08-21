@@ -1,6 +1,6 @@
 FROM ghcr.io/ggml-org/llama.cpp:server-cuda AS llama
 
-FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.8.1-devel-ubuntu24.04
 
 LABEL maintainer="QuantizedBench"
 LABEL description="Benchmarking framework for quantized LLMs (llama.cpp)"
