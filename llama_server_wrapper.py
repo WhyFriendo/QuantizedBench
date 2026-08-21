@@ -48,7 +48,7 @@ class LlamaServerWrapper:
 		cmd.extend(cfg.extra_args)
 		return cmd
 
-	def start(self, *, wait: bool = True, timeout_s: float = 30.0) -> None:
+	def start(self, *, wait: bool = True, timeout_s: float = 120.0) -> None:
 		if self._process and self._process.poll() is None:
 			raise RuntimeError("llama-server is already running")
 

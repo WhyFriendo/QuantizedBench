@@ -31,6 +31,11 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["mlc", "llama_cpp"],
         help="Filter by backend",
     )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Skip runs whose results/<model_id>/<quant_name>/meta.json already exists",
+    )
     return parser
 
 
@@ -45,6 +50,13 @@ def main() -> int:
         quant_names=args.quantization,
         backend=args.backend,
     )
+
+    if args.resume:
+        runs = [
+            item
+            for item in runs
+            if not (Path("results") / item["model"].id / item["quant"].name / "meta.json").exists()
+        ]
 
     for item in runs:
         model = item["model"]
