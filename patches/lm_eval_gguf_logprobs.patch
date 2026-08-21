@@ -1,5 +1,5 @@
 diff --git a/lm_eval/models/gguf.py b/lm_eval/models/gguf.py
-index 52aef0de..e9a85642 100644
+index 52aef0de..5ddf9572 100644
 --- a/lm_eval/models/gguf.py
 +++ b/lm_eval/models/gguf.py
 @@ -13,19 +13,25 @@ logger = logging.getLogger(__name__)
@@ -34,7 +34,29 @@ index 52aef0de..e9a85642 100644
          if top_token != token:
              is_greedy = False
              break
-@@ -83,16 +89,12 @@ class GGUFLM(LM):
+@@ -44,7 +50,7 @@ class GGUFLM(LM):
+         self.max_length = max_length
+ 
+     def gguf_completion(
+-        self, context, continuation=None, stop=None, retries=3, delay=5, **kwargs
++        self, context, continuation=None, stop=None, max_tokens=None, retries=3, delay=5, **kwargs
+     ):
+         for _ in range(retries):
+             try:
+@@ -57,6 +63,12 @@ class GGUFLM(LM):
+                 if continuation:
+                     prompt += continuation
+                     request.update({"prompt": prompt, "max_tokens": 1, "echo": True})
++                elif max_tokens is not None:
++                    # generate_until has no continuation to bound length by, so
++                    # without an explicit cap a model that never emits one of
++                    # the stop sequences will generate unboundedly (observed:
++                    # 2000+ tokens on a single example, stalling the whole run).
++                    request["max_tokens"] = max_tokens
+                 if stop is not None:
+                     request["stop"] = stop
+                 response = requests.post(
+@@ -83,16 +95,12 @@ class GGUFLM(LM):
              if response and "choices" in response and response["choices"]:
                  choice = response["choices"][0]
                  logprobs = choice.get("logprobs")
@@ -53,3 +75,13 @@ index 52aef0de..e9a85642 100644
                      )
              else:
                  logger.error(
+@@ -110,7 +118,8 @@ class GGUFLM(LM):
+             inp = request[0]
+             request_args = request[1]
+             until = request_args.get("until", ["</s>"])
+-            response = self.gguf_completion(context=inp, stop=until)
++            max_gen_toks = request_args.get("max_gen_toks", 512)
++            response = self.gguf_completion(context=inp, stop=until, max_tokens=max_gen_toks)
+             if response and "choices" in response and response["choices"]:
+                 choice = response["choices"][0]
+                 if "text" in choice:
