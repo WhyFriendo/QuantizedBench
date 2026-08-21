@@ -39,6 +39,7 @@ def load_entries(manifest_path: Path, families: set[str] | None) -> list[dict]:
         if families and model_id not in families:
             continue
         for row in info["rows"]:
+            row = {**row, "sha256": row["sha256"].strip().lower()}
             entries.append({"model_id": model_id, **row})
     return entries
 

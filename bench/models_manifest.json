@@ -372,7 +372,7 @@
         "display_name": "Llama 3.2 3B IQ3_S",
         "filename": "llama32-3b-iq3_s.gguf",
         "url": "https://huggingface.co/starust/Llama-3.2-3B-GGUF/resolve/main/Llama-3.2-3B-Instruct-IQ3_S.gguf?download=true",
-        "sha256": "    ac38ac873f73ee82cdd3c5e6ee6a95818f8ffb392d4cde4bea70d5a73c0629fa",
+        "sha256": "ac38ac873f73ee82cdd3c5e6ee6a95818f8ffb392d4cde4bea70d5a73c0629fa",
         "memory_gb": 1.54
       },
       {
