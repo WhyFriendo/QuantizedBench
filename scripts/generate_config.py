@@ -18,10 +18,30 @@ CONFIG_PATH = REPO_ROOT / "bench" / "config.yaml"
 CONTEXT_SIZE = 4096
 N_GPU_LAYERS = 99
 
+# Approximate parameter count (billions), used to run smallest models first
+# and leave the slowest/biggest for last.
+MODEL_SIZE_BILLIONS = {
+    "gemma3_270m": 0.27,
+    "qwen3_0_6b": 0.6,
+    "gemma3_1b": 1.0,
+    "llama32_1b": 1.0,
+    "qwen3_1_7b": 1.7,
+    "llama32_3b": 3.0,
+    "phi4_mini": 3.8,
+    "gemma3_4b": 4.0,
+    "qwen3_4b": 4.0,
+    "llama31_8b": 8.0,
+    "qwen3_8b": 8.0,
+}
+
 
 def build_config(manifest: dict) -> dict:
     models = []
-    for model_id, info in manifest.items():
+    ordered_ids = sorted(
+        manifest.keys(), key=lambda mid: (MODEL_SIZE_BILLIONS.get(mid, 999), mid)
+    )
+    for model_id in ordered_ids:
+        info = manifest[model_id]
         quantizations = []
         for row in info["rows"]:
             quantizations.append(
