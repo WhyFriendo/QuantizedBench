@@ -5,6 +5,8 @@ import signal
 import socket
 import subprocess
 import time
+import urllib.error
+import urllib.request
 from dataclasses import dataclass, field
 from typing import Iterable, List, Optional
 
@@ -59,6 +61,11 @@ class LlamaServerWrapper:
 
 		if wait:
 			self._wait_for_port(timeout_s=timeout_s)
+			# An open port only means llama-server is accepting TCP
+			# connections, not that it's actually ready to serve inference
+			# (observed: 503s on the first burst of real requests even
+			# after the port opened). Poll /health until it reports ready.
+			self._wait_for_health(timeout_s=timeout_s)
 
 	def stop(self, *, timeout_s: float = 10.0) -> None:
 		if not self._process:
@@ -89,6 +96,21 @@ class LlamaServerWrapper:
 		with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
 			sock.settimeout(0.5)
 			return sock.connect_ex((host, port)) == 0
+
+	def _wait_for_health(self, *, timeout_s: float) -> None:
+		url = f"http://{self.config.host}:{self.config.port}/health"
+		deadline = time.time() + timeout_s
+		while time.time() < deadline:
+			try:
+				with urllib.request.urlopen(url, timeout=2) as resp:
+					if resp.status == 200:
+						return
+			except (urllib.error.URLError, OSError):
+				pass
+			if self._process and self._process.poll() is not None:
+				raise RuntimeError("llama-server exited before becoming healthy")
+			time.sleep(0.5)
+		raise TimeoutError("timed out waiting for llama-server to become healthy")
 
 	def __enter__(self) -> "LlamaServerWrapper":
 		self.start()
