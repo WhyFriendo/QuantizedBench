@@ -1052,30 +1052,6 @@
         "memory_gb": 0.77
       },
       {
-        "quant_name": "q4_0_4_4",
-        "display_name": "Llama 3.2 1B Q4 0 4 4",
-        "filename": "Llama-3.2-1B-Instruct-Q4_0_4_4.gguf",
-        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_4_4.gguf?download=true",
-        "sha256": "9e08846ce40981cd5e395dc4da41d7f6c4c0629d281808ef264e290cb6d1566c",
-        "memory_gb": 0.77
-      },
-      {
-        "quant_name": "q4_0_4_8",
-        "display_name": "Llama 3.2 1B Q4 0 4 8",
-        "filename": "Llama-3.2-1B-Instruct-Q4_0_4_8.gguf",
-        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_4_8.gguf?download=true",
-        "sha256": "6f1bc31848e8f9aa413910cc10383b71cd53818bf34199b2e1376e8a033a7458",
-        "memory_gb": 0.77
-      },
-      {
-        "quant_name": "q4_0_8_8",
-        "display_name": "Llama 3.2 1B Q4 0 8 8",
-        "filename": "Llama-3.2-1B-Instruct-Q4_0_8_8.gguf",
-        "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0_8_8.gguf?download=true",
-        "sha256": "4ed07158008028f7ad29411a22501aabdfc5c18c969a7cb809487a244e25792b",
-        "memory_gb": 0.77
-      },
-      {
         "quant_name": "q4_k_l",
         "display_name": "Llama 3.2 1B Q4 K L",
         "filename": "Llama-3.2-1B-Instruct-Q4_K_L.gguf",
