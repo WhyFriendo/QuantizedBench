@@ -1,20 +1,30 @@
-# Python-generated files
+# Python and local environments
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
 
-# Virtual environments
-.venv
-
-# User Config
-bench/config.yaml
-
-# Data
-results/
-gguf_models/
-
-# External Repositories
+# External source checkout created during local setup
 lm-evaluation-harness/
+
+# Large model files and generated outputs
+gguf_models/
+results/
+results_ec2_repeats/
+reports/
+*.gguf
+*.part
+
+# Local connection metadata and logs
+.ec2-instance.env
+*.pem
+*.log
+build.log
+download.log
+
+# Patch rejects and editor files
+patches/*.rej
+.idea/
+.vscode/
+*~

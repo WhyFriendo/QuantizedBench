@@ -1,0 +1,4026 @@
+{
+  "model_adapter": "lm-evaluation-harness/lm_eval/models/gguf.py",
+  "dataset": "tinyArc test",
+  "questions": 100,
+  "choices": 401,
+  "tokens_scored": 2344,
+  "top20_misses": 538,
+  "token_boundary_mismatches": 0,
+  "changed_answers": 35,
+  "patched_correct": 29,
+  "exact_correct": 33,
+  "mean_logprob_error": -122.21163037811763,
+  "max_absolute_logprob_error": 559.0137004852295,
+  "details": [
+    {
+      "question_id": 0,
+      "target": "air",
+      "patched_answer": "aluminum",
+      "exact_answer": "aluminum",
+      "choices": [
+        {
+          "choice": "air",
+          "patched_logprob": -100.0,
+          "exact_logprob": -10.461356163024902,
+          "exact_separate_logprob": -10.461356163024902,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "iron",
+          "patched_logprob": -100.0,
+          "exact_logprob": -12.651334762573242,
+          "exact_separate_logprob": -12.651334762573242,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "glass",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.612358093261719,
+          "exact_separate_logprob": -8.612358093261719,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "aluminum",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.27855110168457,
+          "exact_separate_logprob": -9.27855110168457,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 1,
+      "target": "Al_{2}O_{3}",
+      "patched_answer": "Al_{2}O_{3}",
+      "exact_answer": "Al_{2}O_{3}",
+      "choices": [
+        {
+          "choice": "Al_{2}O",
+          "patched_logprob": -104.58305620541796,
+          "exact_logprob": -12.485964668914676,
+          "exact_separate_logprob": -12.485964668914676,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Al_{2}O_{3}",
+          "patched_logprob": -105.21896844741423,
+          "exact_logprob": -13.187972601619549,
+          "exact_separate_logprob": -13.187972601619549,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "2AlO_{3}",
+          "patched_logprob": -111.79271841049194,
+          "exact_logprob": -23.085590839385986,
+          "exact_separate_logprob": -23.085590839385986,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Al_{3}O_{2}",
+          "patched_logprob": -107.3768290989101,
+          "exact_logprob": -15.345833253115416,
+          "exact_separate_logprob": -15.345833253115416,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "target": "coal",
+      "patched_answer": "trees",
+      "exact_answer": "coal",
+      "choices": [
+        {
+          "choice": "coal",
+          "patched_logprob": -100.0,
+          "exact_logprob": -5.300351619720459,
+          "exact_separate_logprob": -5.300351619720459,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "trees",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.244597434997559,
+          "exact_separate_logprob": -9.244597434997559,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water",
+          "patched_logprob": -100.0,
+          "exact_logprob": -7.613317012786865,
+          "exact_separate_logprob": -7.613317012786865,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind",
+          "patched_logprob": -100.0,
+          "exact_logprob": -7.337855815887451,
+          "exact_separate_logprob": -7.337855815887451,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "target": "the buildup of dunes along the coast over time",
+      "patched_answer": "the buildup of organic material from oil rigs along the coast",
+      "exact_answer": "the new construction of buildings along the coastline",
+      "choices": [
+        {
+          "choice": "the erosion of land along the coastline",
+          "patched_logprob": -211.2928786277771,
+          "exact_logprob": -26.96436643600464,
+          "exact_separate_logprob": -26.96436643600464,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the buildup of dunes along the coast over time",
+          "patched_logprob": -403.9415874257684,
+          "exact_logprob": -38.47703740745783,
+          "exact_separate_logprob": -38.47703740745783,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the new construction of buildings along the coastline",
+          "patched_logprob": -308.32458490133286,
+          "exact_logprob": -31.664518773555756,
+          "exact_separate_logprob": -31.664518773555756,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the buildup of organic material from oil rigs along the coast",
+          "patched_logprob": -320.3327148705721,
+          "exact_logprob": -47.45652897655964,
+          "exact_separate_logprob": -47.45652897655964,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "target": "nucleus",
+      "patched_answer": "electron",
+      "exact_answer": "electron",
+      "choices": [
+        {
+          "choice": "electron",
+          "patched_logprob": -100.0,
+          "exact_logprob": -7.605177879333496,
+          "exact_separate_logprob": -7.605177879333496,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "neutron",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.776665687561035,
+          "exact_separate_logprob": -9.776665687561035,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "nucleus",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.546398162841797,
+          "exact_separate_logprob": -9.546398162841797,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "proton",
+          "patched_logprob": -100.0,
+          "exact_logprob": -11.946114540100098,
+          "exact_separate_logprob": -11.946114540100098,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "target": "by decreasing the birds' overall health",
+      "patched_answer": "by decreasing the birds' overall health",
+      "exact_answer": "by decreasing the birds' overall health",
+      "choices": [
+        {
+          "choice": "by mutating the birds' genetic traits",
+          "patched_logprob": -211.03330034017563,
+          "exact_logprob": -29.948723673820496,
+          "exact_separate_logprob": -29.948723673820496,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "by altering the birds' social behaviors",
+          "patched_logprob": -304.51913300715387,
+          "exact_logprob": -27.342195903882384,
+          "exact_separate_logprob": -27.342195903882384,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "by decreasing the birds' overall health",
+          "patched_logprob": -110.14588234573603,
+          "exact_logprob": -21.204601980745792,
+          "exact_separate_logprob": -21.204601980745792,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "by increasing the birds' available energy",
+          "patched_logprob": -210.7697882913053,
+          "exact_logprob": -35.09948208555579,
+          "exact_separate_logprob": -35.09948208555579,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "target": "an electron.",
+      "patched_answer": "a neutron.",
+      "exact_answer": "an electron.",
+      "choices": [
+        {
+          "choice": "a proton.",
+          "patched_logprob": -7.83848911523819,
+          "exact_logprob": -7.83848911523819,
+          "exact_separate_logprob": -7.83848911523819,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a neutron.",
+          "patched_logprob": -6.990410268306732,
+          "exact_logprob": -6.990410268306732,
+          "exact_separate_logprob": -6.990410268306732,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a nucleus.",
+          "patched_logprob": -105.63479614257812,
+          "exact_logprob": -11.459833145141602,
+          "exact_separate_logprob": -11.459833145141602,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "an electron.",
+          "patched_logprob": -100.9482571799308,
+          "exact_logprob": -5.803848477080464,
+          "exact_separate_logprob": -5.803848477080464,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "target": "15 minutes",
+      "patched_answer": "25 minutes",
+      "exact_answer": "25 minutes",
+      "choices": [
+        {
+          "choice": "15 minutes",
+          "patched_logprob": -10.829378485679626,
+          "exact_logprob": -10.44795310497284,
+          "exact_separate_logprob": -10.44795310497284,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "25 minutes",
+          "patched_logprob": -7.902872025966644,
+          "exact_logprob": -7.902872025966644,
+          "exact_separate_logprob": -7.902872025966644,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "2 hours",
+          "patched_logprob": -5.534319579601288,
+          "exact_logprob": -5.534319579601288,
+          "exact_separate_logprob": -5.534319579601288,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "4 hours",
+          "patched_logprob": -7.120028138160706,
+          "exact_logprob": -7.120028138160706,
+          "exact_separate_logprob": -7.120028138160706,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "target": "the Moon makes one rotation per revolution around Earth.",
+      "patched_answer": "the Moon does not rotate on its axis.",
+      "exact_answer": "the Moon does not rotate on its axis.",
+      "choices": [
+        {
+          "choice": "the Moon does not rotate on its axis.",
+          "patched_logprob": -10.585566740483046,
+          "exact_logprob": -10.585566740483046,
+          "exact_separate_logprob": -10.585566740483046,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the far side of the Moon faces Earth during the day.",
+          "patched_logprob": -213.10343269491568,
+          "exact_logprob": -27.817703286651522,
+          "exact_separate_logprob": -27.817703286651522,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the Moon makes one rotation per revolution around Earth.",
+          "patched_logprob": -122.19449096918106,
+          "exact_logprob": -28.30578714609146,
+          "exact_separate_logprob": -28.30578714609146,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the rate of rotation is the same for Earth and the Moon.",
+          "patched_logprob": -115.49111703410745,
+          "exact_logprob": -27.34045461192727,
+          "exact_separate_logprob": -27.34045461192727,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 9,
+      "target": "wind",
+      "patched_answer": "earthquake",
+      "exact_answer": "earthquake",
+      "choices": [
+        {
+          "choice": "earthquake",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.841607093811035,
+          "exact_separate_logprob": -8.841607093811035,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "landslide",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.028924942016602,
+          "exact_separate_logprob": -9.028924942016602,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "volcano",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.318700313568115,
+          "exact_separate_logprob": -6.318700313568115,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.081314086914062,
+          "exact_separate_logprob": -8.081314086914062,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 10,
+      "target": "coal",
+      "patched_answer": "wind",
+      "exact_answer": "sunlight",
+      "choices": [
+        {
+          "choice": "coal",
+          "patched_logprob": -100.0,
+          "exact_logprob": -5.482974529266357,
+          "exact_separate_logprob": -5.482974529266357,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "sunlight",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.354146480560303,
+          "exact_separate_logprob": -6.354146480560303,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water",
+          "patched_logprob": -100.0,
+          "exact_logprob": -4.992930889129639,
+          "exact_separate_logprob": -4.992930889129639,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind",
+          "patched_logprob": -3.5725274085998535,
+          "exact_logprob": -3.5725274085998535,
+          "exact_separate_logprob": -3.5725274085998535,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 11,
+      "target": "The mass of the feathers is less than the mass of the nails.",
+      "patched_answer": "The mass of the feathers is greater than the mass of the nails.",
+      "exact_answer": "The mass of the feathers is greater than the mass of the nails.",
+      "choices": [
+        {
+          "choice": "The masses cannot be compared without a balance.",
+          "patched_logprob": -121.31122484849766,
+          "exact_logprob": -27.63180246995762,
+          "exact_separate_logprob": -27.63180246995762,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The mass of the feathers is less than the mass of the nails.",
+          "patched_logprob": -15.031457078061067,
+          "exact_logprob": -15.031457078061067,
+          "exact_separate_logprob": -15.031457078061067,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The mass of the feathers is the same as the mass of the nails.",
+          "patched_logprob": -18.717943652532995,
+          "exact_logprob": -18.717943652532995,
+          "exact_separate_logprob": -18.717943652532995,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The mass of the feathers is greater than the mass of the nails.",
+          "patched_logprob": -14.801068451954052,
+          "exact_logprob": -14.801068451954052,
+          "exact_separate_logprob": -14.801068451954052,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 12,
+      "target": "become a solid",
+      "patched_answer": "evaporate",
+      "exact_answer": "evaporate",
+      "choices": [
+        {
+          "choice": "condense",
+          "patched_logprob": -2.2978838235139847,
+          "exact_logprob": -2.483098639175296,
+          "exact_separate_logprob": -2.483098639175296,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "evaporate",
+          "patched_logprob": -2.4786067788954824,
+          "exact_logprob": -2.4786067788954824,
+          "exact_separate_logprob": -2.4786067788954824,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "remain a liquid",
+          "patched_logprob": -106.18245035409927,
+          "exact_logprob": -16.312983572483063,
+          "exact_separate_logprob": -16.312983572483063,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "become a solid",
+          "patched_logprob": -106.88682746887207,
+          "exact_logprob": -13.767104148864746,
+          "exact_separate_logprob": -13.767104148864746,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 13,
+      "target": "data table",
+      "patched_answer": "line graph",
+      "exact_answer": "line graph",
+      "choices": [
+        {
+          "choice": "line graph",
+          "patched_logprob": -101.52839815616608,
+          "exact_logprob": -15.22122061252594,
+          "exact_separate_logprob": -15.22122061252594,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "pie chart",
+          "patched_logprob": -101.44055151939392,
+          "exact_logprob": -14.534722089767456,
+          "exact_separate_logprob": -14.534722089767456,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "bar graph",
+          "patched_logprob": -102.7595534324646,
+          "exact_logprob": -13.713731288909912,
+          "exact_separate_logprob": -13.713731288909912,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "data table",
+          "patched_logprob": -200.0,
+          "exact_logprob": -18.85213851928711,
+          "exact_separate_logprob": -18.85213851928711,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 14,
+      "target": "behavioral adaptation",
+      "patched_answer": "behavioral adaptation",
+      "exact_answer": "behavioral adaptation",
+      "choices": [
+        {
+          "choice": "natural selection",
+          "patched_logprob": -103.2367787361145,
+          "exact_logprob": -9.778430938720703,
+          "exact_separate_logprob": -9.778430938720703,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "defense mechanism",
+          "patched_logprob": -100.96897292137146,
+          "exact_logprob": -12.562350034713745,
+          "exact_separate_logprob": -12.562350034713745,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "structural adaptation",
+          "patched_logprob": -103.30448150634766,
+          "exact_logprob": -16.091647148132324,
+          "exact_separate_logprob": -16.091647148132324,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "behavioral adaptation",
+          "patched_logprob": -101.084876537323,
+          "exact_logprob": -8.853403091430664,
+          "exact_separate_logprob": -8.853403091430664,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 15,
+      "target": "changing data to fit expected results",
+      "patched_answer": "designing and carrying out investigations",
+      "exact_answer": "designing and carrying out investigations",
+      "choices": [
+        {
+          "choice": "changing data to fit expected results",
+          "patched_logprob": -210.51641207933426,
+          "exact_logprob": -31.043053925037384,
+          "exact_separate_logprob": -31.043053925037384,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "designing and carrying out investigations",
+          "patched_logprob": -110.7422539612744,
+          "exact_logprob": -24.142913522431627,
+          "exact_separate_logprob": -24.142913522431627,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "formulating detailed hypotheses",
+          "patched_logprob": -200.44642141461372,
+          "exact_logprob": -21.25557592511177,
+          "exact_separate_logprob": -21.25557592511177,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "communicating results to others",
+          "patched_logprob": -105.58055353164673,
+          "exact_logprob": -19.890964031219482,
+          "exact_separate_logprob": -19.890964031219482,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 16,
+      "target": "It became a solid.",
+      "patched_answer": "It became a solid.",
+      "exact_answer": "It became a solid.",
+      "choices": [
+        {
+          "choice": "It condensed.",
+          "patched_logprob": -106.02032095193863,
+          "exact_logprob": -18.010850191116333,
+          "exact_separate_logprob": -18.010850191116333,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It evaporated.",
+          "patched_logprob": -105.48716839775443,
+          "exact_logprob": -15.388672914355993,
+          "exact_separate_logprob": -15.388672914355993,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It became a gas.",
+          "patched_logprob": -115.1422570347786,
+          "exact_logprob": -20.587174713611603,
+          "exact_separate_logprob": -20.587174713611603,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It became a solid.",
+          "patched_logprob": -17.520492553710938,
+          "exact_logprob": -17.520492553710938,
+          "exact_separate_logprob": -17.520492553710938,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 17,
+      "target": "the name of the insect and the location found",
+      "patched_answer": "the size of the insect and the number of legs",
+      "exact_answer": "the size of the insect and the number of legs",
+      "choices": [
+        {
+          "choice": "the size of the insect and the number of legs",
+          "patched_logprob": -113.42761133611202,
+          "exact_logprob": -19.742363296449184,
+          "exact_separate_logprob": -19.742363296449184,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the name of the insect and the location found",
+          "patched_logprob": -208.48611963167787,
+          "exact_logprob": -22.009440783411264,
+          "exact_separate_logprob": -22.009440783411264,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the weight of the insect and the time it was collected",
+          "patched_logprob": -212.17994779348373,
+          "exact_logprob": -27.55681699514389,
+          "exact_separate_logprob": -27.55681699514389,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the color of the insect and the number of body segments",
+          "patched_logprob": -211.14871618524194,
+          "exact_logprob": -26.57163641229272,
+          "exact_separate_logprob": -26.57163641229272,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 18,
+      "target": "an increase in cellular respiration which increases heat production",
+      "patched_answer": "an increase in cellular respiration which increases heat production",
+      "exact_answer": "an increase in cellular respiration which increases heat production",
+      "choices": [
+        {
+          "choice": "an increase in cellular respiration which increases heat production",
+          "patched_logprob": -308.08054647874087,
+          "exact_logprob": -31.485756865236908,
+          "exact_separate_logprob": -31.485756865236908,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "sweating from the skin to lower inner heat levels",
+          "patched_logprob": -419.6020241379738,
+          "exact_logprob": -52.11745077371597,
+          "exact_separate_logprob": -52.11745077371597,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "opening of the capillaries in the skin to obtain more heat",
+          "patched_logprob": -416.60625906602945,
+          "exact_logprob": -57.92872210161295,
+          "exact_separate_logprob": -57.92872210161295,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "an increase in the metabolism which decreases heat from cells",
+          "patched_logprob": -321.574924249202,
+          "exact_logprob": -44.407685060054064,
+          "exact_separate_logprob": -44.407685060054064,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 19,
+      "target": "wind",
+      "patched_answer": "earthquake",
+      "exact_answer": "earthquake",
+      "choices": [
+        {
+          "choice": "earthquake",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.841607093811035,
+          "exact_separate_logprob": -8.841607093811035,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "landslide",
+          "patched_logprob": -100.0,
+          "exact_logprob": -9.028924942016602,
+          "exact_separate_logprob": -9.028924942016602,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "volcano",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.318700313568115,
+          "exact_separate_logprob": -6.318700313568115,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.081314086914062,
+          "exact_separate_logprob": -8.081314086914062,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 20,
+      "target": "Will it expand to the volume of a larger container?",
+      "patched_answer": "What is the temperature of the substance?",
+      "exact_answer": "What is the temperature of the substance?",
+      "choices": [
+        {
+          "choice": "Is it transparent?",
+          "patched_logprob": -109.95388925075531,
+          "exact_logprob": -18.392256140708923,
+          "exact_separate_logprob": -18.392256140708923,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Is it a hazardous sample?",
+          "patched_logprob": -117.68085670471191,
+          "exact_logprob": -31.075586318969727,
+          "exact_separate_logprob": -31.075586318969727,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "What is the temperature of the substance?",
+          "patched_logprob": -11.68276491574943,
+          "exact_logprob": -11.68276491574943,
+          "exact_separate_logprob": -11.68276491574943,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Will it expand to the volume of a larger container?",
+          "patched_logprob": -126.31523645669222,
+          "exact_logprob": -35.17186392098665,
+          "exact_separate_logprob": -35.17186392098665,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 21,
+      "target": "share the discovery with the public",
+      "patched_answer": "share the discovery with the public",
+      "exact_answer": "share the discovery with the public",
+      "choices": [
+        {
+          "choice": "share the discovery with the public",
+          "patched_logprob": -104.1824260354042,
+          "exact_logprob": -12.631179302930832,
+          "exact_separate_logprob": -12.631179302930832,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "do additional background research",
+          "patched_logprob": -205.29549987614155,
+          "exact_logprob": -29.150844648480415,
+          "exact_separate_logprob": -29.150844648480415,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "analyze the results again",
+          "patched_logprob": -204.87503841519356,
+          "exact_logprob": -21.716138154268265,
+          "exact_separate_logprob": -21.716138154268265,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "create a new hypothesis",
+          "patched_logprob": -201.15198668837547,
+          "exact_logprob": -19.713750928640366,
+          "exact_separate_logprob": -19.713750928640366,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 22,
+      "target": "A crushed sugar cube is added and the water is stirred.",
+      "patched_answer": "A whole sugar cube is added and the water is not stirred.",
+      "exact_answer": "A crushed sugar cube is added and the water is stirred.",
+      "choices": [
+        {
+          "choice": "A whole sugar cube is added and the water is stirred.",
+          "patched_logprob": -216.423980001593,
+          "exact_logprob": -35.09879136481322,
+          "exact_separate_logprob": -35.09879136481322,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "A whole sugar cube is added and the water is not stirred.",
+          "patched_logprob": -219.42834407486953,
+          "exact_logprob": -38.10315543808974,
+          "exact_separate_logprob": -38.10315543808974,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "A crushed sugar cube is added and the water is stirred.",
+          "patched_logprob": -216.80408307909966,
+          "exact_logprob": -35.77334901690483,
+          "exact_separate_logprob": -35.77334901690483,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "A crushed sugar cube is added and the water is not stirred.",
+          "patched_logprob": -314.95947329699993,
+          "exact_logprob": -39.53170554339886,
+          "exact_separate_logprob": -39.53170554339886,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 23,
+      "target": "baking soda (pH 8-9)",
+      "patched_answer": "baking soda (pH 8-9)",
+      "exact_answer": "baking soda (pH 8-9)",
+      "choices": [
+        {
+          "choice": "dairy(pH 5-7)",
+          "patched_logprob": -309.8958393931389,
+          "exact_logprob": -39.83728951215744,
+          "exact_separate_logprob": -39.83728951215744,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water (pH 6-7)",
+          "patched_logprob": -217.77888526022434,
+          "exact_logprob": -32.739195719361305,
+          "exact_separate_logprob": -32.739195719361305,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "citrus fruit (pH 2-3)",
+          "patched_logprob": -311.213652163744,
+          "exact_logprob": -34.43339827656746,
+          "exact_separate_logprob": -34.43339827656746,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "baking soda (pH 8-9)",
+          "patched_logprob": -212.23002890276257,
+          "exact_logprob": -30.586252962821163,
+          "exact_separate_logprob": -30.586252962821163,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 24,
+      "target": "The population of fish will increase.",
+      "patched_answer": "The population of fish will increase.",
+      "exact_answer": "The population of fish will increase.",
+      "choices": [
+        {
+          "choice": "The population of fish will increase.",
+          "patched_logprob": -10.99920991063118,
+          "exact_logprob": -11.075643181800842,
+          "exact_separate_logprob": -11.075643181800842,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The insects will become more resistant to the pesticide.",
+          "patched_logprob": -114.46868006885052,
+          "exact_logprob": -20.64581362903118,
+          "exact_separate_logprob": -20.64581362903118,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The lake will be unable to support life.",
+          "patched_logprob": -209.58054971217643,
+          "exact_logprob": -23.082978243823163,
+          "exact_separate_logprob": -23.082978243823163,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The fish will find another food source.",
+          "patched_logprob": -110.5872394554317,
+          "exact_logprob": -18.293313216418028,
+          "exact_separate_logprob": -18.293313216418028,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 25,
+      "target": "Traits from two parents are combined.",
+      "patched_answer": "Traits from two parents are combined.",
+      "exact_answer": "Offspring grow in different environments.",
+      "choices": [
+        {
+          "choice": "Traits from two parents are combined.",
+          "patched_logprob": -115.6926304101944,
+          "exact_logprob": -25.720425248146057,
+          "exact_separate_logprob": -25.720425248146057,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "More organisms reproduce this way.",
+          "patched_logprob": -116.8868858399801,
+          "exact_logprob": -23.604948240797967,
+          "exact_separate_logprob": -23.604948240797967,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Offspring grow in different environments.",
+          "patched_logprob": -211.5255307480693,
+          "exact_logprob": -26.52195256203413,
+          "exact_separate_logprob": -26.52195256203413,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Offspring come from identical parents.",
+          "patched_logprob": -305.95277201384306,
+          "exact_logprob": -24.896769396960735,
+          "exact_separate_logprob": -24.896769396960735,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 26,
+      "target": "Gas changes to liquid.",
+      "patched_answer": "Liquid changes to solid.",
+      "exact_answer": "Liquid changes to gas.",
+      "choices": [
+        {
+          "choice": "Gas changes to liquid.",
+          "patched_logprob": -208.19595670700073,
+          "exact_logprob": -24.054760932922363,
+          "exact_separate_logprob": -24.054760932922363,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Solid changes to gas.",
+          "patched_logprob": -210.0541285276413,
+          "exact_logprob": -29.97876536846161,
+          "exact_separate_logprob": -29.97876536846161,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Liquid changes to gas.",
+          "patched_logprob": -203.6577795445919,
+          "exact_logprob": -20.033134311437607,
+          "exact_separate_logprob": -20.033134311437607,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Liquid changes to solid.",
+          "patched_logprob": -207.18816936016083,
+          "exact_logprob": -23.56352412700653,
+          "exact_separate_logprob": -23.56352412700653,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 27,
+      "target": "change of season and less food",
+      "patched_answer": "change of season and fewer predators",
+      "exact_answer": "loss of habitat and fewer predators",
+      "choices": [
+        {
+          "choice": "change of season and fewer predators",
+          "patched_logprob": -209.39816570281982,
+          "exact_logprob": -34.15045928955078,
+          "exact_separate_logprob": -34.15045928955078,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "change of season and less food",
+          "patched_logprob": -207.94304031133652,
+          "exact_logprob": -30.855533063411713,
+          "exact_separate_logprob": -30.855533063411713,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "loss of habitat and fewer predators",
+          "patched_logprob": -204.81032389216125,
+          "exact_logprob": -28.896641908213496,
+          "exact_separate_logprob": -28.896641908213496,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "loss of habitat and more food",
+          "patched_logprob": -205.09295099787414,
+          "exact_logprob": -25.716059861704707,
+          "exact_separate_logprob": -25.716059861704707,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 28,
+      "target": "They bind to mRNA.",
+      "patched_answer": "They bind to RNA polymerase.",
+      "exact_answer": "They bind to RNA polymerase.",
+      "choices": [
+        {
+          "choice": "They bind to ribosomes.",
+          "patched_logprob": -109.40556437522173,
+          "exact_logprob": -16.83419492095709,
+          "exact_separate_logprob": -16.83419492095709,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "They bind to tRNA.",
+          "patched_logprob": -108.94896461814642,
+          "exact_logprob": -16.939634822309017,
+          "exact_separate_logprob": -16.939634822309017,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "They bind to RNA polymerase.",
+          "patched_logprob": -16.49622181802988,
+          "exact_logprob": -16.49622181802988,
+          "exact_separate_logprob": -16.49622181802988,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "They bind to mRNA.",
+          "patched_logprob": -13.142248176038265,
+          "exact_logprob": -13.142248176038265,
+          "exact_separate_logprob": -13.142248176038265,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 29,
+      "target": "gravity changed the ball's direction.",
+      "patched_answer": "the ball was not thrown straight up.",
+      "exact_answer": "the ball was not thrown straight up.",
+      "choices": [
+        {
+          "choice": "air friction stopped the ball.",
+          "patched_logprob": -13.36350230127573,
+          "exact_logprob": -13.36350230127573,
+          "exact_separate_logprob": -13.36350230127573,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "gravity changed the ball's direction.",
+          "patched_logprob": -105.81290912628174,
+          "exact_logprob": -13.851417541503906,
+          "exact_separate_logprob": -13.851417541503906,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the ball was not thrown hard enough.",
+          "patched_logprob": -14.55832215771079,
+          "exact_logprob": -14.55832215771079,
+          "exact_separate_logprob": -14.55832215771079,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the ball was not thrown straight up.",
+          "patched_logprob": -13.151034981012344,
+          "exact_logprob": -13.151034981012344,
+          "exact_separate_logprob": -13.151034981012344,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 30,
+      "target": "moisture on mirror after hot shower",
+      "patched_answer": "water boiling in a pot",
+      "exact_answer": "water boiling in a pot",
+      "choices": [
+        {
+          "choice": "water boiling in a pot",
+          "patched_logprob": -202.99162554740906,
+          "exact_logprob": -18.99539828300476,
+          "exact_separate_logprob": -18.99539828300476,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water being absorbed by plants",
+          "patched_logprob": -305.4540182352066,
+          "exact_logprob": -28.698472142219543,
+          "exact_separate_logprob": -28.698472142219543,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "salt being removed from water",
+          "patched_logprob": -301.8050237298012,
+          "exact_logprob": -28.420056879520416,
+          "exact_separate_logprob": -28.420056879520416,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "moisture on mirror after hot shower",
+          "patched_logprob": -407.40697503089905,
+          "exact_logprob": -43.36921238899231,
+          "exact_separate_logprob": -43.36921238899231,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 31,
+      "target": "Air",
+      "patched_answer": "Wings",
+      "exact_answer": "Wings",
+      "choices": [
+        {
+          "choice": "Wings",
+          "patched_logprob": -5.113371849060059,
+          "exact_logprob": -5.113371849060059,
+          "exact_separate_logprob": -5.113371849060059,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Eyes",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.966715812683105,
+          "exact_separate_logprob": -8.966715812683105,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Soil",
+          "patched_logprob": -100.0,
+          "exact_logprob": -13.266029357910156,
+          "exact_separate_logprob": -13.266029357910156,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Air",
+          "patched_logprob": -100.0,
+          "exact_logprob": -8.453700065612793,
+          "exact_separate_logprob": -8.453700065612793,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 32,
+      "target": "repeat the investigation two more times",
+      "patched_answer": "try a different juice",
+      "exact_answer": "repeat the investigation two more times",
+      "choices": [
+        {
+          "choice": "try a different juice",
+          "patched_logprob": -109.10805928707123,
+          "exact_logprob": -23.757778882980347,
+          "exact_separate_logprob": -23.757778882980347,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "analyze the recorded data",
+          "patched_logprob": -201.3305742740631,
+          "exact_logprob": -24.755879640579224,
+          "exact_separate_logprob": -24.755879640579224,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "ask a scientist what went wrong",
+          "patched_logprob": -307.2995767593384,
+          "exact_logprob": -34.46358060836792,
+          "exact_separate_logprob": -34.46358060836792,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "repeat the investigation two more times",
+          "patched_logprob": -204.14791786763817,
+          "exact_logprob": -23.835671068169177,
+          "exact_separate_logprob": -23.835671068169177,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 33,
+      "target": "Stored energy changes to motion and heat.",
+      "patched_answer": "Stored energy changes to motion and heat.",
+      "exact_answer": "Motion changes to chemical energy.",
+      "choices": [
+        {
+          "choice": "Motion changes to stored energy.",
+          "patched_logprob": -211.24721106886864,
+          "exact_logprob": -27.423469632864,
+          "exact_separate_logprob": -27.423469632864,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Stored energy changes to motion and heat.",
+          "patched_logprob": -119.46204447746277,
+          "exact_logprob": -31.219151258468628,
+          "exact_separate_logprob": -31.219151258468628,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Heat changes to motion and stored energy.",
+          "patched_logprob": -408.9510866701603,
+          "exact_logprob": -40.194550186395645,
+          "exact_separate_logprob": -40.194550186395645,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Motion changes to chemical energy.",
+          "patched_logprob": -117.03293784707785,
+          "exact_logprob": -25.74341758340597,
+          "exact_separate_logprob": -25.74341758340597,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 34,
+      "target": "Cast an image through a pinhole onto a screen.",
+      "patched_answer": "Look at the Sun through a long telescope.",
+      "exact_answer": "Look at the Sun through a long telescope.",
+      "choices": [
+        {
+          "choice": "Turn away after two or three minutes.",
+          "patched_logprob": -403.99284320138395,
+          "exact_logprob": -42.24829869531095,
+          "exact_separate_logprob": -42.24829869531095,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Look at the Sun through a long telescope.",
+          "patched_logprob": -208.47904361784458,
+          "exact_logprob": -24.09876836836338,
+          "exact_separate_logprob": -24.09876836836338,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Cast an image through a pinhole onto a screen.",
+          "patched_logprob": -313.96553852572106,
+          "exact_logprob": -34.36114933504723,
+          "exact_separate_logprob": -34.36114933504723,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Blink often until your eyes get used to the light.",
+          "patched_logprob": -313.28633406365407,
+          "exact_logprob": -41.84368708336842,
+          "exact_separate_logprob": -41.84368708336842,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 35,
+      "target": "Record in a table how each object behaves.",
+      "patched_answer": "Measure the length and mass of each object.",
+      "exact_answer": "Measure the length and mass of each object.",
+      "choices": [
+        {
+          "choice": "Drop each object in different liquids.",
+          "patched_logprob": -111.02300328016281,
+          "exact_logprob": -22.90876130759716,
+          "exact_separate_logprob": -22.90876130759716,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Record in a table how each object behaves.",
+          "patched_logprob": -120.40057101845741,
+          "exact_logprob": -32.92374148964882,
+          "exact_separate_logprob": -32.92374148964882,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Measure the length and mass of each object.",
+          "patched_logprob": -111.43389188684523,
+          "exact_logprob": -20.147611254826188,
+          "exact_separate_logprob": -20.147611254826188,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Test the objects in groups from smallest to largest.",
+          "patched_logprob": -404.6573975160718,
+          "exact_logprob": -38.88658023625612,
+          "exact_separate_logprob": -38.88658023625612,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 36,
+      "target": "improving the habitats of herring",
+      "patched_answer": "changing the diet of the sea lions",
+      "exact_answer": "increasing the number of pollock",
+      "choices": [
+        {
+          "choice": "increasing the number of pollock",
+          "patched_logprob": -103.3806908596307,
+          "exact_logprob": -10.079632833600044,
+          "exact_separate_logprob": -10.079632833600044,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "changing the diet of the sea lions",
+          "patched_logprob": -109.42666547745466,
+          "exact_logprob": -17.676141910254955,
+          "exact_separate_logprob": -17.676141910254955,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "improving the habitats of herring",
+          "patched_logprob": -202.54330832476262,
+          "exact_logprob": -23.19658381456975,
+          "exact_separate_logprob": -23.19658381456975,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "changing the location of the sea lions",
+          "patched_logprob": -208.74307262897491,
+          "exact_logprob": -24.510432362556458,
+          "exact_separate_logprob": -24.510432362556458,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 37,
+      "target": "moons, planets, and comets",
+      "patched_answer": "planets, stars, and comets",
+      "exact_answer": "planets, stars, and moons",
+      "choices": [
+        {
+          "choice": "moons, planets, and comets",
+          "patched_logprob": -108.22604624181986,
+          "exact_logprob": -18.896035827696323,
+          "exact_separate_logprob": -18.896035827696323,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "moons, comets, and stars",
+          "patched_logprob": -108.61290060542524,
+          "exact_logprob": -19.282890191301703,
+          "exact_separate_logprob": -19.282890191301703,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "planets, stars, and comets",
+          "patched_logprob": -106.150982523337,
+          "exact_logprob": -15.722229624167085,
+          "exact_separate_logprob": -15.722229624167085,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "planets, stars, and moons",
+          "patched_logprob": -104.24869878590107,
+          "exact_logprob": -13.819945886731148,
+          "exact_separate_logprob": -13.819945886731148,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 38,
+      "target": "The air stays cleaner.",
+      "patched_answer": "Cars can travel at faster speeds.",
+      "exact_answer": "It becomes safer to drive on the roads.",
+      "choices": [
+        {
+          "choice": "The air stays cleaner.",
+          "patched_logprob": -205.62632277607918,
+          "exact_logprob": -19.97297051548958,
+          "exact_separate_logprob": -19.97297051548958,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Cars can travel at faster speeds.",
+          "patched_logprob": -118.17628023028374,
+          "exact_logprob": -24.549850672483444,
+          "exact_separate_logprob": -24.549850672483444,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The skills of the drivers improve.",
+          "patched_logprob": -210.2162690758705,
+          "exact_logprob": -29.041052401065826,
+          "exact_separate_logprob": -29.041052401065826,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It becomes safer to drive on the roads.",
+          "patched_logprob": -213.55663931369781,
+          "exact_logprob": -27.47181475162506,
+          "exact_separate_logprob": -27.47181475162506,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 39,
+      "target": "Both girls will stay in the same place.",
+      "patched_answer": "The rope will break.",
+      "exact_answer": "Both girls will stay in the same place.",
+      "choices": [
+        {
+          "choice": "One girl will pull the other toward her.",
+          "patched_logprob": -113.86742974817753,
+          "exact_logprob": -19.318126797676086,
+          "exact_separate_logprob": -19.318126797676086,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Both girls will stay in the same place.",
+          "patched_logprob": -109.20868415758014,
+          "exact_logprob": -14.760517310351133,
+          "exact_separate_logprob": -14.760517310351133,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Gravity will cause the rope to sag.",
+          "patched_logprob": -207.90199557319283,
+          "exact_logprob": -18.969749365001917,
+          "exact_separate_logprob": -18.969749365001917,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The rope will break.",
+          "patched_logprob": -8.813733905553818,
+          "exact_logprob": -8.813733905553818,
+          "exact_separate_logprob": -8.813733905553818,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 40,
+      "target": "advertising",
+      "patched_answer": "quality control",
+      "exact_answer": "advertising",
+      "choices": [
+        {
+          "choice": "advertising",
+          "patched_logprob": -100.0,
+          "exact_logprob": -7.5201096534729,
+          "exact_separate_logprob": -7.5201096534729,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "shipping",
+          "patched_logprob": -100.0,
+          "exact_logprob": -13.373281478881836,
+          "exact_separate_logprob": -13.373281478881836,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "storage",
+          "patched_logprob": -100.0,
+          "exact_logprob": -13.446709632873535,
+          "exact_separate_logprob": -13.446709632873535,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "quality control",
+          "patched_logprob": -100.75879555940628,
+          "exact_logprob": -10.450616657733917,
+          "exact_separate_logprob": -10.450616657733917,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 41,
+      "target": "endocrine system",
+      "patched_answer": "reproductive system",
+      "exact_answer": "endocrine system",
+      "choices": [
+        {
+          "choice": "skeletal system",
+          "patched_logprob": -101.1906328201294,
+          "exact_logprob": -13.464168548583984,
+          "exact_separate_logprob": -13.464168548583984,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "digestive system",
+          "patched_logprob": -100.23137752711773,
+          "exact_logprob": -14.28155891597271,
+          "exact_separate_logprob": -14.28155891597271,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "endocrine system",
+          "patched_logprob": -101.78800934553146,
+          "exact_logprob": -13.629155814647675,
+          "exact_separate_logprob": -13.629155814647675,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "reproductive system",
+          "patched_logprob": -100.22763349115849,
+          "exact_logprob": -17.47870160639286,
+          "exact_separate_logprob": -17.47870160639286,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 42,
+      "target": "using storage space efficiently.",
+      "patched_answer": "using storage space efficiently.",
+      "exact_answer": "using storage space efficiently.",
+      "choices": [
+        {
+          "choice": "making the wall stronger.",
+          "patched_logprob": -303.8749950528145,
+          "exact_logprob": -30.417575657367706,
+          "exact_separate_logprob": -30.417575657367706,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "using storage space efficiently.",
+          "patched_logprob": -109.49063301086426,
+          "exact_logprob": -18.277563095092773,
+          "exact_separate_logprob": -18.277563095092773,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "using a machine for more than one purpose.",
+          "patched_logprob": -214.20357132330537,
+          "exact_logprob": -29.20763397589326,
+          "exact_separate_logprob": -29.20763397589326,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "solving the need for shelter in a creative way.",
+          "patched_logprob": -315.76367405056953,
+          "exact_logprob": -44.16973379254341,
+          "exact_separate_logprob": -44.16973379254341,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 43,
+      "target": "always much closer to the Earth than it is to the Sun",
+      "patched_answer": "about the same distance from the Sun as it is from the Earth",
+      "exact_answer": "sometimes closer to the Sun than it is to the Earth and sometimes closer to the Earth than it is to the Sun",
+      "choices": [
+        {
+          "choice": "always much closer to the Sun than it is to the Earth",
+          "patched_logprob": -204.99284543469548,
+          "exact_logprob": -21.508828062564135,
+          "exact_separate_logprob": -21.508828062564135,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "always much closer to the Earth than it is to the Sun",
+          "patched_logprob": -204.93480487540364,
+          "exact_logprob": -21.450787503272295,
+          "exact_separate_logprob": -21.450787503272295,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "about the same distance from the Sun as it is from the Earth",
+          "patched_logprob": -111.90505288541317,
+          "exact_logprob": -19.5904648154974,
+          "exact_separate_logprob": -19.5904648154974,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "sometimes closer to the Sun than it is to the Earth and sometimes closer to the Earth than it is to the Sun",
+          "patched_logprob": -211.92362967133522,
+          "exact_logprob": -30.959591776132584,
+          "exact_separate_logprob": -30.959591776132584,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 44,
+      "target": "63",
+      "patched_answer": "83 331",
+      "exact_answer": "83 331",
+      "choices": [
+        {
+          "choice": "23",
+          "patched_logprob": -7.98270046710968,
+          "exact_logprob": -7.842225432395935,
+          "exact_separate_logprob": -7.842225432395935,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "43",
+          "patched_logprob": -8.822996139526367,
+          "exact_logprob": -8.822996139526367,
+          "exact_separate_logprob": -8.822996139526367,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "63",
+          "patched_logprob": -8.036798477172852,
+          "exact_logprob": -8.036798477172852,
+          "exact_separate_logprob": -8.036798477172852,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "83 331",
+          "patched_logprob": -22.263094186782837,
+          "exact_logprob": -22.263094186782837,
+          "exact_separate_logprob": -22.263094186782837,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 45,
+      "target": "June",
+      "patched_answer": "December",
+      "exact_answer": "December",
+      "choices": [
+        {
+          "choice": "March",
+          "patched_logprob": -2.347522497177124,
+          "exact_logprob": -2.347522497177124,
+          "exact_separate_logprob": -2.347522497177124,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "June",
+          "patched_logprob": -3.3468778133392334,
+          "exact_logprob": -3.3468778133392334,
+          "exact_separate_logprob": -3.3468778133392334,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "September",
+          "patched_logprob": -4.016576766967773,
+          "exact_logprob": -4.016576766967773,
+          "exact_separate_logprob": -4.016576766967773,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "December",
+          "patched_logprob": -2.491933584213257,
+          "exact_logprob": -2.491933584213257,
+          "exact_separate_logprob": -2.491933584213257,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 46,
+      "target": "alleles for dimples.",
+      "patched_answer": "genotypes for dimples.",
+      "exact_answer": "genotypes for dimples.",
+      "choices": [
+        {
+          "choice": "genes for dimples.",
+          "patched_logprob": -4.944857878746916,
+          "exact_logprob": -4.944857878746916,
+          "exact_separate_logprob": -4.944857878746916,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "alleles for dimples.",
+          "patched_logprob": -5.857455691739233,
+          "exact_logprob": -5.857455691739233,
+          "exact_separate_logprob": -5.857455691739233,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "chromosomes for dimples.",
+          "patched_logprob": -103.92557454491998,
+          "exact_logprob": -12.088352445615783,
+          "exact_separate_logprob": -12.088352445615783,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "genotypes for dimples.",
+          "patched_logprob": -4.896742736957094,
+          "exact_logprob": -4.896742736957094,
+          "exact_separate_logprob": -4.896742736957094,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 47,
+      "target": "Each group has different mating habits.",
+      "patched_answer": "Each group has a different habitat preference.",
+      "exact_answer": "Each group has a different habitat preference.",
+      "choices": [
+        {
+          "choice": "Each group has a different feeding preference.",
+          "patched_logprob": -215.39799916744232,
+          "exact_logprob": -32.45825898647308,
+          "exact_separate_logprob": -32.45825898647308,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Each group has a different habitat preference.",
+          "patched_logprob": -119.44247627258301,
+          "exact_logprob": -26.094090938568115,
+          "exact_separate_logprob": -26.094090938568115,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Each group has different mating habits.",
+          "patched_logprob": -214.11505579948425,
+          "exact_logprob": -26.981104612350464,
+          "exact_separate_logprob": -26.981104612350464,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Each group is active at a different time of day.",
+          "patched_logprob": -215.4619010835886,
+          "exact_logprob": -31.799111261963844,
+          "exact_separate_logprob": -31.799111261963844,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 48,
+      "target": "stopwatch",
+      "patched_answer": "thermometer",
+      "exact_answer": "thermometer",
+      "choices": [
+        {
+          "choice": "balance",
+          "patched_logprob": -100.0,
+          "exact_logprob": -12.651213645935059,
+          "exact_separate_logprob": -12.651213645935059,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "hot plate",
+          "patched_logprob": -200.0,
+          "exact_logprob": -20.160008430480957,
+          "exact_separate_logprob": -20.160008430480957,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "stopwatch",
+          "patched_logprob": -100.0,
+          "exact_logprob": -10.219742774963379,
+          "exact_separate_logprob": -10.219742774963379,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "thermometer",
+          "patched_logprob": -100.0,
+          "exact_logprob": -10.231749534606934,
+          "exact_separate_logprob": -10.231749534606934,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 49,
+      "target": "Ecosystems with few species are weak and unstable.",
+      "patched_answer": "Terrarium ecosystems cannot get enough sunlight.",
+      "exact_answer": "Terrarium ecosystems cannot get enough sunlight.",
+      "choices": [
+        {
+          "choice": "Terrarium ecosystems cannot get enough sunlight.",
+          "patched_logprob": -113.34160876367241,
+          "exact_logprob": -20.30889964196831,
+          "exact_separate_logprob": -20.30889964196831,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Terrarium ecosystems cannot get enough oxygen.",
+          "patched_logprob": -114.39999985788018,
+          "exact_logprob": -21.367290736176074,
+          "exact_separate_logprob": -21.367290736176074,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Ecosystems with few species are weak and unstable.",
+          "patched_logprob": -313.973327126354,
+          "exact_logprob": -33.872107949107885,
+          "exact_separate_logprob": -33.872107949107885,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "All ecosystems require thoughtful human management.",
+          "patched_logprob": -213.8185431957245,
+          "exact_logprob": -31.67767310142517,
+          "exact_separate_logprob": -31.67767310142517,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 50,
+      "target": "coal",
+      "patched_answer": "sunlight",
+      "exact_answer": "sunlight",
+      "choices": [
+        {
+          "choice": "sunlight",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.594098091125488,
+          "exact_separate_logprob": -6.594098091125488,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water",
+          "patched_logprob": -100.0,
+          "exact_logprob": -4.888896942138672,
+          "exact_separate_logprob": -4.888896942138672,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "coal",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.160274505615234,
+          "exact_separate_logprob": -6.160274505615234,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "copper",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.770041465759277,
+          "exact_separate_logprob": -6.770041465759277,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 51,
+      "target": "Inform people of the possible side effects.",
+      "patched_answer": "Inform people of the possible side effects.",
+      "exact_answer": "Discontinue the use of the drug.",
+      "choices": [
+        {
+          "choice": "Discontinue the use of the drug.",
+          "patched_logprob": -110.2898415485397,
+          "exact_logprob": -16.23250243347138,
+          "exact_separate_logprob": -16.23250243347138,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Inform people of the possible side effects.",
+          "patched_logprob": -115.49661218747497,
+          "exact_logprob": -22.82963478192687,
+          "exact_separate_logprob": -22.82963478192687,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Reduce the amount of drug given to people.",
+          "patched_logprob": -114.95146508514881,
+          "exact_logprob": -25.231732800602913,
+          "exact_separate_logprob": -25.231732800602913,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Modify the drug to include medicine that prevents nausea.",
+          "patched_logprob": -211.84845812618732,
+          "exact_logprob": -32.30241186916828,
+          "exact_separate_logprob": -32.30241186916828,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 52,
+      "target": "minerals",
+      "patched_answer": "minerals",
+      "exact_answer": "minerals",
+      "choices": [
+        {
+          "choice": "energy",
+          "patched_logprob": -100.0,
+          "exact_logprob": -11.534395217895508,
+          "exact_separate_logprob": -11.534395217895508,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "minerals",
+          "patched_logprob": -100.0,
+          "exact_logprob": -11.440323829650879,
+          "exact_separate_logprob": -11.440323829650879,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "protein",
+          "patched_logprob": -100.0,
+          "exact_logprob": -13.054364204406738,
+          "exact_separate_logprob": -13.054364204406738,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "oxygen",
+          "patched_logprob": -100.0,
+          "exact_logprob": -10.181480407714844,
+          "exact_separate_logprob": -10.181480407714844,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water",
+          "patched_logprob": -100.0,
+          "exact_logprob": -10.060215950012207,
+          "exact_separate_logprob": -10.060215950012207,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 53,
+      "target": "The worm has 33 segments.",
+      "patched_answer": "The worm has 33 segments.",
+      "exact_answer": "The worm is a heterotroph.",
+      "choices": [
+        {
+          "choice": "The worm feels cold.",
+          "patched_logprob": -106.77288275957108,
+          "exact_logprob": -19.744442999362946,
+          "exact_separate_logprob": -19.744442999362946,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The worm is a heterotroph.",
+          "patched_logprob": -107.47162306308746,
+          "exact_logprob": -16.845459580421448,
+          "exact_separate_logprob": -16.845459580421448,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The worm has 33 segments.",
+          "patched_logprob": -23.3962305188179,
+          "exact_logprob": -23.3962305188179,
+          "exact_separate_logprob": -23.3962305188179,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The worm has a four-chambered heart.",
+          "patched_logprob": -118.68782261759043,
+          "exact_logprob": -25.223704613745213,
+          "exact_separate_logprob": -25.223704613745213,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 54,
+      "target": "an increase in the number of decomposers",
+      "patched_answer": "an increase in the number of decomposers",
+      "exact_answer": "an increase in the number of decomposers",
+      "choices": [
+        {
+          "choice": "a decrease in temperature",
+          "patched_logprob": -105.42879127711058,
+          "exact_logprob": -12.248371928930283,
+          "exact_separate_logprob": -12.248371928930283,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a decrease in biodiversity",
+          "patched_logprob": -201.5485986173153,
+          "exact_logprob": -14.599829524755478,
+          "exact_separate_logprob": -14.599829524755478,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "an increase in the number of predators",
+          "patched_logprob": -203.14017670974135,
+          "exact_logprob": -18.851446088403463,
+          "exact_separate_logprob": -18.851446088403463,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "an increase in the number of decomposers",
+          "patched_logprob": -107.82308331783861,
+          "exact_logprob": -17.00515881832689,
+          "exact_separate_logprob": -17.00515881832689,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 55,
+      "target": "respiratory and circulatory systems",
+      "patched_answer": "respiratory and circulatory systems",
+      "exact_answer": "circulatory and digestive systems",
+      "choices": [
+        {
+          "choice": "excretory and skeletal systems",
+          "patched_logprob": -203.8881188109517,
+          "exact_logprob": -18.79917485266924,
+          "exact_separate_logprob": -18.79917485266924,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "nervous and endocrine systems",
+          "patched_logprob": -102.52974646165967,
+          "exact_logprob": -18.073425699025393,
+          "exact_separate_logprob": -18.073425699025393,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "circulatory and digestive systems",
+          "patched_logprob": -103.50675523281097,
+          "exact_logprob": -14.751050353050232,
+          "exact_separate_logprob": -14.751050353050232,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "respiratory and circulatory systems",
+          "patched_logprob": -102.92571121035144,
+          "exact_logprob": -17.108962591271847,
+          "exact_separate_logprob": -17.108962591271847,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 56,
+      "target": "parasitism",
+      "patched_answer": "predation",
+      "exact_answer": "commensalism",
+      "choices": [
+        {
+          "choice": "predation",
+          "patched_logprob": -2.4552484164596535,
+          "exact_logprob": -2.5987673531635664,
+          "exact_separate_logprob": -2.5987673531635664,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "parasitism",
+          "patched_logprob": -3.935944211203605,
+          "exact_logprob": -3.935944211203605,
+          "exact_separate_logprob": -3.935944211203605,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "mutualism",
+          "patched_logprob": -5.342813119292259,
+          "exact_logprob": -5.342813119292259,
+          "exact_separate_logprob": -5.342813119292259,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "commensalism",
+          "patched_logprob": -3.2936092292366084,
+          "exact_logprob": -3.2936092292366084,
+          "exact_separate_logprob": -3.2936092292366084,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 57,
+      "target": "heating and pressure",
+      "patched_answer": "compaction and cementation",
+      "exact_answer": "heating and pressure",
+      "choices": [
+        {
+          "choice": "compaction and cementation",
+          "patched_logprob": -104.77999255992472,
+          "exact_logprob": -17.780219782609493,
+          "exact_separate_logprob": -17.780219782609493,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "heating and pressure",
+          "patched_logprob": -101.54712474346161,
+          "exact_logprob": -11.156003832817078,
+          "exact_separate_logprob": -11.156003832817078,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "melting and cooling",
+          "patched_logprob": -102.0845195055008,
+          "exact_logprob": -11.352177739143372,
+          "exact_separate_logprob": -11.352177739143372,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "uplift and erosion",
+          "patched_logprob": -104.23913979530334,
+          "exact_logprob": -16.94601273536682,
+          "exact_separate_logprob": -16.94601273536682,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 58,
+      "target": "electrons",
+      "patched_answer": "electrons",
+      "exact_answer": "electrons",
+      "choices": [
+        {
+          "choice": "neutrons",
+          "patched_logprob": -100.0000978756143,
+          "exact_logprob": -8.550340299625532,
+          "exact_separate_logprob": -8.550340299625532,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "electrons",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.0510101318359375,
+          "exact_separate_logprob": -6.0510101318359375,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "protons",
+          "patched_logprob": -100.00025746561005,
+          "exact_logprob": -7.4085750315280166,
+          "exact_separate_logprob": -7.4085750315280166,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "nucleus",
+          "patched_logprob": -100.0,
+          "exact_logprob": -12.546274185180664,
+          "exact_separate_logprob": -12.546274185180664,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 59,
+      "target": "They follow the shape of the adjacent tectonic plates under the sea.",
+      "patched_answer": "Volcanoes always form in rings because of underwater convection currents.",
+      "exact_answer": "Volcanoes always form in rings because of underwater convection currents.",
+      "choices": [
+        {
+          "choice": "They outline the crater caused by the impact of an asteroid.",
+          "patched_logprob": -409.97099384106696,
+          "exact_logprob": -46.89628397021443,
+          "exact_separate_logprob": -46.89628397021443,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "They follow the shape of the adjacent tectonic plates under the sea.",
+          "patched_logprob": -511.0183580205776,
+          "exact_logprob": -51.73376634577289,
+          "exact_separate_logprob": -51.73376634577289,
+          "top20_misses": 5,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "One volcano usually triggers a second volcano with its hot magma.",
+          "patched_logprob": -615.1154782772064,
+          "exact_logprob": -56.10177779197693,
+          "exact_separate_logprob": -56.10177779197693,
+          "top20_misses": 6,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Volcanoes always form in rings because of underwater convection currents.",
+          "patched_logprob": -219.8064137933543,
+          "exact_logprob": -35.90540280321147,
+          "exact_separate_logprob": -35.90540280321147,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 60,
+      "target": "kinetic energy.",
+      "patched_answer": "potential energy.",
+      "exact_answer": "kinetic energy.",
+      "choices": [
+        {
+          "choice": "air pressure.",
+          "patched_logprob": -105.77756530046463,
+          "exact_logprob": -10.943283379077911,
+          "exact_separate_logprob": -10.943283379077911,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "kinetic energy.",
+          "patched_logprob": -100.86014734208584,
+          "exact_logprob": -10.081893786787987,
+          "exact_separate_logprob": -10.081893786787987,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "potential energy.",
+          "patched_logprob": -103.95730793476105,
+          "exact_logprob": -13.691200375556946,
+          "exact_separate_logprob": -13.691200375556946,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind movement.",
+          "patched_logprob": -200.74653780460358,
+          "exact_logprob": -20.248133301734924,
+          "exact_separate_logprob": -20.248133301734924,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 61,
+      "target": "water vapor condensed on the sides.",
+      "patched_answer": "water vapor condensed on the sides.",
+      "exact_answer": "the water soaked through the glass.",
+      "choices": [
+        {
+          "choice": "some water dripped over the side.",
+          "patched_logprob": -215.184956792742,
+          "exact_logprob": -31.309126587584615,
+          "exact_separate_logprob": -31.309126587584615,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the water soaked through the glass.",
+          "patched_logprob": -109.65798735618591,
+          "exact_logprob": -18.36619257926941,
+          "exact_separate_logprob": -18.36619257926941,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water vapor condensed on the sides.",
+          "patched_logprob": -19.690443681553006,
+          "exact_logprob": -19.690443681553006,
+          "exact_separate_logprob": -19.690443681553006,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "someone sprayed the glass with water.",
+          "patched_logprob": -111.87282237410545,
+          "exact_logprob": -22.943185418844223,
+          "exact_separate_logprob": -22.943185418844223,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 62,
+      "target": "a buildup of cooled lava.",
+      "patched_answer": "erosion of rock debris.",
+      "exact_answer": "erosion of rock debris.",
+      "choices": [
+        {
+          "choice": "runoff from a river.",
+          "patched_logprob": -107.98186254501343,
+          "exact_logprob": -18.313817501068115,
+          "exact_separate_logprob": -18.313817501068115,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "weathering by waves.",
+          "patched_logprob": -207.51285803318024,
+          "exact_logprob": -22.718307614326477,
+          "exact_separate_logprob": -22.718307614326477,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "erosion of rock debris.",
+          "patched_logprob": -111.8000019788742,
+          "exact_logprob": -20.714043498039246,
+          "exact_separate_logprob": -20.714043498039246,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a buildup of cooled lava.",
+          "patched_logprob": -206.6255907639861,
+          "exact_logprob": -26.385974369943142,
+          "exact_separate_logprob": -26.385974369943142,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 63,
+      "target": "W is the softest of the four substances tested.",
+      "patched_answer": "W is the hardest of the four substances tested.",
+      "exact_answer": "W is the hardest of the four substances tested.",
+      "choices": [
+        {
+          "choice": "W is the softest of the four substances tested.",
+          "patched_logprob": -15.1431654302869,
+          "exact_logprob": -15.22535968828015,
+          "exact_separate_logprob": -15.22535968828015,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "W is the hardest of the four substances tested.",
+          "patched_logprob": -10.809825859963894,
+          "exact_logprob": -10.809825859963894,
+          "exact_separate_logprob": -10.809825859963894,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "W can scratch Y.",
+          "patched_logprob": -14.681146264076233,
+          "exact_logprob": -14.681146264076233,
+          "exact_separate_logprob": -14.681146264076233,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "W can scratch X.",
+          "patched_logprob": -13.244908571243286,
+          "exact_logprob": -13.244908571243286,
+          "exact_separate_logprob": -13.244908571243286,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 64,
+      "target": "Rocks are made of one or more minerals.",
+      "patched_answer": "Rocks are made of one or more minerals.",
+      "exact_answer": "Rocks are made of one or more minerals.",
+      "choices": [
+        {
+          "choice": "Minerals are made of rocks.",
+          "patched_logprob": -111.72754567861557,
+          "exact_logprob": -17.49679321050644,
+          "exact_separate_logprob": -17.49679321050644,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Crystals are made of rocks.",
+          "patched_logprob": -207.01380163431168,
+          "exact_logprob": -19.590780317783356,
+          "exact_separate_logprob": -19.590780317783356,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Rocks are made of one or more minerals.",
+          "patched_logprob": -106.60899800807238,
+          "exact_logprob": -11.821301646530628,
+          "exact_separate_logprob": -11.821301646530628,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Magma is made of solid rock.",
+          "patched_logprob": -110.51656377315521,
+          "exact_logprob": -17.140008807182312,
+          "exact_separate_logprob": -17.140008807182312,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 65,
+      "target": "to collect acorns and bury them in the soil.",
+      "patched_answer": "to recycle nutrients in the soil.",
+      "exact_answer": "to recycle nutrients in the soil.",
+      "choices": [
+        {
+          "choice": "to decompose.",
+          "patched_logprob": -204.57386141642928,
+          "exact_logprob": -19.319327648729086,
+          "exact_separate_logprob": -19.319327648729086,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "to pollinate flowers.",
+          "patched_logprob": -108.62283895816654,
+          "exact_logprob": -15.688138945959508,
+          "exact_separate_logprob": -15.688138945959508,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "to recycle nutrients in the soil.",
+          "patched_logprob": -111.59260481595993,
+          "exact_logprob": -21.62371462583542,
+          "exact_separate_logprob": -21.62371462583542,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "to collect acorns and bury them in the soil.",
+          "patched_logprob": -216.96518721804023,
+          "exact_logprob": -30.019203808158636,
+          "exact_separate_logprob": -30.019203808158636,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 66,
+      "target": "flickers in the brightness of a star",
+      "patched_answer": "fluctuations in the size of a star",
+      "exact_answer": "wobbles in the position of a star",
+      "choices": [
+        {
+          "choice": "fluctuations in the size of a star",
+          "patched_logprob": -109.16060617566109,
+          "exact_logprob": -22.99315431714058,
+          "exact_separate_logprob": -22.99315431714058,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wobbles in the position of a star",
+          "patched_logprob": -111.9805195517838,
+          "exact_logprob": -22.11005713418126,
+          "exact_separate_logprob": -22.11005713418126,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "flickers in the brightness of a star",
+          "patched_logprob": -210.7803943902254,
+          "exact_logprob": -32.24122126400471,
+          "exact_separate_logprob": -32.24122126400471,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "changes in the fuel source of a star",
+          "patched_logprob": -206.7125293239951,
+          "exact_logprob": -30.35803236812353,
+          "exact_separate_logprob": -30.35803236812353,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 67,
+      "target": "The rod gains electrons from the fur.",
+      "patched_answer": "The rod gains electrons from the fur.",
+      "exact_answer": "The rod gains electrons from the fur.",
+      "choices": [
+        {
+          "choice": "The fur gives up protons to the rod.",
+          "patched_logprob": -21.97282329238078,
+          "exact_logprob": -21.97282329238078,
+          "exact_separate_logprob": -21.97282329238078,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The rod gives up electrons to the air.",
+          "patched_logprob": -210.29072533920407,
+          "exact_logprob": -24.363513100892305,
+          "exact_separate_logprob": -24.363513100892305,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The fur gains protons from the rod.",
+          "patched_logprob": -116.53024442093738,
+          "exact_logprob": -23.248875688484986,
+          "exact_separate_logprob": -23.248875688484986,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The rod gains electrons from the fur.",
+          "patched_logprob": -13.256635040044785,
+          "exact_logprob": -13.256635040044785,
+          "exact_separate_logprob": -13.256635040044785,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 68,
+      "target": "use the same equipment and procedures.",
+      "patched_answer": "use the same equipment and procedures.",
+      "exact_answer": "use the same equipment and procedures.",
+      "choices": [
+        {
+          "choice": "start the experiment at the same time.",
+          "patched_logprob": -108.97804266959429,
+          "exact_logprob": -16.735779352486134,
+          "exact_separate_logprob": -16.735779352486134,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "have different members record results.",
+          "patched_logprob": -308.2307188510895,
+          "exact_logprob": -38.981833696365356,
+          "exact_separate_logprob": -38.981833696365356,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "use the same equipment and procedures.",
+          "patched_logprob": -106.79151096288115,
+          "exact_logprob": -13.503535651601851,
+          "exact_separate_logprob": -13.503535651601851,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "perform a different number of trials.",
+          "patched_logprob": -117.26929518580437,
+          "exact_logprob": -23.840967625379562,
+          "exact_separate_logprob": -23.840967625379562,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 69,
+      "target": "100 ml of water",
+      "patched_answer": "10 grams of salt",
+      "exact_answer": "10 grams of salt",
+      "choices": [
+        {
+          "choice": "50 ml of water",
+          "patched_logprob": -6.845610931515694,
+          "exact_logprob": -6.890863925218582,
+          "exact_separate_logprob": -6.890863925218582,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "100 ml of water",
+          "patched_logprob": -7.390806034207344,
+          "exact_logprob": -7.390806034207344,
+          "exact_separate_logprob": -7.390806034207344,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "5 grams of salt",
+          "patched_logprob": -8.090659976005554,
+          "exact_logprob": -8.090659976005554,
+          "exact_separate_logprob": -8.090659976005554,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "10 grams of salt",
+          "patched_logprob": -6.06500381231308,
+          "exact_logprob": -6.06500381231308,
+          "exact_separate_logprob": -6.06500381231308,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 70,
+      "target": "negatively charged.",
+      "patched_answer": "neutral.",
+      "exact_answer": "neutral.",
+      "choices": [
+        {
+          "choice": "positively charged.",
+          "patched_logprob": -6.111990042030811,
+          "exact_logprob": -6.111990042030811,
+          "exact_separate_logprob": -6.111990042030811,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "negatively charged.",
+          "patched_logprob": -101.10846294648945,
+          "exact_logprob": -7.057968275621533,
+          "exact_separate_logprob": -7.057968275621533,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "radioactive.",
+          "patched_logprob": -100.9374048113823,
+          "exact_logprob": -11.212295711040497,
+          "exact_separate_logprob": -11.212295711040497,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "neutral.",
+          "patched_logprob": -2.506535053253174,
+          "exact_logprob": -2.506535053253174,
+          "exact_separate_logprob": -2.506535053253174,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 71,
+      "target": "Fish",
+      "patched_answer": "Reptiles",
+      "exact_answer": "Reptiles",
+      "choices": [
+        {
+          "choice": "Humans",
+          "patched_logprob": -100.0,
+          "exact_logprob": -6.837369441986084,
+          "exact_separate_logprob": -6.837369441986084,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Birds",
+          "patched_logprob": -100.0,
+          "exact_logprob": -4.859646320343018,
+          "exact_separate_logprob": -4.859646320343018,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Fish",
+          "patched_logprob": -100.0,
+          "exact_logprob": -5.765921115875244,
+          "exact_separate_logprob": -5.765921115875244,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Reptiles",
+          "patched_logprob": -100.25460982276127,
+          "exact_logprob": -6.663391351234168,
+          "exact_separate_logprob": -6.663391351234168,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 72,
+      "target": "weight",
+      "patched_answer": "weight",
+      "exact_answer": "weight",
+      "choices": [
+        {
+          "choice": "mass",
+          "patched_logprob": -2.797642707824707,
+          "exact_logprob": -2.797642707824707,
+          "exact_separate_logprob": -2.797642707824707,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "weight",
+          "patched_logprob": -3.0639286041259766,
+          "exact_logprob": -3.0639286041259766,
+          "exact_separate_logprob": -3.0639286041259766,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "body density",
+          "patched_logprob": -104.05629110336304,
+          "exact_logprob": -13.156134128570557,
+          "exact_separate_logprob": -13.156134128570557,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "body temperature",
+          "patched_logprob": -101.79041457176208,
+          "exact_logprob": -10.890257596969604,
+          "exact_separate_logprob": -10.890257596969604,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 73,
+      "target": "a delta and a canyon",
+      "patched_answer": "a delta and a canyon",
+      "exact_answer": "a delta and a canyon",
+      "choices": [
+        {
+          "choice": "a hill and a delta",
+          "patched_logprob": -105.72924929857254,
+          "exact_logprob": -12.844153426587582,
+          "exact_separate_logprob": -12.844153426587582,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a delta and a canyon",
+          "patched_logprob": -107.80603709816933,
+          "exact_logprob": -13.235398441553116,
+          "exact_separate_logprob": -13.235398441553116,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a canyon and a dune",
+          "patched_logprob": -109.13749971985817,
+          "exact_logprob": -17.451715379953384,
+          "exact_separate_logprob": -17.451715379953384,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a dune and a delta",
+          "patched_logprob": -108.44542241841555,
+          "exact_logprob": -15.827359922230244,
+          "exact_separate_logprob": -15.827359922230244,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 74,
+      "target": "Clouds begin to form.",
+      "patched_answer": "Temperatures increase.",
+      "exact_answer": "Temperatures increase.",
+      "choices": [
+        {
+          "choice": "Thick fog develops.",
+          "patched_logprob": -206.78633427619934,
+          "exact_logprob": -24.436819791793823,
+          "exact_separate_logprob": -24.436819791793823,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Temperatures increase.",
+          "patched_logprob": -203.80781549494714,
+          "exact_logprob": -18.757747593335807,
+          "exact_separate_logprob": -18.757747593335807,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Clouds begin to form.",
+          "patched_logprob": -204.08359199762344,
+          "exact_logprob": -22.233618319034576,
+          "exact_separate_logprob": -22.233618319034576,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Winds die down.",
+          "patched_logprob": -206.30560445785522,
+          "exact_logprob": -26.09258794784546,
+          "exact_separate_logprob": -26.09258794784546,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 75,
+      "target": "water.",
+      "patched_answer": "water.",
+      "exact_answer": "water.",
+      "choices": [
+        {
+          "choice": "gas.",
+          "patched_logprob": -100.48890995979309,
+          "exact_logprob": -10.752422571182251,
+          "exact_separate_logprob": -10.752422571182251,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water.",
+          "patched_logprob": -3.7937052249908447,
+          "exact_logprob": -3.7937052249908447,
+          "exact_separate_logprob": -3.7937052249908447,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wind.",
+          "patched_logprob": -5.385232657194138,
+          "exact_logprob": -5.385232657194138,
+          "exact_separate_logprob": -5.385232657194138,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "clouds.",
+          "patched_logprob": -4.70650976896286,
+          "exact_logprob": -4.70650976896286,
+          "exact_separate_logprob": -4.70650976896286,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 76,
+      "target": "a mutation in DNA",
+      "patched_answer": "a mutation in DNA",
+      "exact_answer": "a parasitic infection",
+      "choices": [
+        {
+          "choice": "a parasitic infection",
+          "patched_logprob": -200.57455814629793,
+          "exact_logprob": -17.05384863168001,
+          "exact_separate_logprob": -17.05384863168001,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a mutation in DNA",
+          "patched_logprob": -112.29300434887409,
+          "exact_logprob": -18.26146872341633,
+          "exact_separate_logprob": -18.26146872341633,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a bacterial disease",
+          "patched_logprob": -206.23484086990356,
+          "exact_logprob": -21.913341522216797,
+          "exact_separate_logprob": -21.913341522216797,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "an excess of ATP",
+          "patched_logprob": -300.1651041805744,
+          "exact_logprob": -25.761348992586136,
+          "exact_separate_logprob": -25.761348992586136,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 77,
+      "target": "predicting what will happen in an investigation.",
+      "patched_answer": "predicting what will happen in an investigation.",
+      "exact_answer": "predicting what will happen in an investigation.",
+      "choices": [
+        {
+          "choice": "summarizing the data in an investigation.",
+          "patched_logprob": -210.75604276917875,
+          "exact_logprob": -27.36415987275541,
+          "exact_separate_logprob": -27.36415987275541,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "conducting the final steps of an experiment.",
+          "patched_logprob": -117.56013703346252,
+          "exact_logprob": -25.36525845527649,
+          "exact_separate_logprob": -25.36525845527649,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "changing the procedures during an experiment.",
+          "patched_logprob": -306.1519568040967,
+          "exact_logprob": -33.25353265553713,
+          "exact_separate_logprob": -33.25353265553713,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "predicting what will happen in an investigation.",
+          "patched_logprob": -114.58623017370701,
+          "exact_logprob": -22.453155413269997,
+          "exact_separate_logprob": -22.453155413269997,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 78,
+      "target": "accurate records that show that the data are consistent",
+      "patched_answer": "diagrams showing the steps used in the discovery",
+      "exact_answer": "proof that the equipment used in the discovery is of high quality",
+      "choices": [
+        {
+          "choice": "diagrams showing the steps used in the discovery",
+          "patched_logprob": -114.45235648751259,
+          "exact_logprob": -35.850338131189346,
+          "exact_separate_logprob": -35.850338131189346,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "accurate records that show that the data are consistent",
+          "patched_logprob": -412.1497419178486,
+          "exact_logprob": -42.73600414395332,
+          "exact_separate_logprob": -42.73600414395332,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "documents showing that the scientist is well known",
+          "patched_logprob": -215.43194115161896,
+          "exact_logprob": -37.901949524879456,
+          "exact_separate_logprob": -37.901949524879456,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "proof that the equipment used in the discovery is of high quality",
+          "patched_logprob": -212.36039475351572,
+          "exact_logprob": -30.47281388193369,
+          "exact_separate_logprob": -30.47281388193369,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 79,
+      "target": "Coal is nonrenewable; water is renewable.",
+      "patched_answer": "Coal is renewable; water is nonrenewable.",
+      "exact_answer": "Coal is renewable; water is nonrenewable.",
+      "choices": [
+        {
+          "choice": "Both are renewable.",
+          "patched_logprob": -10.81606376171112,
+          "exact_logprob": -10.735283970832825,
+          "exact_separate_logprob": -10.735283970832825,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Both are nonrenewable.",
+          "patched_logprob": -12.029051353456452,
+          "exact_logprob": -12.029051353456452,
+          "exact_separate_logprob": -12.029051353456452,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Coal is nonrenewable; water is renewable.",
+          "patched_logprob": -111.200307949126,
+          "exact_logprob": -18.83811484152102,
+          "exact_separate_logprob": -18.83811484152102,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Coal is renewable; water is nonrenewable.",
+          "patched_logprob": -16.715219260178856,
+          "exact_logprob": -16.715219260178856,
+          "exact_separate_logprob": -16.715219260178856,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 80,
+      "target": "cooking eggs on a stove",
+      "patched_answer": "molding a clay figure",
+      "exact_answer": "breaking a drinking glass",
+      "choices": [
+        {
+          "choice": "molding a clay figure",
+          "patched_logprob": -112.82637071609497,
+          "exact_logprob": -26.592529773712158,
+          "exact_separate_logprob": -26.592529773712158,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "breaking a drinking glass",
+          "patched_logprob": -202.02543181180954,
+          "exact_logprob": -26.144807040691376,
+          "exact_separate_logprob": -26.144807040691376,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "crushing ice cubes",
+          "patched_logprob": -204.36814212799072,
+          "exact_logprob": -28.049028396606445,
+          "exact_separate_logprob": -28.049028396606445,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "cooking eggs on a stove",
+          "patched_logprob": -208.3867198228836,
+          "exact_logprob": -31.21308434009552,
+          "exact_separate_logprob": -31.21308434009552,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 81,
+      "target": "The plants and animals in lakes and ponds will be harmed.",
+      "patched_answer": "The thickness of the ozone layer will decrease.",
+      "exact_answer": "The soil in the area will become more alkaline.",
+      "choices": [
+        {
+          "choice": "The plants and animals in lakes and ponds will be harmed.",
+          "patched_logprob": -218.12678623199463,
+          "exact_logprob": -35.1737345457077,
+          "exact_separate_logprob": -35.1737345457077,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The soil in the area will become more alkaline.",
+          "patched_logprob": -116.45562227605842,
+          "exact_logprob": -24.535559257259592,
+          "exact_separate_logprob": -24.535559257259592,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "The thickness of the ozone layer will decrease.",
+          "patched_logprob": -114.24963617976755,
+          "exact_logprob": -27.71862459834665,
+          "exact_separate_logprob": -27.71862459834665,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Levels of air pollution will increase.",
+          "patched_logprob": -113.01938979048282,
+          "exact_logprob": -26.50802866835147,
+          "exact_separate_logprob": -26.50802866835147,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 82,
+      "target": "breaking down wastes",
+      "patched_answer": "converting energy from one form into another",
+      "exact_answer": "controlling the activities of the cell",
+      "choices": [
+        {
+          "choice": "building proteins",
+          "patched_logprob": -104.10446071624756,
+          "exact_logprob": -20.337841510772705,
+          "exact_separate_logprob": -20.337841510772705,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "breaking down wastes",
+          "patched_logprob": -200.0386977531016,
+          "exact_logprob": -24.446219000965357,
+          "exact_separate_logprob": -24.446219000965357,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "controlling the activities of the cell",
+          "patched_logprob": -204.6984290778637,
+          "exact_logprob": -28.801343888044357,
+          "exact_separate_logprob": -28.801343888044357,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "converting energy from one form into another",
+          "patched_logprob": -214.13093996047974,
+          "exact_logprob": -40.17898607254028,
+          "exact_separate_logprob": -40.17898607254028,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 83,
+      "target": "the type of hair their parents have",
+      "patched_answer": "the type of hair their parents have",
+      "exact_answer": "the type of hair their parents have",
+      "choices": [
+        {
+          "choice": "the type of hair their parents have",
+          "patched_logprob": -109.98072124924511,
+          "exact_logprob": -17.22046352829784,
+          "exact_separate_logprob": -17.22046352829784,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "the type of hair their brothers and sisters have",
+          "patched_logprob": -210.41740255756304,
+          "exact_logprob": -31.802017502021044,
+          "exact_separate_logprob": -31.802017502021044,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "their hair color",
+          "patched_logprob": -105.64046078920364,
+          "exact_logprob": -18.664130985736847,
+          "exact_separate_logprob": -18.664130985736847,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "their skin color",
+          "patched_logprob": -105.88605070114136,
+          "exact_logprob": -18.90972089767456,
+          "exact_separate_logprob": -18.90972089767456,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 84,
+      "target": "Amoebas are made of only one cell.",
+      "patched_answer": "Amoebas can change their shape.",
+      "exact_answer": "Amoebas are made of only one cell.",
+      "choices": [
+        {
+          "choice": "Amoebas can change their shape.",
+          "patched_logprob": -17.00465201237239,
+          "exact_logprob": -16.74974388477858,
+          "exact_separate_logprob": -16.74974388477858,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Amoebas need humans to survive.",
+          "patched_logprob": -112.16466218826827,
+          "exact_logprob": -21.90319425461348,
+          "exact_separate_logprob": -21.90319425461348,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Amoebas look just like human cells.",
+          "patched_logprob": -113.48364241642412,
+          "exact_logprob": -19.511793451732956,
+          "exact_separate_logprob": -19.511793451732956,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Amoebas are made of only one cell.",
+          "patched_logprob": -206.05127618310507,
+          "exact_logprob": -17.34773585794028,
+          "exact_separate_logprob": -17.34773585794028,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 85,
+      "target": "Erosion is slower than uplift at El Cajon Pass.",
+      "patched_answer": "Plates are separating at El Cajon Pass.",
+      "exact_answer": "Plates are separating at El Cajon Pass.",
+      "choices": [
+        {
+          "choice": "Erosion is slower than uplift at El Cajon Pass.",
+          "patched_logprob": -309.9455140613718,
+          "exact_logprob": -36.89661009644624,
+          "exact_separate_logprob": -36.89661009644624,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Plates are separating at El Cajon Pass.",
+          "patched_logprob": -205.27651745046023,
+          "exact_logprob": -23.864057600148953,
+          "exact_separate_logprob": -23.864057600148953,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Mountain building is slower than erosion at El Cajon Pass.",
+          "patched_logprob": -308.79569210507907,
+          "exact_logprob": -38.61823620297946,
+          "exact_separate_logprob": -38.61823620297946,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Erosion and uplift are balanced at El Cajon Pass.",
+          "patched_logprob": -314.3813131636707,
+          "exact_logprob": -40.72167809668463,
+          "exact_separate_logprob": -40.72167809668463,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 86,
+      "target": "notify the teacher",
+      "patched_answer": "notify the teacher",
+      "exact_answer": "notify the teacher",
+      "choices": [
+        {
+          "choice": "notify the teacher",
+          "patched_logprob": -101.28416287899017,
+          "exact_logprob": -13.208154082298279,
+          "exact_separate_logprob": -13.208154082298279,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "wipe up the spill",
+          "patched_logprob": -102.7136201262474,
+          "exact_logprob": -12.518394410610199,
+          "exact_separate_logprob": -12.518394410610199,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "tell a classmate",
+          "patched_logprob": -105.1666434071958,
+          "exact_logprob": -17.822674062103033,
+          "exact_separate_logprob": -17.822674062103033,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "call the janitor",
+          "patched_logprob": -104.05870720744133,
+          "exact_logprob": -14.147515267133713,
+          "exact_separate_logprob": -14.147515267133713,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 87,
+      "target": "includes repeated trials.",
+      "patched_answer": "is recorded by a team of scientists.",
+      "exact_answer": "is performed in a laboratory.",
+      "choices": [
+        {
+          "choice": "includes many steps.",
+          "patched_logprob": -302.88336300849915,
+          "exact_logprob": -21.594747304916382,
+          "exact_separate_logprob": -21.594747304916382,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "is recorded by a team of scientists.",
+          "patched_logprob": -116.693717867136,
+          "exact_logprob": -26.115814119577408,
+          "exact_separate_logprob": -26.115814119577408,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "includes repeated trials.",
+          "patched_logprob": -205.1749620437622,
+          "exact_logprob": -19.679224491119385,
+          "exact_separate_logprob": -19.679224491119385,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "is performed in a laboratory.",
+          "patched_logprob": -110.86521780490875,
+          "exact_logprob": -16.15972864627838,
+          "exact_separate_logprob": -16.15972864627838,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 88,
+      "target": "continued investigation",
+      "patched_answer": "progress in the scientific method",
+      "exact_answer": "progress in the scientific method",
+      "choices": [
+        {
+          "choice": "continued investigation",
+          "patched_logprob": -200.0,
+          "exact_logprob": -13.500135898590088,
+          "exact_separate_logprob": -13.500135898590088,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "rejection of older hypotheses",
+          "patched_logprob": -110.57654440402985,
+          "exact_logprob": -22.706077218055725,
+          "exact_separate_logprob": -22.706077218055725,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "progress in the scientific method",
+          "patched_logprob": -104.94698599725962,
+          "exact_logprob": -11.263819970190525,
+          "exact_separate_logprob": -11.263819970190525,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "discussion of existing conclusions",
+          "patched_logprob": -300.9924411177635,
+          "exact_logprob": -26.97258561849594,
+          "exact_separate_logprob": -26.97258561849594,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 89,
+      "target": "inform the teacher of the accident",
+      "patched_answer": "inform the teacher of the accident",
+      "exact_answer": "inform the teacher of the accident",
+      "choices": [
+        {
+          "choice": "attempt to collect the specimen from the slide pieces",
+          "patched_logprob": -309.1083437204361,
+          "exact_logprob": -35.746005833148956,
+          "exact_separate_logprob": -35.746005833148956,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "pick up the larger pieces of the slide",
+          "patched_logprob": -207.0294200628996,
+          "exact_logprob": -26.506097957491875,
+          "exact_separate_logprob": -26.506097957491875,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "use a broom to sweep up all glass on the floor",
+          "patched_logprob": -226.16621692618355,
+          "exact_logprob": -39.84850604971871,
+          "exact_separate_logprob": -39.84850604971871,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "inform the teacher of the accident",
+          "patched_logprob": -105.45229021087289,
+          "exact_logprob": -19.355497036129236,
+          "exact_separate_logprob": -19.355497036129236,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 90,
+      "target": "type of fertilizer",
+      "patched_answer": "height of plant",
+      "exact_answer": "amount of fertilizer",
+      "choices": [
+        {
+          "choice": "type of plant",
+          "patched_logprob": -106.8977538049221,
+          "exact_logprob": -20.41179198026657,
+          "exact_separate_logprob": -20.41179198026657,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "height of plant",
+          "patched_logprob": -10.28919699974358,
+          "exact_logprob": -10.28919699974358,
+          "exact_separate_logprob": -10.28919699974358,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "amount of fertilizer",
+          "patched_logprob": -100.45130774145946,
+          "exact_logprob": -11.281257120426744,
+          "exact_separate_logprob": -11.281257120426744,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "type of fertilizer",
+          "patched_logprob": -101.15721940994263,
+          "exact_logprob": -14.695411205291748,
+          "exact_separate_logprob": -14.695411205291748,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 91,
+      "target": "opening a trashcan looking for food",
+      "patched_answer": "having a litter of four babies",
+      "exact_answer": "having a litter of four babies",
+      "choices": [
+        {
+          "choice": "making a den in the hollow of a tree",
+          "patched_logprob": -307.2225587144494,
+          "exact_logprob": -33.212028719484806,
+          "exact_separate_logprob": -33.212028719484806,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "opening a trashcan looking for food",
+          "patched_logprob": -305.7725890278816,
+          "exact_logprob": -40.83189135789871,
+          "exact_separate_logprob": -40.83189135789871,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "moving four legs while running",
+          "patched_logprob": -209.88122177124023,
+          "exact_logprob": -31.508617401123047,
+          "exact_separate_logprob": -31.508617401123047,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "having a litter of four babies",
+          "patched_logprob": -112.46125242114067,
+          "exact_logprob": -24.25796529650688,
+          "exact_separate_logprob": -24.25796529650688,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 92,
+      "target": "1.5 g",
+      "patched_answer": "1.0 g",
+      "exact_answer": "148.5 g",
+      "choices": [
+        {
+          "choice": "1.0 g",
+          "patched_logprob": -6.889734447002411,
+          "exact_logprob": -7.053257405757904,
+          "exact_separate_logprob": -7.053257405757904,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "1.5 g",
+          "patched_logprob": -8.397454679012299,
+          "exact_logprob": -8.397454679012299,
+          "exact_separate_logprob": -8.397454679012299,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "148.5 g",
+          "patched_logprob": -9.807474207133055,
+          "exact_logprob": -9.807474207133055,
+          "exact_separate_logprob": -9.807474207133055,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "298.5 g",
+          "patched_logprob": -17.744607239961624,
+          "exact_logprob": -17.744607239961624,
+          "exact_separate_logprob": -17.744607239961624,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 93,
+      "target": "Plankton release oxygen.",
+      "patched_answer": "Plankton reproduce quickly.",
+      "exact_answer": "Plankton reproduce quickly.",
+      "choices": [
+        {
+          "choice": "Plankton are colorful.",
+          "patched_logprob": -202.0852627007116,
+          "exact_logprob": -16.479771037615137,
+          "exact_separate_logprob": -16.479771037615137,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Plankton clean the water.",
+          "patched_logprob": -104.01928015521844,
+          "exact_logprob": -12.645014484442072,
+          "exact_separate_logprob": -12.645014484442072,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Plankton release oxygen.",
+          "patched_logprob": -106.2153147654899,
+          "exact_logprob": -15.286022086656885,
+          "exact_separate_logprob": -15.286022086656885,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Plankton reproduce quickly.",
+          "patched_logprob": -104.59404089025338,
+          "exact_logprob": -12.128479977167444,
+          "exact_separate_logprob": -12.128479977167444,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 94,
+      "target": "one that lives under the ground",
+      "patched_answer": "one that eats meat",
+      "exact_answer": "one that lives under the ground",
+      "choices": [
+        {
+          "choice": "one that eats meat",
+          "patched_logprob": -107.74707895517349,
+          "exact_logprob": -14.683935701847076,
+          "exact_separate_logprob": -14.683935701847076,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "one that uses plants for shelter",
+          "patched_logprob": -209.9054098725319,
+          "exact_logprob": -22.627175390720367,
+          "exact_separate_logprob": -22.627175390720367,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "one that lives under the ground",
+          "patched_logprob": -204.60645759105682,
+          "exact_logprob": -19.333971858024597,
+          "exact_separate_logprob": -19.333971858024597,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "one that builds nests on the ground",
+          "patched_logprob": -212.07135581970215,
+          "exact_logprob": -24.784526824951172,
+          "exact_separate_logprob": -24.784526824951172,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 95,
+      "target": "Kinetic energy increases and potential energy decreases.",
+      "patched_answer": "Kinetic energy decreases and potential energy increases.",
+      "exact_answer": "Kinetic energy decreases and potential energy increases.",
+      "choices": [
+        {
+          "choice": "Kinetic energy decreases and potential energy increases.",
+          "patched_logprob": -107.59328918051324,
+          "exact_logprob": -13.55414132666192,
+          "exact_separate_logprob": -13.55414132666192,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Kinetic energy increases and potential energy decreases.",
+          "patched_logprob": -108.35640267393319,
+          "exact_logprob": -14.317254820081871,
+          "exact_separate_logprob": -14.317254820081871,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Both potential energy and kinetic energy decrease.",
+          "patched_logprob": -110.76038309535943,
+          "exact_logprob": -17.755642380332574,
+          "exact_separate_logprob": -17.755642380332574,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "Both potential energy and kinetic energy increase.",
+          "patched_logprob": -109.4468259473797,
+          "exact_logprob": -16.442085232352838,
+          "exact_separate_logprob": -16.442085232352838,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 96,
+      "target": "pushing a button to make a doorbell ring",
+      "patched_answer": "flipping a switch to turn on a light",
+      "exact_answer": "flipping a switch to turn on a light",
+      "choices": [
+        {
+          "choice": "pushing a button to make a doorbell ring",
+          "patched_logprob": -212.56173592805862,
+          "exact_logprob": -30.149964153766632,
+          "exact_separate_logprob": -30.149964153766632,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "stepping on a mat to make a door open",
+          "patched_logprob": -214.96070411801338,
+          "exact_logprob": -38.74613597989082,
+          "exact_separate_logprob": -38.74613597989082,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "flipping a switch to turn on a light",
+          "patched_logprob": -108.68062859773636,
+          "exact_logprob": -22.069292843341827,
+          "exact_separate_logprob": -22.069292843341827,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "sliding a lever to turn on an electric blanket",
+          "patched_logprob": -314.7927368879318,
+          "exact_logprob": -44.89367425441742,
+          "exact_separate_logprob": -44.89367425441742,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 97,
+      "target": "It is an inherited behavior that maintains the population.",
+      "patched_answer": "It is a learned behavior that maintains the population.",
+      "exact_answer": "It is a learned behavior that maintains the population.",
+      "choices": [
+        {
+          "choice": "It is a learned behavior that maintains the population.",
+          "patched_logprob": -218.57220225036144,
+          "exact_logprob": -33.10307030379772,
+          "exact_separate_logprob": -33.10307030379772,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It is a learned behavior that maintains salt concentrations.",
+          "patched_logprob": -414.7422019690275,
+          "exact_logprob": -41.99684827029705,
+          "exact_separate_logprob": -41.99684827029705,
+          "top20_misses": 4,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It is an inherited behavior that maintains the population.",
+          "patched_logprob": -317.2431742846966,
+          "exact_logprob": -38.89057704806328,
+          "exact_separate_logprob": -38.89057704806328,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "It is an inherited behavior that maintains salt concentrations.",
+          "patched_logprob": -513.8670023977757,
+          "exact_logprob": -49.33924713730812,
+          "exact_separate_logprob": -49.33924713730812,
+          "top20_misses": 5,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 98,
+      "target": "a magnet",
+      "patched_answer": "water",
+      "exact_answer": "water",
+      "choices": [
+        {
+          "choice": "a magnet",
+          "patched_logprob": -7.845494270324707,
+          "exact_logprob": -7.845494270324707,
+          "exact_separate_logprob": -7.845494270324707,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a glass cup",
+          "patched_logprob": -108.1310920715332,
+          "exact_logprob": -14.356858253479004,
+          "exact_separate_logprob": -14.356858253479004,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "a filter paper and funnel",
+          "patched_logprob": -115.63017511367798,
+          "exact_logprob": -21.13985824584961,
+          "exact_separate_logprob": -21.13985824584961,
+          "top20_misses": 1,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "water",
+          "patched_logprob": -3.9992239475250244,
+          "exact_logprob": -3.9992239475250244,
+          "exact_separate_logprob": -3.9992239475250244,
+          "top20_misses": 0,
+          "token_boundary_mismatch": false
+        }
+      ]
+    },
+    {
+      "question_id": 99,
+      "target": "severity of hurricanes per season",
+      "patched_answer": "number of days of sunlight per year",
+      "exact_answer": "number of days of sunlight per year",
+      "choices": [
+        {
+          "choice": "amount of tannin in the bark",
+          "patched_logprob": -308.21037446777336,
+          "exact_logprob": -35.62330836919136,
+          "exact_separate_logprob": -35.62330836919136,
+          "top20_misses": 3,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "severity of hurricanes per season",
+          "patched_logprob": -209.156946323812,
+          "exact_logprob": -34.9391433224082,
+          "exact_separate_logprob": -34.9391433224082,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "number of days of sunlight per year",
+          "patched_logprob": -207.89780096895993,
+          "exact_logprob": -30.890312718227506,
+          "exact_separate_logprob": -30.890312718227506,
+          "top20_misses": 2,
+          "token_boundary_mismatch": false
+        },
+        {
+          "choice": "size of stilt- like root systems per tree",
+          "patched_logprob": -511.0308062136173,
+          "exact_logprob": -55.895610481500626,
+          "exact_separate_logprob": -55.895610481500626,
+          "top20_misses": 5,
+          "token_boundary_mismatch": false
+        }
+      ]
+    }
+  ],
+  "patched_gpirt": 0.3671144741997211,
+  "exact_gpirt": 0.39090837123396316
+}

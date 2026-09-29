@@ -1,0 +1,2327 @@
+models:
+- id: gemma3_270m
+  display_name: Gemma 3 270M
+  tasks: []
+  quantizations:
+  - name: q8_0_ggml_org
+    backend: llama_cpp
+    model_path: ./gguf_models/gemma-3-270m-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-270m-it-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: qwen3_0_6b
+  display_name: Qwen 3 0.6B
+  tasks: []
+  quantizations:
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-0.6B-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: gemma3_1b
+  display_name: Gemma 3 1B
+  tasks: []
+  quantizations:
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-1b-it-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: llama32_1b
+  display_name: Llama 3.2 1B
+  tasks: []
+  quantizations:
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: f16
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-1B-Instruct-f16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: qwen3_1_7b
+  display_name: Qwen 3 1.7B
+  tasks: []
+  quantizations:
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-1.7B-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: llama32_3b
+  display_name: Llama 3.2 3B
+  tasks: []
+  quantizations:
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q6_k.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q5_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_1
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q5_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q5_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q5_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q4_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q4_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq4_nl.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq4_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q3_k_l.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q3_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q3_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq3_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq3_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq3_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq3_xxs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q2_k.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-q2_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq2_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq2_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq2_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq2_xxs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq1_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq1_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq1_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama32-3b-iq1_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: f16
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-3B-Instruct-F16xyz.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.2-3B-Instruct-BF16xyz.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: phi4_mini
+  display_name: Phi-4-mini
+  tasks: []
+  quantizations:
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/microsoft_Phi-4-mini-instruct-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: gemma3_4b
+  display_name: Gemma 3 4B
+  tasks: []
+  quantizations:
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/google_gemma-3-4b-it-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: qwen3_4b
+  display_name: Qwen 3 4B
+  tasks: []
+  quantizations:
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-4B-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: llama31_8b
+  display_name: Llama 3.1 8B
+  tasks: []
+  quantizations:
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q6_k.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q5_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_1
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q5_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q5_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q5_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q4_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q4_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq4_nl.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq4_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q3_k_l.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q3_k_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q3_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq3_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq3_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq3_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq3_xxs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q2_k.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-q2_k_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq2_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq2_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq2_xs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq2_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq2_xxs.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq1_m
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq1_m.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq1_s
+    backend: llama_cpp
+    model_path: ./gguf_models/llama31-8b-iq1_s.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.1-8B-Instruct-BF16xyz.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: f16
+    backend: llama_cpp
+    model_path: ./gguf_models/Llama-3.1-8B-Instruct-F16xyz.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+- id: qwen3_8b
+  display_name: Qwen 3 8B
+  tasks: []
+  quantizations:
+  - name: iq2_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ2_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ3_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ3_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq3_xxs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ3_XXS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_nl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ4_NL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: iq4_xs
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-IQ4_XS.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q2_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q2_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q2_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q3_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q3_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q3_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q3_k_xl
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q3_K_XL.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q4_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_1
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q4_1.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q4_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q4_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q4_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q4_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q5_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_m
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q5_K_M.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q5_k_s
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q5_K_S.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q6_K.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q6_k_l
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q6_K_L.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: q8_0
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-Q8_0.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+  - name: bf16
+    backend: llama_cpp
+    model_path: ./gguf_models/Qwen_Qwen3-8B-bf16.gguf
+    n_gpu_layers: 99
+    context_size: 4096
+    tasks:
+    - tinyBenchmarks
+    num_fewshot: 0
+    limit: null
+lm_eval:
+  harness_path: ./lm-evaluation-harness
+  batch_size: 4
+  python: python3
+  num_concurrent: 1

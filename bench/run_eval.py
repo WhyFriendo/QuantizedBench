@@ -16,7 +16,10 @@ from bench.utils import Endpoint, ensure_dir, wait_for_port
 
 
 def run_benchmark(*, config: BenchConfig, model: ModelConfig, quant: QuantizationConfig) -> None:
-    results_dir = Path("results") / model.id / quant.name
+    # Use an absolute path because lm-eval runs with the harness repository as
+    # its working directory. Relative output paths otherwise put raw JSON in
+    # the harness tree while summaries land in the requested results tree.
+    results_dir = (Path("results") / model.id / quant.name).resolve()
     ensure_dir(results_dir)
 
     endpoint = _allocate_endpoint(quant)

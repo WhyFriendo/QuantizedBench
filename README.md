@@ -1,96 +1,141 @@
-# QuantizedBench
+# QuantizedBench thesis benchmark package
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+This repository is the reproducible code package used to evaluate 253 GGUF
+quantizations with the `tinyBenchmarks` task group through llama.cpp and
+EleutherAI's lm-evaluation-harness. It also contains the repeat-run and scoring
+validation utilities used to check the method.
 
-QuantizedBench is an automated, configuration-driven evaluation framework designed to benchmark quantized Large Language Models (LLMs) across multiple high-performance inference backends (such as **[MLC-LLM](https://github.com/mlc-ai/mlc-llm)** and **[llama.cpp](https://github.com/ggerganov/llama.cpp)**). 
+Large GGUF weights, generated benchmark results, credentials, virtual
+environments, and the external lm-evaluation-harness checkout are deliberately
+excluded.
 
-It dynamically spins up local OpenAI-compatible inference servers for the selected quantization formats, evaluates them against standardized tasks using the **[EleutherAI LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)**, and aggregates the results into comprehensive CSV and Markdown reports.
+## Included files
 
-## Quickstart
+- `bench/`: configuration loader, runner, llama.cpp backend, result parser, the
+  exact benchmark configuration, and the 253-file download manifest.
+- `patches/lm_eval_gguf_logprobs.patch`: GGUF adapter patch applied to the
+  pinned lm-evaluation-harness revision.
+- `scripts/download_models.py`: resumable, SHA-256-verified model downloader.
+- `scripts/generate_config.py`: regenerates the 253-run configuration directly
+  from the model manifest.
+- `scripts/repeat_sweep.py`: resumable multi-quantization repeat runner used for
+  the five-repeat Gemma 3 270M sweep.
+- `scripts/repeat_gemma3_270m_tinybenchmarks.py`: focused repeat and reference
+  comparison utility. Its reference and output paths are command-line options
+  in this repository so it is portable.
+- `scripts/validate_gguf_scoring.py`: comparison of the patched top-20 scorer
+  against forced-token scoring from llama-server.
+- `scripts/ec2/`: EC2 bootstrap and incremental rsync helper.
+- `validation/`: the scoring validation summary and machine-readable reports.
+- `Dockerfile`, `uv.lock`, and `.python-version`: pinned execution environment.
+- `tinyBenchmarks.pkl`: runtime data loaded by the tinyBenchmarks package.
 
-### Prerequisites
+## Reproduce the Docker environment
 
-* Python 3.10+
-* [uv](https://github.com/astral-sh/uv) for dependencies management
-* CUDA-compatible GPU (recommended)
-
-### Local Installation
-
-1. Clone the repository and install dependencies:
-```bash
-git clone https://github.com/yourusername/QuantizedBench.git
-cd QuantizedBench
-uv venv
-uv sync
-```
-
-2. Clone and install the LM Evaluation Harness:
-```bash
-git clone https://github.com/EleutherAI/lm-evaluation-harness.git
-cd lm-evaluation-harness
-uv pip install -e .
-cd ..
-```
-
-3. Copy the example configuration and adjust your paths:
-```bash
-cp bench/config.example.yaml bench/config.yaml
-```
-
-### Docker Usage
-
-You can run QuantizedBench entirely within Docker for proper environment setup.
+Requirements: Docker with the NVIDIA Container Toolkit, an NVIDIA GPU, and
+enough storage for the selected GGUF files.
 
 ```bash
-# Build the image
-docker build -t quantizedbench .
-
-# Run the benchmarks (mount your local models and results directories)
-docker run --gpus all -it --rm \
-  -v $(pwd)/bench/config.yaml:/app/bench/config.yaml \
-  -v $(pwd)/results:/app/results \
-  -v $(pwd)/gguf_models:/app/gguf_models \
-  quantizedbench --config bench/config.yaml --model example_model
+docker build -t quantizedbench-thesis .
 ```
 
-## Config
+The build pins the llama.cpp server image by digest and checks out
+lm-evaluation-harness commit
+`1323ffe16fe1b7df39e18d320dbe7a9509d51e83` before applying the bundled patch.
+The tinyBenchmarks dependency is pinned to commit
+`e9a8b1031b0340571beb6c9ca3a27891be09a8fd`.
 
-The framework is configured entirely in `bench/config.yaml`. Example structure:
+## Download model files
 
-```yaml
-models:
-  - id: qwen3_0_8b
-    display_name: Qwen3.5-0.8B
-    tasks: [] # Global tasks
-    quantizations:
-      - name: gguf_q4_0
-        backend: llama_cpp
-        model_path: ./gguf_models/Qwen_Qwen3.5-0.8B-IQ2_M.gguf
-        n_gpu_layers: 99
-        context_size: 4096
-        tasks:
-          - tinyBenchmarks
-```
+List the files for one model family:
 
-## Running Benchmarks
-
-**List planned runs:**
 ```bash
-./run_llama_benchmarks.sh --list
+uv run python scripts/download_models.py --family gemma3_270m --list
 ```
 
-**Filter and execute for a specific model:**
+Download and verify them:
+
 ```bash
-./run_llama_benchmarks.sh qwen3_0_8b
-./run_mlc_benchmarks.sh phi3_mini
+uv run python scripts/download_models.py --family gemma3_270m
 ```
 
-**View Results:**
-Results are aggregated automatically in the `results/` folder, neatly organized by `results/<model_id>/<quant_name>/`. You will find:
-* Raw `lm_eval.json` outputs
-* Formatted `_summary.md` markdown tables
-* Compiled `lm_eval_summary.csv` CSV files for easy plotting
-* `meta.json` capturing the exact configurations used for reproducibility.
+The complete manifest contains 253 GGUF files across 11 model families. Model
+weights are saved under `gguf_models/`, which is ignored by Git.
 
+To regenerate `bench/config.yaml` from the manifest:
 
+```bash
+uv run python scripts/generate_config.py
+```
+
+## Run one benchmark
+
+```bash
+docker run --gpus all --rm \
+  -v "$PWD/gguf_models:/app/gguf_models:ro" \
+  -v "$PWD/results:/app/results" \
+  quantizedbench-thesis \
+  --config /app/bench/config.yaml \
+  --model gemma3_270m \
+  --quantization iq3_xxs
+```
+
+List matching jobs without running them by appending `--list`.
+
+## Run the repeat sweep
+
+The sweep runner writes each repeat to its own directory and skips jobs carrying
+a `COMPLETED` marker when restarted:
+
+```bash
+docker run --gpus all --rm \
+  -v "$PWD/gguf_models:/app/gguf_models:ro" \
+  -v "$PWD/results_ec2_repeats:/output" \
+  --entrypoint python3 quantizedbench-thesis \
+  /app/scripts/repeat_sweep.py \
+  --config /app/bench/config.yaml \
+  --model gemma3_270m \
+  --repeats 5 \
+  --output-root /output/gemma3_270m_5x
+```
+
+## Run the focused repeat comparison
+
+```bash
+uv run python scripts/repeat_gemma3_270m_tinybenchmarks.py \
+  --repeats 3 \
+  --reference /path/to/lm_eval_tinyBenchmarks_summary.csv
+```
+
+## Validate GGUF scoring
+
+Start llama-server for a test GGUF, then run:
+
+```bash
+uv run python scripts/validate_gguf_scoring.py \
+  --base-url http://127.0.0.1:8080 \
+  --task tinyArc \
+  --questions 100 \
+  --output validation/scoring_validation_new.json
+```
+
+This requires the pinned, patched `lm-evaluation-harness` checkout. The Docker
+image creates it automatically at `/app/lm-evaluation-harness`.
+
+## EC2 result synchronization
+
+Copy `.ec2-instance.env.example` to `.ec2-instance.env`, enter the instance
+address and SSH key path, then run:
+
+```bash
+scripts/ec2/pull_results.sh
+```
+
+The helper uses rsync with partial transfers and a local lock, making repeated
+incremental synchronization safe.
+
+## Recorded environment and limitations
+
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md). The scoring approximation
+documented there is relevant when interpreting small differences between runs
+made with different llama.cpp or hardware environments.

@@ -1,4 +1,4 @@
-FROM ghcr.io/ggml-org/llama.cpp:server-cuda AS llama
+FROM ghcr.io/ggml-org/llama.cpp:server-cuda@sha256:b98cf7adba78b3a8053724949fafcea8094182f1fd4d28e0de46e471dffe75d0 AS llama
 
 FROM nvidia/cuda:12.8.1-devel-ubuntu24.04
 
@@ -30,12 +30,15 @@ COPY patches/ ./patches/
 ENV PATH="/app/.venv/bin:$PATH"
 RUN uv venv && uv sync --frozen
 
+ARG LM_EVAL_COMMIT=1323ffe16fe1b7df39e18d320dbe7a9509d51e83
 RUN git clone https://github.com/EleutherAI/lm-evaluation-harness.git /app/lm-evaluation-harness && \
     cd /app/lm-evaluation-harness && \
+    git checkout "$LM_EVAL_COMMIT" && \
     git apply /app/patches/lm_eval_gguf_logprobs.patch && \
     uv pip install -e .
 
-RUN uv pip install "tinyBenchmarks @ git+https://github.com/felipemaiapolo/tinyBenchmarks"
+ARG TINYBENCHMARKS_COMMIT=e9a8b1031b0340571beb6c9ca3a27891be09a8fd
+RUN uv pip install "tinyBenchmarks @ git+https://github.com/felipemaiapolo/tinyBenchmarks@${TINYBENCHMARKS_COMMIT}"
 
 COPY . .
 
