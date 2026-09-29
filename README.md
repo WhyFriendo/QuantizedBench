@@ -30,6 +30,18 @@ excluded.
 - `Dockerfile`, `uv.lock`, and `.python-version`: pinned execution environment.
 - `tinyBenchmarks.pkl`: runtime data loaded by the tinyBenchmarks package.
 
+## Android applications
+
+This repository also contains two Android benchmarking applications, each kept in
+its own top-level folder:
+
+- [`Llama-Bench/`](Llama-Bench/README.md) — the React Native llama.cpp benchmark application.
+- [`Execu-Benchmark/`](Execu-Benchmark/README.md) — the native Android ExecuTorch benchmark application.
+
+Each application has its own build files, dependencies, documentation, and
+application-specific `.gitignore` rules. Run build commands from the relevant
+application folder.
+
 ## Reproduce the Docker environment
 
 Requirements: Docker with the NVIDIA Container Toolkit, an NVIDIA GPU, and

@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.so
+*.aar
+
+# Signing key - never commit
+*.keystore
+*.jks
+
+# Downloaded benchmark model weights (large binaries, fetched at runtime)
+/Gemma3_1B/
+/Gemma3_270M/
+/Phi-4-mini/
+/Qwen3-0.6B-ExecuTorch-8da4w/
+/smollm/
+/test.json

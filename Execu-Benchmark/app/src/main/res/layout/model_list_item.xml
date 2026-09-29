@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/model_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="llama3_2_3B_bf16.pte"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/model_architecture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LLAMA 3.2 ARCHITECTURE"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/model_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready"
+        android:textSize="12sp"
+        android:textColor="#007700"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/benchmark_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run Benchmark"
+            android:background="@drawable/custom_button_round"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp" />
+
+        <Button
+            android:id="@+id/delete_model_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/delete_model_files"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

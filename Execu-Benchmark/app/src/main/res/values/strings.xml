@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExecuTorchLlamaDemo</string>
+    <string name="demo_pref_file_key">DemoPrefFileKey</string>
+    <string name="saved_messages_json_key">SavedMessagesJsonKey</string>
+    <string name="settings_json_key">SettingsJsonKey</string>
+    <string name="logs_json_key">LogsJsonKey</string>
+    <string name="run_all_queue_json_key">RunAllQueueJsonKey</string>
+    <string name="run_all_index_key">RunAllIndexKey</string>
+    <string name="run_all_active_key">RunAllActiveKey</string>
+    <string name="completed_models_json_key">CompletedModelsJsonKey</string>
+    <string name="delete_model_files">Delete model</string>
+    <string name="delete_model_title">Delete downloaded model?</string>
+    <string name="delete_model_message">The downloaded model file will be removed. You can download it again later.</string>
+    <string name="delete_model_failed">Could not delete the model file. Please try again.</string>
+    <string name="retry_download">Retry download</string>
+</resources>
