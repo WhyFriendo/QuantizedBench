@@ -1,0 +1,190 @@
+{
+  "model_list": [
+    {
+      "model_id": "gemma-3-270m-it-q3f16_1-MLC",
+      "model_lib": "gemma3_text_q3f16_1_3e69a2db56a44618b402669369348715",
+      "model_url": "https://huggingface.co/WhyFriendo/gemma-3-270m-it-q3f16_1-MLC",
+      "estimated_vram_bytes": 176000000
+    },
+    {
+      "model_id": "gemma-3-270m-it-q4f16_1-MLC",
+      "model_lib": "gemma3_text_q4f16_1_0b918f259e6d2b0776f95daa4f71cb4d",
+      "model_url": "https://huggingface.co/WhyFriendo/gemma-3-270m-it-q4f16_1-MLC",
+      "estimated_vram_bytes": 200200000
+    },
+    {
+      "model_id": "gemma-3-270m-it-q0bf16-MLC",
+      "model_lib": "gemma3_text_q0bf16_1adceaa67ede2c2ad423134420b55729",
+      "model_url": "https://huggingface.co/WhyFriendo/gemma-3-270m-it-q0bf16-MLC",
+      "estimated_vram_bytes": 638000000
+    },
+    {
+      "model_id": "gemma-3-1b-it-q3f16_1-MLC",
+      "model_lib": "gemma3_text_q3f16_1_aa0dba23bd498c7bd5583b03ee17c271",
+      "model_url": "https://huggingface.co/WhyFriendo/gemma-3-1b-it-q3f16_1-MLC",
+      "estimated_vram_bytes": 539000000
+    },
+    {
+      "model_id": "gemma-3-1b-it-q4f16_1-MLC",
+      "model_lib": "gemma3_text_q4f16_1_88aafd828306457b45c5b7d424af87e5",
+      "model_url": "https://huggingface.co/mlc-ai/gemma-3-1b-it-q4f16_1-MLC",
+      "estimated_vram_bytes": 660000000
+    },
+    {
+      "model_id": "gemma-3-1b-it-q0bf16-MLC",
+      "model_lib": "gemma3_text_q0bf16_f5ee57d398808fa740b3b2a0ec55c9f5",
+      "model_url": "https://huggingface.co/mlc-ai/gemma-3-1b-it-q0bf16-MLC",
+      "estimated_vram_bytes": 2244000000
+    },
+    {
+      "model_id": "gemma-3-4b-it-q3f16_1-MLC",
+      "model_lib": "gemma3_q3f16_1_1738733fadc1a1cb06e4f1fc33782dbe",
+      "model_url": "https://huggingface.co/WhyFriendo/gemma-3-4b-it-q3f16_1-MLC",
+      "estimated_vram_bytes": 1969000000
+    },
+    {
+      "model_id": "gemma-3-4b-it-q4f16_1-MLC",
+      "model_lib": "gemma3_q4f16_1_97534b3a2f17a9d76b1e2bfc8cdd4f36",
+      "model_url": "https://huggingface.co/mlc-ai/gemma-3-4b-it-q4f16_1-MLC",
+      "estimated_vram_bytes": 2442000000
+    },
+    {
+      "model_id": "gemma-3-4b-it-q0bf16-MLC",
+      "model_lib": "gemma3_q0bf16_1f2f4ccd305b2fd65e24d99329458d30",
+      "model_url": "https://huggingface.co/mlc-ai/gemma-3-4b-it-q0bf16-MLC",
+      "estimated_vram_bytes": 8580000000
+    },
+    {
+      "model_id": "Llama-3.2-3B-Instruct-q3f16_1-MLC",
+      "model_lib": "llama_q3f16_1_1d7fac3cd59a664b8e37ccc9ca626f12",
+      "model_url": "https://huggingface.co/WhyFriendo/Llama-3.2-3B-Instruct-q3f16_1-MLC",
+      "estimated_vram_bytes": 1606000000
+    },
+    {
+      "model_id": "Llama-3.2-3B-Instruct-q4f16_1-MLC",
+      "model_lib": "llama_q4f16_1_5dccf904866eb6ad9504934ca79970da",
+      "model_url": "https://huggingface.co/mlc-ai/Llama-3.2-3B-Instruct-q4f16_1-MLC",
+      "estimated_vram_bytes": 2002000000
+    },
+    {
+      "model_id": "Llama-3.2-3B-Instruct-q0bf16-MLC",
+      "model_lib": "llama_q0bf16_645833dc206596c5808656b5f1a67104",
+      "model_url": "https://huggingface.co/WhyFriendo/Llama-3.2-3B-Instruct-q0bf16-MLC",
+      "estimated_vram_bytes": 7073000000
+    },
+    {
+      "model_id": "Llama-3.2-1B-Instruct-q3f16_1-MLC",
+      "model_lib": "llama_q3f16_1_08fa3256f6f38241aec2fcb57c6062b8",
+      "model_url": "https://huggingface.co/WhyFriendo/Llama-3.2-1B-Instruct-q3f16_1-MLC",
+      "estimated_vram_bytes": 627000000
+    },
+    {
+      "model_id": "Llama-3.2-1B-Instruct-q4f16_1-MLC",
+      "model_lib": "llama_q4f16_1_d7a2a55e4e06eb64deb559398a231ed3",
+      "model_url": "https://huggingface.co/mlc-ai/Llama-3.2-1B-Instruct-q4f16_1-MLC",
+      "estimated_vram_bytes": 770000000
+    },
+    {
+      "model_id": "Llama-3.2-1B-Instruct-q0bf16-MLC",
+      "model_lib": "llama_q0bf16_8b8c0cc7866ab73bfa4a54dc0b61c2a0",
+      "model_url": "https://huggingface.co/WhyFriendo/Llama-3.2-1B-Instruct-q0bf16-MLC",
+      "estimated_vram_bytes": 2728000000
+    },
+    {
+      "model_id": "Phi-4-mini-instruct-q3f16_1-MLC",
+      "model_lib": "phi3_q3f16_1_234fa9fe4daf77c7cf2b734c40075302",
+      "model_url": "https://huggingface.co/WhyFriendo/Phi-4-mini-instruct-q3f16_1-MLC",
+      "estimated_vram_bytes": 1925000000
+    },
+    {
+      "model_id": "Phi-4-mini-instruct-q4f16_1-MLC",
+      "model_lib": "phi3_q4f16_1_5ac2a6e284b72e082e40add0cc9189fe",
+      "model_url": "https://huggingface.co/mlc-ai/Phi-4-mini-instruct-q4f16_1-MLC",
+      "estimated_vram_bytes": 2398000000
+    },
+    {
+      "model_id": "Phi-4-mini-instruct-q0bf16-MLC",
+      "model_lib": "phi3_q0bf16_44b976f11798803980bcf193b1ac5ff7",
+      "model_url": "https://huggingface.co/WhyFriendo/Phi-4-mini-instruct-q0bf16-MLC",
+      "estimated_vram_bytes": 8459000000
+    },
+    {
+      "model_id": "Qwen3-0.6B-q3f16_1-MLC",
+      "model_lib": "qwen3_q3f16_1_df82a7c509ea622c3dcb8664fee31d24",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-0.6B-q3f16_1-MLC",
+      "estimated_vram_bytes": 319000000
+    },
+    {
+      "model_id": "Qwen3-0.6B-q4f16_1-MLC",
+      "model_lib": "qwen3_q4f16_1_240bc40143cfa59c13daaffef2297adf",
+      "model_url": "https://huggingface.co/mlc-ai/Qwen3-0.6B-q4f16_1-MLC",
+      "estimated_vram_bytes": 385000000
+    },
+    {
+      "model_id": "Qwen3-0.6B-q0bf16-MLC",
+      "model_lib": "qwen3_q0bf16_d0cd54fee5ef81de9193bb9a7014c661",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-0.6B-q0bf16-MLC",
+      "estimated_vram_bytes": 1331000000
+    },
+    {
+      "model_id": "Qwen3-1.7B-q3f16_1-MLC",
+      "model_lib": "qwen3_q3f16_1_b7fd7fa64818fce4f69482ec690f4346",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-1.7B-q3f16_1-MLC",
+      "estimated_vram_bytes": 880000000
+    },
+    {
+      "model_id": "Qwen3-1.7B-q4f16_1-MLC",
+      "model_lib": "qwen3_q4f16_1_1431bce2f7643ad37bb21ddc71153223",
+      "model_url": "https://huggingface.co/mlc-ai/Qwen3-1.7B-q4f16_1-MLC",
+      "estimated_vram_bytes": 1078000000
+    },
+    {
+      "model_id": "Qwen3-1.7B-q0bf16-MLC",
+      "model_lib": "qwen3_q0bf16_fe39155d29c6936f20536df21feddb43",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-1.7B-q0bf16-MLC",
+      "estimated_vram_bytes": 3806000000
+    },
+    {
+      "model_id": "Qwen3-4B-q3f16_1-MLC",
+      "model_lib": "qwen3_q3f16_1_e6b59989ff1cc3349af3da140644f67e",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-4B-q3f16_1-MLC",
+      "estimated_vram_bytes": 2013000000
+    },
+    {
+      "model_id": "Qwen3-4B-q4f16_1-MLC",
+      "model_lib": "qwen3_q4f16_1_268d92e2b23bc51db1e5b585b802653b",
+      "model_url": "https://huggingface.co/mlc-ai/Qwen3-4B-q4f16_1-MLC",
+      "estimated_vram_bytes": 2508000000
+    },
+    {
+      "model_id": "Qwen3-4B-q0bf16-MLC",
+      "model_lib": "qwen3_q0bf16_5511eceea88b11de5502592360ef66b5",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-4B-q0bf16-MLC",
+      "estimated_vram_bytes": 8866000000
+    },
+    {
+      "model_id": "Qwen3-8B-q3f16_1-MLC",
+      "model_lib": "qwen3_q3f16_1_44b3bbe33e56252e0335aa6f6326d98d",
+      "model_url": "https://huggingface.co/WhyFriendo/Qwen3-8B-q3f16_1-MLC",
+      "estimated_vram_bytes": 4070000000
+    },
+    {
+      "model_id": "Qwen3-8B-q4f16_1-MLC",
+      "model_lib": "qwen3_q4f16_1_779da61f3318b5b39355f30ef4917e14",
+      "model_url": "https://huggingface.co/mlc-ai/Qwen3-8B-q4f16_1-MLC",
+      "estimated_vram_bytes": 5082000000
+    },
+    {
+      "model_id": "Llama-3.1-8B-Instruct-q3f16_1-MLC",
+      "model_lib": "llama_q3f16_1_4cf226168f36e865fe5e2d2dfbef0d3c",
+      "model_url": "https://huggingface.co/mlc-ai/Llama-3.1-8B-Instruct-q3f16_1-MLC",
+      "estimated_vram_bytes": 4004000000
+    },
+    {
+      "model_id": "Llama-3.1-8B-Instruct-q4f16_1-MLC",
+      "model_lib": "llama_q4f16_1_e005dee8d09c7f1fcf4c8f054e95d5dd",
+      "model_url": "https://huggingface.co/mlc-ai/Llama-3.1-8B-Instruct-q4f16_1-MLC",
+      "estimated_vram_bytes": 4983000000
+    }
+  ]
+}

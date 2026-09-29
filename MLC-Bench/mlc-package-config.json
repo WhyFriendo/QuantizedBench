@@ -1,0 +1,636 @@
+{
+    "device": "android",
+    "model_list": [
+        {
+            "model": "HF://WhyFriendo/gemma-3-270m-it-q3f16_1-MLC",
+            "model_id": "gemma-3-270m-it-q3f16_1-MLC",
+            "estimated_vram_bytes": 176000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/gemma-3-270m-it-q4f16_1-MLC",
+            "model_id": "gemma-3-270m-it-q4f16_1-MLC",
+            "estimated_vram_bytes": 200200000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/gemma-3-270m-it-q0bf16-MLC",
+            "model_id": "gemma-3-270m-it-q0bf16-MLC",
+            "estimated_vram_bytes": 638000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/gemma-3-1b-it-q3f16_1-MLC",
+            "model_id": "gemma-3-1b-it-q3f16_1-MLC",
+            "estimated_vram_bytes": 539000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q4f16_1-MLC",
+            "model_id": "gemma-3-1b-it-q4f16_1-MLC",
+            "estimated_vram_bytes": 660000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q0bf16-MLC",
+            "model_id": "gemma-3-1b-it-q0bf16-MLC",
+            "estimated_vram_bytes": 2244000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/gemma-3-4b-it-q3f16_1-MLC",
+            "model_id": "gemma-3-4b-it-q3f16_1-MLC",
+            "estimated_vram_bytes": 1969000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q4f16_1-MLC",
+            "model_id": "gemma-3-4b-it-q4f16_1-MLC",
+            "estimated_vram_bytes": 2442000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q0bf16-MLC",
+            "model_id": "gemma-3-4b-it-q0bf16-MLC",
+            "estimated_vram_bytes": 8580000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Llama-3.2-3B-Instruct-q3f16_1-MLC",
+            "model_id": "Llama-3.2-3B-Instruct-q3f16_1-MLC",
+            "estimated_vram_bytes": 1606000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Llama-3.2-3B-Instruct-q4f16_1-MLC",
+            "model_id": "Llama-3.2-3B-Instruct-q4f16_1-MLC",
+            "estimated_vram_bytes": 2002000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Llama-3.2-3B-Instruct-q0bf16-MLC",
+            "model_id": "Llama-3.2-3B-Instruct-q0bf16-MLC",
+            "estimated_vram_bytes": 7073000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Llama-3.2-1B-Instruct-q3f16_1-MLC",
+            "model_id": "Llama-3.2-1B-Instruct-q3f16_1-MLC",
+            "estimated_vram_bytes": 627000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Llama-3.2-1B-Instruct-q4f16_1-MLC",
+            "model_id": "Llama-3.2-1B-Instruct-q4f16_1-MLC",
+            "estimated_vram_bytes": 770000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Llama-3.2-1B-Instruct-q0bf16-MLC",
+            "model_id": "Llama-3.2-1B-Instruct-q0bf16-MLC",
+            "estimated_vram_bytes": 2728000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Phi-4-mini-instruct-q3f16_1-MLC",
+            "model_id": "Phi-4-mini-instruct-q3f16_1-MLC",
+            "estimated_vram_bytes": 1925000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Phi-4-mini-instruct-q4f16_1-MLC",
+            "model_id": "Phi-4-mini-instruct-q4f16_1-MLC",
+            "estimated_vram_bytes": 2398000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Phi-4-mini-instruct-q0bf16-MLC",
+            "model_id": "Phi-4-mini-instruct-q0bf16-MLC",
+            "estimated_vram_bytes": 8459000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-0.6B-q3f16_1-MLC",
+            "model_id": "Qwen3-0.6B-q3f16_1-MLC",
+            "estimated_vram_bytes": 319000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-0.6B-q4f16_1-MLC",
+            "model_id": "Qwen3-0.6B-q4f16_1-MLC",
+            "estimated_vram_bytes": 385000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-0.6B-q0bf16-MLC",
+            "model_id": "Qwen3-0.6B-q0bf16-MLC",
+            "estimated_vram_bytes": 1331000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-1.7B-q3f16_1-MLC",
+            "model_id": "Qwen3-1.7B-q3f16_1-MLC",
+            "estimated_vram_bytes": 880000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-1.7B-q4f16_1-MLC",
+            "model_id": "Qwen3-1.7B-q4f16_1-MLC",
+            "estimated_vram_bytes": 1078000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-1.7B-q0bf16-MLC",
+            "model_id": "Qwen3-1.7B-q0bf16-MLC",
+            "estimated_vram_bytes": 3806000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-4B-q3f16_1-MLC",
+            "model_id": "Qwen3-4B-q3f16_1-MLC",
+            "estimated_vram_bytes": 2013000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-4B-q4f16_1-MLC",
+            "model_id": "Qwen3-4B-q4f16_1-MLC",
+            "estimated_vram_bytes": 2508000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-4B-q0bf16-MLC",
+            "model_id": "Qwen3-4B-q0bf16-MLC",
+            "estimated_vram_bytes": 8866000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://WhyFriendo/Qwen3-8B-q3f16_1-MLC",
+            "model_id": "Qwen3-8B-q3f16_1-MLC",
+            "estimated_vram_bytes": 4070000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-8B-q4f16_1-MLC",
+            "model_id": "Qwen3-8B-q4f16_1-MLC",
+            "estimated_vram_bytes": 5082000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Llama-3.1-8B-Instruct-q3f16_1-MLC",
+            "model_id": "Llama-3.1-8B-Instruct-q3f16_1-MLC",
+            "estimated_vram_bytes": 4004000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Llama-3.1-8B-Instruct-q4f16_1-MLC",
+            "model_id": "Llama-3.1-8B-Instruct-q4f16_1-MLC",
+            "estimated_vram_bytes": 4983000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        }
+    ],
+    "commented_model_list": [
+        {
+            "model": "HF://mlc-ai/Phi-4-mini-instruct-q4f32_1-MLC",
+            "model_id": "Phi-4-mini-instruct-q4f32_1-MLC",
+            "estimated_vram_bytes": 2900000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Phi-3.5-mini-instruct-q4f16_0-MLC",
+            "estimated_vram_bytes": 4250586449,
+            "model_id": "Phi-3.5-mini-instruct-q4f16_0-MLC",
+            "overrides": {
+                "prefill_chunk_size": 128
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Phi-4-mini-instruct-q0f16-MLC",
+            "model_id": "Phi-4-mini-instruct-q0f16-MLC",
+            "estimated_vram_bytes": 8600000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-0.6B-q4f16_0-MLC",
+            "model_id": "Qwen3-0.6B-q4f16_0-MLC",
+            "estimated_vram_bytes": 1300000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-0.6B-q4f32_1-MLC",
+            "model_id": "Qwen3-0.6B-q4f32_1-MLC",
+            "estimated_vram_bytes": 1300000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-0.8B-q4f16_1-MLC",
+            "model_id": "Qwen3.5-0.8B-q4f16_1-MLC",
+            "estimated_vram_bytes": 1400000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-0.8B-q4f32_1-MLC",
+            "model_id": "Qwen3.5-0.8B-q4f32_1-MLC",
+            "estimated_vram_bytes": 1400000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-1.7B-q4f16_0-MLC",
+            "model_id": "Qwen3-1.7B-q4f16_0-MLC",
+            "estimated_vram_bytes": 1850000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-1.7B-q4f32_1-MLC",
+            "model_id": "Qwen3-1.7B-q4f32_1-MLC",
+            "estimated_vram_bytes": 1850000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-2B-q4f16_1-MLC",
+            "model_id": "Qwen3.5-2B-q4f16_1-MLC",
+            "estimated_vram_bytes": 2000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-2B-q4f32_1-MLC",
+            "model_id": "Qwen3.5-2B-q4f32_1-MLC",
+            "estimated_vram_bytes": 2000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-0.8B-q0f16-MLC",
+            "model_id": "Qwen3.5-0.8B-q0f16-MLC",
+            "estimated_vram_bytes": 2600000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-0.6B-q0f16-MLC",
+            "model_id": "Qwen3-0.6B-q0f16-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-1.7B-q4f16_1-MLC",
+            "model_id": "Qwen3-1.7B-q4f16_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-4B-q4f16_1-MLC",
+            "model_id": "Qwen3-4B-q4f16_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-4B-q4f16_0-MLC",
+            "model_id": "Qwen3-4B-q4f16_0-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-4B-q4f32_1-MLC",
+            "model_id": "Qwen3-4B-q4f32_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-4B-q4f32_1-MLC",
+            "model_id": "Qwen3.5-4B-q4f32_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-4B-q4f16_1-MLC",
+            "model_id": "Qwen3.5-4B-q4f16_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-0.6B-q0f32-MLC",
+            "model_id": "Qwen3-0.6B-q0f32-MLC",
+            "estimated_vram_bytes": 3400000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-1.7B-q0f16-MLC",
+            "model_id": "Qwen3-1.7B-q0f16-MLC",
+            "estimated_vram_bytes": 4400000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-8B-q4f16_1-MLC",
+            "model_id": "Qwen3-8B-q4f16_1-MLC",
+            "estimated_vram_bytes": 5000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-8B-q4f32_1-MLC",
+            "model_id": "Qwen3-8B-q4f32_1-MLC",
+            "estimated_vram_bytes": 5000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-9B-q4f32_1-MLC",
+            "model_id": "Qwen3.5-9B-q4f32_1-MLC",
+            "estimated_vram_bytes": 5500000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3.5-9B-q4f16_1-MLC",
+            "model_id": "Qwen3.5-9B-q4f16_1-MLC",
+            "estimated_vram_bytes": 5500000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-4B-q0f16-MLC",
+            "model_id": "Qwen3-4B-q0f16-MLC",
+            "estimated_vram_bytes": 9000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/Qwen3-8B-q0f16-MLC",
+            "model_id": "Qwen3-8B-q0f16-MLC",
+            "estimated_vram_bytes": 17000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q4bf16_1-MLC",
+            "model_id": "gemma-3-1b-it-q4bf16_1-MLC",
+            "estimated_vram_bytes": 1500000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q4f32_1-MLC",
+            "model_id": "gemma-3-1b-it-q4f32_1-MLC",
+            "estimated_vram_bytes": 1500000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q4f16_1-MLC",
+            "model_id": "gemma-3-1b-it-q4f16_1-MLC",
+            "estimated_vram_bytes": 1500000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q0bf16-MLC",
+            "model_id": "gemma-3-1b-it-q0bf16-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q4bf16_0-MLC",
+            "model_id": "gemma-3-4b-it-q4bf16_0-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q4bf16_1-MLC",
+            "model_id": "gemma-3-4b-it-q4bf16_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q0f16-MLC",
+            "model_id": "gemma-3-1b-it-q0f16-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q4f32_1-MLC",
+            "model_id": "gemma-3-4b-it-q4f32_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q4f16_1-MLC",
+            "model_id": "gemma-3-4b-it-q4f16_1-MLC",
+            "estimated_vram_bytes": 3000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-1b-it-q0f32-MLC",
+            "model_id": "gemma-3-1b-it-q0f32-MLC",
+            "estimated_vram_bytes": 5000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q0bf16-MLC",
+            "model_id": "gemma-3-4b-it-q0bf16-MLC",
+            "estimated_vram_bytes": 9000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        },
+        {
+            "model": "HF://mlc-ai/gemma-3-4b-it-q0f32-MLC",
+            "model_id": "gemma-3-4b-it-q0f32-MLC",
+            "estimated_vram_bytes": 17000000000,
+            "overrides": {
+                "prefill_chunk_size": 128,
+                "context_window_size": 2048
+            }
+        }
+    ]
+}
